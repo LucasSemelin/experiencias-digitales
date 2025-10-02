@@ -53,7 +53,7 @@
                 </div>
 
                 <!-- Contact Button -->
-                <AppButton destination="#">Contactanos</AppButton>
+                <AppButton destination="#contact">Contactanos</AppButton>
             </nav>
 
             <!-- Mobile Menu Button -->
@@ -140,7 +140,7 @@
                             Casos de Éxito
                         </NuxtLink>
                         <NuxtLink
-                            to="#"
+                            to="#contact"
                             class="bg-emerald-400 text-gray-900 px-6 py-3 rounded-lg text-base font-semibold font-open-sans hover:bg-emerald-300 transition-colors text-center mt-6"
                             @click="closeMobileMenu"
                         >

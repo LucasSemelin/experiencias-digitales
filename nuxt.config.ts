@@ -39,7 +39,13 @@ export default defineNuxtConfig({
             { code: "en", name: "English" },
         ],
     },
-    modules: ["@nuxt/eslint", "@nuxt/image", "@nuxtjs/i18n"],
+    modules: [
+        "@nuxt/eslint",
+        "@nuxt/image",
+        "@nuxtjs/i18n",
+        "@vueuse/nuxt",
+        // "nuxt-resend",
+    ],
     vite: {
         plugins: [tailwindcss()],
     },
