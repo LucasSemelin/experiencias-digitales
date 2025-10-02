@@ -8,7 +8,7 @@
                 <!-- Tagline -->
                 <div class="py-2">
                     <p
-                        class="text-emerald-400 font-semibold text-lg lg:text-xl font-open-sans tagline"
+                        class="text-primary font-semibold text-lg lg:text-xl font-open-sans tagline"
                     >
                         {{ t("tagline") }}
                     </p>
@@ -37,7 +37,7 @@
                     class="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center pt-8"
                 >
                     <!-- Primary CTA Button -->
-                    <AppButton destination="/contact">
+                    <AppButton destination="#contact">
                         {{ t("mainCTA") }}
                     </AppButton>
 
