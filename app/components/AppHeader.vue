@@ -39,13 +39,13 @@
                             Nuestras Soluciones
                         </NuxtLink>
                         <NuxtLink
-                            to="#"
+                            to="#use-cases"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             Dónde Impactamos
                         </NuxtLink>
                         <NuxtLink
-                            to="#"
+                            to="#approach"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             Cómo Trabajamos
@@ -115,14 +115,14 @@
                             Nuestras Soluciones
                         </NuxtLink>
                         <NuxtLink
-                            href="#"
+                            href="#use-cases"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
                             Dónde Impactamos
                         </NuxtLink>
                         <NuxtLink
-                            href="#"
+                            href="#approach"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
