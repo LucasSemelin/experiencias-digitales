@@ -33,7 +33,7 @@
                                 v-model="form.name"
                                 type="text"
                                 autocomplete="name"
-                                class="block w-full rounded-xl border-slate-600 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 :placeholder="t('fullNamePlaceholder')"
                                 required
                             />
@@ -52,7 +52,7 @@
                                 v-model="form.email"
                                 type="email"
                                 autocomplete="email"
-                                class="block w-full rounded-xl border-slate-600 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 placeholder="example@domain.com"
                                 required
                             />
@@ -71,7 +71,7 @@
                                 v-model="form.company"
                                 type="text"
                                 autocomplete="organization"
-                                class="block w-full rounded-xl border-slate-600 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 :placeholder="t('companyPlaceholder')"
                             />
                         </div>
@@ -87,7 +87,7 @@
                             <select
                                 v-model="form.projectType"
                                 id="projectType"
-                                class="block w-full rounded-xl border-slate-600 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border-grey-800/50 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                             >
                                 <option value="">
                                     {{ t("projectTypeDefault") }}
@@ -121,7 +121,7 @@
                             <select
                                 v-model="form.budget"
                                 id="budget"
-                                class="block w-full rounded-xl border-slate-600 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border-grey-800/50 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                             >
                                 <option value="">
                                     {{ t("budgetDefault") }}
@@ -156,7 +156,7 @@
                                 id="message"
                                 v-model="form.message"
                                 rows="6"
-                                class="block w-full rounded-xl resize-none border-slate-600 bg-slate-800 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border resize-none border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 :placeholder="t('messagePlaceholder')"
                                 required
                             ></textarea>
@@ -181,7 +181,7 @@
                                 />
                                 <label
                                     for="files"
-                                    class="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-slate-600 rounded-xl cursor-pointer bg-slate-800/50 hover:bg-slate-700/50 transition-all duration-300 group"
+                                    class="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-grey-800/50 rounded-xl cursor-pointer bg-grey-900/30 hover:bg-slate-700/50 transition-all duration-300 group"
                                 >
                                     <div
                                         class="flex flex-col items-center justify-center pt-5 pb-6"
@@ -271,7 +271,6 @@
                         <!-- Submit Button -->
                         <AppButton
                             type="submit"
-                            class="w-full bg-primary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
                             :disabled="sendingForm === 'sending'"
                         >
                             <span v-if="sendingForm === 'success'">{{
@@ -298,8 +297,8 @@
                                 hi@myntropic.com
                             </span>
                             <button
+                                class="px-4 py-2 text-xs flex items-center gap-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors hover:cursor-pointer"
                                 @click="copy(email)"
-                                class="px-4 py-2 text-xs flex items-center gap-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors"
                             >
                                 <NuxtImg
                                     src="/icons/copy.svg"
@@ -322,7 +321,7 @@
                             <NuxtLink
                                 to="https://www.linkedin.com/company/myntropic/"
                                 target="_blank"
-                                class="flex items-center gap-3 px-4 py-3 bg-slate-800/50 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
+                                class="flex items-center gap-3 px-4 py-3 bg-grey-900/30 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
                                 <NuxtImg
                                     src="/icons/linkedin.svg"
@@ -334,7 +333,7 @@
                             <NuxtLink
                                 to="https://x.com/ExpDigitales"
                                 target="_blank"
-                                class="flex items-center gap-3 px-4 py-3 bg-slate-800/50 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
+                                class="flex items-center gap-3 px-4 py-3 bg-grey-900/30 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
                                 <NuxtImg
                                     src="/icons/x.svg"

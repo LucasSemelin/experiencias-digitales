@@ -4,7 +4,7 @@
         :class="{ 'pb-6': isMobileMenuOpen }"
     >
         <div
-            class="bg-background/70 backdrop-blur-sm rounded-2xl px-4 py-2 transition-all duration-300"
+            class="bg-background/60 backdrop-blur-sm rounded-2xl px-4 py-2 transition-all duration-300"
             :class="{ 'pb-6': isMobileMenuOpen }"
         >
             <!-- Header Content Container -->
