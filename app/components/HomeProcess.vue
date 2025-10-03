@@ -12,7 +12,7 @@
                         <div class="relative">
                             <!-- Connecting Line -->
                             <div
-                                class="absolute left-[16.67%] top-24 bottom-0 w-0.5 border-l-2 border-dashed border-gradient-from z-0"
+                                class="absolute left-[16.67%] top-24 h-[calc(100%-12rem)] w-0.5 border-l-3 border-dashed border-gradient-from z-0"
                             />
 
                             <!-- Process Steps -->
@@ -76,7 +76,7 @@
                         <div class="relative">
                             <!-- Connecting Line -->
                             <div
-                                class="absolute left-10 top-24 bottom-0 w-0.5 border-l-2 border-dashed border-gradient-from z-0"
+                                class="absolute left-10 top-24 h-[calc(100%-20rem)] w-0.5 border-l-2 border-dashed border-gradient-from z-0"
                             />
 
                             <!-- Process Steps -->

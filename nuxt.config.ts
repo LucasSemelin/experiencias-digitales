@@ -9,7 +9,12 @@ export default defineNuxtConfig({
         head: {
             charset: "utf-8",
             viewport: "width=device-width, initial-scale=1",
-            title: "Myntropic Studio | Diseñamos experiencias inteligentes que potencian a las personas",
+            script: [
+                {
+                    src: "https://t.contentsquare.net/uxa/4707ddaf46a33.js",
+                    defer: true,
+                },
+            ],
             link: [
                 {
                     rel: "preconnect",
@@ -38,13 +43,19 @@ export default defineNuxtConfig({
             { code: "es", name: "Español" },
             { code: "en", name: "English" },
         ],
+        strategy: "no_prefix",
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: "i18n_redirected",
+            redirectOn: "root",
+        },
     },
     modules: [
         "@nuxt/eslint",
         "@nuxt/image",
-        "@nuxtjs/i18n",
+        "@nuxtjs/i18n", // "nuxt-resend",
         "@vueuse/nuxt",
-        // "nuxt-resend",
+        "nuxt-gtag",
     ],
     vite: {
         plugins: [tailwindcss()],
@@ -52,5 +63,9 @@ export default defineNuxtConfig({
     css: ["~/assets/css/app.css"],
     image: {
         dir: "assets/images",
+    },
+    gtag: {
+        enabled: process.env.NODE_ENV === "production",
+        id: "2G-YE8VMK86WG",
     },
 });

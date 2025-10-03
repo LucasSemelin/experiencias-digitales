@@ -36,30 +36,32 @@
                             href="#solutions"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            Nuestras Soluciones
+                            {{ t("nav.solutions") }}
                         </NuxtLink>
                         <NuxtLink
                             to="#use-cases"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            Dónde Impactamos
+                            {{ t("nav.useCases") }}
                         </NuxtLink>
                         <NuxtLink
                             to="#approach"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            Cómo Trabajamos
+                            {{ t("nav.approach") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="#"
+                            to="#portfolio"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            Casos de Éxito
+                            {{ t("nav.portfolio") }}
                         </NuxtLink>
                     </div>
 
                     <!-- Contact Button -->
-                    <AppButton destination="#contact">Contactanos</AppButton>
+                    <AppButton destination="#contact">{{
+                        t("nav.contact")
+                    }}</AppButton>
                 </nav>
 
                 <!-- Mobile Menu Button -->
@@ -112,35 +114,35 @@
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            Nuestras Soluciones
+                            {{ t("nav.solutions") }}
                         </NuxtLink>
                         <NuxtLink
                             href="#use-cases"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            Dónde Impactamos
+                            {{ t("nav.useCases") }}
                         </NuxtLink>
                         <NuxtLink
                             href="#approach"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            Cómo Trabajamos
+                            {{ t("nav.approach") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="#"
+                            to="#portfolio"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            Casos de Éxito
+                            {{ t("nav.portfolio") }}
                         </NuxtLink>
                         <NuxtLink
                             to="#contact"
                             class="bg-primary w-full text-gray-900 px-6 py-3 rounded-lg text-sm font-semibold font-open-sans hover:bg-emerald-300 transition-colors text-center mt-4 self-start"
                             @click="closeMobileMenu"
                         >
-                            Contactanos
+                            {{ t("nav.contact") }}
                         </NuxtLink>
                     </nav>
                 </div>
@@ -152,6 +154,8 @@
 <script setup>
 const isMobileMenuOpen = ref(false);
 
+const { t } = useI18n({ useScope: "local" });
+
 function toggleMobileMenu() {
     isMobileMenuOpen.value = !isMobileMenuOpen.value;
 }
@@ -161,21 +165,23 @@ function closeMobileMenu() {
 }
 </script>
 
-<!-- <i18n lang="yaml">
+<i18n lang="yaml">
 es:
-    uxdesign: UX/UI Design
-    engineering: Software Engineering
-    aiandautomation: AI & Automation
-    enterprise: Enterprise Solutions
-    letstalk: Contact Us
+    nav:
+        solutions: "Nuestras Soluciones"
+        useCases: "Dónde Impactamos"
+        approach: "Cómo Trabajamos"
+        portfolio: "Casos de Éxito"
+        contact: "Contáctanos"
 
 en:
-    uxdesign: UX/UI Design
-    engineering: Software Engineering
-    aiandautomation: AI & Automation
-    enterprise: Enterprise Solutions
-    letstalk: Contact Us
-</i18n> -->
+    nav:
+        solutions: "Our Solutions"
+        useCases: "Where We Impact"
+        approach: "How We Work"
+        portfolio: "Success Stories"
+        contact: "Contact Us"
+</i18n>
 
 <style scoped>
 /* Import Google Fonts */

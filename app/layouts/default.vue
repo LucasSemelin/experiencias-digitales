@@ -28,14 +28,23 @@
 const { t } = useI18n({
     useScope: "local",
 });
+
+// Dynamic title based on locale
+useHead({
+    title: computed(() => t("seo.title")),
+});
 </script>
 
 <i18n lang="yaml">
 es:
     basedin: "Desde "
     workingwith: creando experiencias inteligentes para empresas globales.
+    seo:
+        title: "Myntropic Studio | Diseñamos experiencias inteligentes que potencian a las personas"
 
 en:
     basedin: "Based in "
     workingwith: We deliver digital solutions for global clients
+    seo:
+        title: "Myntropic Studio | We design intelligent experiences that empower people"
 </i18n>
