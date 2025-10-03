@@ -48,7 +48,7 @@ export default defineNuxtConfig({
                 },
                 {
                     property: "og:image",
-                    content: "/og-myntropic.jpg",
+                    content: "/images/og-myntropic.jpg",
                 },
                 {
                     property: "og:image:width",
@@ -83,7 +83,7 @@ export default defineNuxtConfig({
                 },
                 {
                     name: "twitter:image",
-                    content: "/og-myntropic.jpg",
+                    content: "/images/og-myntropic.jpg",
                 },
                 // General SEO
                 {
