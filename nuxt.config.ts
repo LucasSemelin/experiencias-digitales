@@ -61,11 +61,8 @@ export default defineNuxtConfig({
         plugins: [tailwindcss()],
     },
     css: ["~/assets/css/app.css"],
-    image: {
-        dir: "assets/images",
-    },
     gtag: {
         enabled: process.env.NODE_ENV === "production",
-        id: "2G-YE8VMK86WG",
+        id: "G-YE8VMK86WG",
     },
 });

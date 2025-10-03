@@ -15,7 +15,7 @@
                             class="w-full md:w-1/2 h-48 md:h-auto flex-shrink-0"
                         >
                             <NuxtImg
-                                src="/portfolio/compliance.jpg"
+                                src="/images/portfolio/compliance.jpg"
                                 alt="Optimización de procesos de compliance con IA"
                                 class="w-full h-full object-cover"
                             />
@@ -70,7 +70,7 @@
                             class="w-full md:w-1/2 h-48 md:h-auto flex-shrink-0"
                         >
                             <NuxtImg
-                                src="/portfolio/healthcare.jpg"
+                                src="/images/portfolio/healthcare.jpg"
                                 alt="Plataforma de salud con asistentes inteligentes"
                                 class="w-full h-full object-cover"
                             />
@@ -125,7 +125,7 @@
                             class="w-full md:w-1/2 h-48 md:h-auto flex-shrink-0"
                         >
                             <NuxtImg
-                                src="/portfolio/sustainability.jpg"
+                                src="/images/portfolio/sustainability.jpg"
                                 alt="SaaS B2B de medición de huella de carbono"
                                 class="w-full h-full object-cover"
                             />

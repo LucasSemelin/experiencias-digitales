@@ -301,7 +301,7 @@
                                 @click="copy(email)"
                             >
                                 <NuxtImg
-                                    src="/icons/copy.svg"
+                                    src="/images/icons/copy.svg"
                                     class="inline size-4"
                                 />
                                 <span
@@ -324,7 +324,7 @@
                                 class="flex items-center gap-3 px-4 py-3 bg-grey-900/30 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
                                 <NuxtImg
-                                    src="/icons/linkedin.svg"
+                                    src="/images/icons/linkedin.svg"
                                     class="size-6 group-hover:scale-110 transition-transform duration-300"
                                 />
                             </NuxtLink>
@@ -336,7 +336,7 @@
                                 class="flex items-center gap-3 px-4 py-3 bg-grey-900/30 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
                                 <NuxtImg
-                                    src="/icons/x.svg"
+                                    src="/images/icons/x.svg"
                                     class="size-6 group-hover:scale-110 transition-transform duration-300"
                                 />
                             </NuxtLink>

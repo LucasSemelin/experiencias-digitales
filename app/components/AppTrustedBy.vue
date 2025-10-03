@@ -16,18 +16,18 @@ const { t } = useI18n({ useScope: "local" });
                     class="flex flex-wrap items-center justify-center gap-8 lg:gap-12 xl:gap-12 w-full"
                 >
                     <TrustedIcon
-                        logo-path="/trusted/logo-eunoia.svg"
+                        logo-path="/images/trusted/logo-eunoia.svg"
                         alt-text="Eunoia Care"
                         class="h-8 lg:h-10"
                     />
 
                     <TrustedIcon
-                        logo-path="/trusted/logo-carbonwatcher.svg"
+                        logo-path="/images/trusted/logo-carbonwatcher.svg"
                         alt-text="Carbon Watcher"
                         class="h-12 lg:h-10"
                     />
                     <TrustedIcon
-                        logo-path="/trusted/logo-archetify.svg"
+                        logo-path="/images/trusted/logo-archetify.svg"
                         alt-text="Archetify"
                         class="h-8 lg:h-10"
                     />
@@ -37,17 +37,17 @@ const { t } = useI18n({ useScope: "local" });
                     /> -->
 
                     <TrustedIcon
-                        logo-path="/trusted/logo-cenital.svg"
+                        logo-path="/images/trusted/logo-cenital.svg"
                         alt-text="Cenital"
                         class="h-6 lg:h-8"
                     />
                     <TrustedIcon
-                        logo-path="/trusted/logo-tna.svg"
+                        logo-path="/images/trusted/logo-tna.svg"
                         alt-text="TNA"
                         class="h-5 lg:h-5"
                     />
                     <TrustedIcon
-                        logo-path="/trusted/logo-quilmes.svg"
+                        logo-path="/images/trusted/logo-quilmes.svg"
                         alt-text="Quilmes"
                         class="h-10 lg:h-10"
                     />

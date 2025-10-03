@@ -78,7 +78,7 @@
                         class="absolute inset-0 opacity-10 rounded-xl overflow-hidden"
                     >
                         <NuxtImg
-                            src="/solutions/process1.jpg"
+                            src="/images/solutions/process1.jpg"
                             alt="Proceso"
                             class="w-full h-full object-cover"
                         />

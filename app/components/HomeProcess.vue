@@ -32,7 +32,7 @@
                                                     (el: HTMLElement | null) =>
                                                         setImageRef(el, index)
                                                 "
-                                                :src="`/process/process${
+                                                :src="`/images/process/process${
                                                     index + 1
                                                 }.jpg`"
                                                 :alt="`Paso ${index + 1}`"

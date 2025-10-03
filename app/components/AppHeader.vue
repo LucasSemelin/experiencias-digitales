@@ -13,7 +13,7 @@
                 <NuxtLink to="/" class="flex items-center gap-2">
                     <div class="w-12 h-12">
                         <NuxtImg
-                            src="/myntropic-logo.svg"
+                            src="/images/myntropic-logo.svg"
                             alt="Myntropic Logo"
                             class="w-full h-full"
                         />

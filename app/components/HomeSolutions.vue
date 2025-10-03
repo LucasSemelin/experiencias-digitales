@@ -22,7 +22,7 @@
                         class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
                     >
                         <NuxtImg
-                            src="/solutions/solution1.jpg"
+                            src="/images/solutions/solution1.jpg"
                             class="w-full h-full object-cover"
                             alt="Experiencias centradas en las personas"
                         />
@@ -49,7 +49,7 @@
                         class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
                     >
                         <NuxtImg
-                            src="/solutions/solution2.jpg"
+                            src="/images/solutions/solution2.jpg"
                             class="w-full h-full object-cover"
                             alt="Software inteligente preparado para la IA"
                         />
@@ -76,7 +76,7 @@
                         class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
                     >
                         <NuxtImg
-                            src="/solutions/solution3.jpg"
+                            src="/images/solutions/solution3.jpg"
                             class="w-full h-full object-cover"
                             alt="Equipos de Agentes orquestados dentro del software"
                         />
@@ -103,7 +103,7 @@
                         class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
                     >
                         <NuxtImg
-                            src="/solutions/solution4.jpg"
+                            src="/images/solutions/solution4.jpg"
                             class="w-full h-full object-cover"
                             alt="Automatización y aumento de procesos de negocio"
                         />
@@ -130,7 +130,7 @@
                         class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
                     >
                         <NuxtImg
-                            src="/solutions/solution5.jpg"
+                            src="/images/solutions/solution5.jpg"
                             class="w-full h-full object-cover"
                             alt="Evolución y escalabilidad continua"
                         />

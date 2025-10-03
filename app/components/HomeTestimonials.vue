@@ -30,7 +30,7 @@
                     <div class="flex items-center">
                         <div class="w-12 h-12 mr-4">
                             <NuxtImg
-                                src="/testimonials/carvalho.jpg"
+                                src="/images/testimonials/carvalho.jpg"
                                 alt="Valentín Muro"
                                 class="w-full h-full object-cover rounded-full"
                             />
