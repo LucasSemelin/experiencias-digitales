@@ -102,8 +102,8 @@ es:
     secondaryCTA: o conocé cómo trabajamos
 en:
     tagline: Automation. Augmentation. Autonomy.
-    title: AI-Driven Software Engineering & UX Consulting
-    description: We create and evolve custom software for startups and companies. We apply artificial intelligence to transform processes, increase user capabilities and enable more autonomous systems, always focusing on user experience.
+    title: We design intelligent experiences that empower people
+    description: We deliver high-value digital experiences for your users through the combination of UX design, software engineering, and artificial intelligence.
     mainCTA: Let's talk about your project
     secondaryCTA: or see how we work
 </i18n>
