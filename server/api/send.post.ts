@@ -183,7 +183,7 @@ Timestamp: ${new Date().toLocaleString()}
 
     try {
         const emailData: any = {
-            from: "Myntropic Studio Contact Form <hi@mail.myntropic.com>",
+            from: "Myntropic Studio Contact Form <hi@mail.myntropic.studio>",
             to: ["myntropicstudio@gmail.com"],
             replyTo: email,
             subject: `Contact from Myntropic Studio: ${name}`,

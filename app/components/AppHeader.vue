@@ -172,7 +172,7 @@ es:
         useCases: "Dónde Impactamos"
         approach: "Cómo Trabajamos"
         portfolio: "Casos de Éxito"
-        contact: "Contáctanos"
+        contact: "Contactanos"
 
 en:
     nav:
