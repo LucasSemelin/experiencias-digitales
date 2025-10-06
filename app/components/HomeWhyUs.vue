@@ -130,31 +130,31 @@ es:
     title: "Lo que nos hace diferentes"
     subtitle: "Lo que nos diferencia no es solo lo que hacemos, sino cómo lo hacemos: unimos experiencia humana, ingeniería y la inteligencia artificial en un proceso vivo que evoluciona junto a cada proyecto. Más de 20 años creando software y productos digitales para startups, empresas y organizaciones."
     card1:
-        title: "Visión integral"
-        description: "UX, software e inteligencia artificial conectados desde el inicio, no como piezas aisladas."
+        title: "Visión Integral 360º"
+        description: "UX, Software e Inteligencia Artificial conectados como un solo sistema operativo desde el inicio."
     card2:
-        title: "Diseño centrado en personas"
-        description: "Creamos experiencias donde la inteligencia artificial potencia lo humano, nunca lo reemplaza."
+        title: "Diseño Centrado en el Aumento Humano"
+        description: "La IA potencia la capacidad humana. Nunca la reemplaza o la obstaculiza."
     card3:
-        title: "IA aplicada con sentido"
-        description: "Multiagentes, memoria, analítica y automatización usados para resolver problemas reales, sin sumar complejidad innecesaria."
+        title: "IA Aplicada al ROI"
+        description: "Multiagentes, memoria y analítica avanzada enfocados exclusivamente a resolver problemas críticos y generar Retorno de Inversión, no a sumar complejidad."
     card4:
-        title: "Proceso vivo"
-        description: "Etapas que se solapan, se retroalimentan y evolucionan continuamente con datos e insights."
+        title: "Proceso Vivo y Proactivo"
+        description: "Etapas que se retroalimentan y escalan automáticamente con los datos de uso real, garantizando la evolución continua."
 
 en:
     title: "What sets us apart"
     subtitle: "What sets us apart is not just what we do, but how we do it: we combine human experience, engineering, and artificial intelligence in a living process that evolves with each project. Over 20 years creating software and digital products for startups, companies, and organizations."
     card1:
-        title: "Integrated vision"
-        description: "UX, software, and artificial intelligence connected from the beginning, not as isolated pieces."
+        title: "Comprehensive 360º Vision"
+        description: "UX, Software, and Artificial Intelligence connected as a single operating system from the start."
     card2:
-        title: "Human-centered design"
-        description: "We create experiences where artificial intelligence empowers humans, never replaces them."
+        title: "Human-Centered Augmentation Design"
+        description: "AI enhances human capability. It never replaces or hinders it."
     card3:
-        title: "AI applied with purpose"
-        description: "Multi-agents, memory, analytics, and automation used to solve real problems, without adding unnecessary complexity."
+        title: "Applied AI for ROI"
+        description: "Multi-agents, memory, and advanced analytics focused exclusively on solving critical problems and generating Return on Investment, not adding complexity."
     card4:
-        title: "Living process"
-        description: "Stages that overlap, feed back into each other, and evolve continuously with data and insights."
+        title: "Living and Proactive Process"
+        description: "Stages that feed back and scale automatically with real usage data, ensuring continuous evolution."
 </i18n>

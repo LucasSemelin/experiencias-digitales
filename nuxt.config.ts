@@ -39,12 +39,12 @@ export default defineNuxtConfig({
                 {
                     property: "og:title",
                     content:
-                        "Myntropic Studio | Diseñamos experiencias inteligentes que potencian a las personas",
+                        "Myntropic Studio | Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow",
                 },
                 {
                     property: "og:description",
                     content:
-                        "Creamos experiencias donde la inteligencia artificial potencia a equipos, usuarios y organizaciones en cualquier contexto.",
+                        "Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.",
                 },
                 {
                     property: "og:image",
@@ -74,12 +74,12 @@ export default defineNuxtConfig({
                 {
                     name: "twitter:title",
                     content:
-                        "Myntropic Studio | Diseñamos experiencias inteligentes que potencian a las personas",
+                        "Myntropic Studio | Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow",
                 },
                 {
                     name: "twitter:description",
                     content:
-                        "Creamos experiencias donde la inteligencia artificial potencia a equipos, usuarios y organizaciones en cualquier contexto.",
+                        "Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.",
                 },
                 {
                     name: "twitter:image",
@@ -89,7 +89,7 @@ export default defineNuxtConfig({
                 {
                     name: "description",
                     content:
-                        "Creamos experiencias donde la inteligencia artificial potencia a equipos, usuarios y organizaciones en cualquier contexto.",
+                        "Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.",
                 },
                 {
                     name: "keywords",

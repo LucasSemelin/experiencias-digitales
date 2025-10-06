@@ -150,37 +150,37 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Soluciones que integran diseño, software e inteligencia artificial"
+    title: "Diseñamos el futuro de la colaboración Humano + IA"
     solution1:
-        title: "Experiencias centradas en las personas"
-        description: "Diseñamos interacciones donde humanos y agentes de IA colaboran de forma clara, confiable y natural. Nuestro enfoque UX asegura que la inteligencia artificial se perciba como un aliado que potencia y acompaña, nunca como una barrera."
+        title: "Experiencias que Colaboran: La IA como Copiloto Humano"
+        description: "Diseñamos interacciones donde humanos y agentes de IA colaboran de forma fluida y natural. Nuestro enfoque UX asegura que la inteligencia artificial sea un aliado que amplifica el criterio humano, eliminando la fricción y la percepción de barrera."
     solution2:
-        title: "Software inteligente preparado para la IA"
-        description: "Creamos aplicaciones digitales - desde SaaS hasta sistemas de backoffice - que integran inteligencia artificial como parte de su núcleo. La inteligencia no es un agregado, sino parte esencial de la arquitectura y de la experiencia del usuario, siempre guiada por datos y analítica."
+        title: "Arquitectura Inteligente: Software Diseñado para Escalar con AI"
+        description: "Creamos aplicaciones digitales (desde SaaS hasta sistemas críticos) que integran la inteligencia artificial desde el núcleo. La inteligencia no es un parche, sino una capa esencial de la arquitectura que garantiza la evolución y la personalización basadas en datos."
     solution3:
-        title: "Equipos de Agentes orquestados dentro del software"
-        description: "Diseñamos entornos donde los agentes de IA trabajan de manera autónoma y coordinada para resolver tareas complejas. Definimos roles, reglas y flujos de colaboración, logrando que la IA sea un verdadero motor de eficiencia mientras las personas se enfocan en lo que realmente requiere criterio humano."
+        title: "Orquestación de Agentes: El Motor de Eficiencia Autónoma"
+        description: "Diseñamos entornos donde equipos de agentes de IA trabajan de manera coordinada y autónoma para resolver tareas de alto impacto. Definimos roles, reglas y flujos para que la IA sea un verdadero motor de eficiencia que libera a su equipo para el criterio humano y la estrategia."
     solution4:
-        title: "Automatización y aumento de procesos de negocio"
-        description: "Convertimos operaciones internas en flujos inteligentes basados en datos, que reducen tiempos, minimizan errores y amplían la capacidad de los equipos. La IA no sustituye a las personas: las potencia, liberándolas de lo repetitivo para que puedan aportar creatividad, estrategia y visión."
+        title: "Aumento de Procesos: Flujos de Negocio Inteligentes y sin Errores"
+        description: "Convertimos sus operaciones internas en flujos inteligentes basados en datos que reducen drásticamente el tiempo de ejecución y minimizan los errores críticos. La IA potencia a sus equipos, liberándolos de lo repetitivo para que puedan aportar creatividad, visión y foco estratégico."
     solution5:
-        title: "Evolución y escalabilidad continua"
-        description: "Nuestras soluciones se adaptan y crecen. Incorporamos métricas, feedback y analítica avanzada para mejorar cada iteración, asegurando que tu producto evolucione junto a tu negocio y mantenga siempre un alto nivel de valor para usuarios y organización."
+        title: "Escalamiento Continuo: Soluciones Que Evolucionan con el Mercado"
+        description: "Nada es estático. Nuestras soluciones se adaptan y crecen incorporando métricas, feedback y analítica predictiva. Aseguramos que su plataforma evolucione continuamente junto a su negocio, garantizando siempre el máximo Retorno de Inversión (ROI)."
 en:
-    title: "Solutions that integrate design, software, and artificial intelligence"
+    title: "We design the future of Human + AI collaboration"
     solution1:
-        title: "People-centered experiences"
-        description: "We design interactions where humans and AI agents collaborate in a clear, reliable, and natural way. Our UX approach ensures that artificial intelligence is perceived as an ally that empowers and accompanies, never as a barrier."
+        title: "Collaborative Experiences: AI as a Human Co-pilot"
+        description: "We design interactions where humans and AI agents collaborate seamlessly and naturally. Our UX approach ensures that artificial intelligence is an ally that amplifies human judgment, eliminating friction and the perception of barriers."
     solution2:
-        title: "Intelligent software ready for AI"
-        description: "We create digital applications - from SaaS to backoffice systems - that integrate artificial intelligence as part of their core. Intelligence is not an add-on, but an essential part of the architecture and user experience, always guided by data and analytics."
+        title: "Intelligent architecture: Software designed to scale with AI"
+        description: "We create digital applications (from SaaS to mission-critical systems) that integrate artificial intelligence from the core. Intelligence is not a patch, but an essential layer of the architecture that ensures evolution and data-driven personalization."
     solution3:
-        title: "Teams of orchestrated Agents within software"
-        description: "We design environments where AI agents work autonomously and coordinatedly to solve complex tasks. We define roles, rules and collaboration flows, making AI a true engine of efficiency while people focus on what really requires human judgment."
+        title: "Agent orchestration: The engine of autonomous efficiency"
+        description: "We design environments where teams of AI agents work autonomously and coordinatedly to solve high-impact tasks. We define roles, rules and flows to make AI a true engine of efficiency that frees your team for human judgment and strategy."
     solution4:
-        title: "Automation and augmentation of business processes"
-        description: "We transform internal operations into intelligent data-driven flows that reduce time, minimize errors and expand team capacity. AI doesn't replace people: it empowers them, freeing them from repetitive tasks so they can contribute creativity, strategy and vision."
+        title: "Augmentation of business processes: Intelligent and error-free workflows"
+        description: "We turn your internal operations into intelligent data-driven flows that drastically reduce execution time and minimize critical errors. AI empowers your teams, freeing them from the repetitive so they can bring creativity, vision and strategic focus."
     solution5:
-        title: "Continuous evolution and scalability"
-        description: "Our solutions adapt and grow. We incorporate metrics, feedback and advanced analytics to improve each iteration, ensuring that your product evolves alongside your business and always maintains a high level of value for users and organization."
+        title: "Continuous scaling: Solutions that evolve with the market"
+        description: "Nothing is static. Our solutions adapt and grow by incorporating metrics, feedback and predictive analytics. We ensure that your platform continuously evolves alongside your business, always guaranteeing the highest Return on Investment (ROI)."
 </i18n>

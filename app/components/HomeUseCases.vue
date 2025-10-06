@@ -87,34 +87,34 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Escenarios donde lo humano y la IA se potencian"
-    subtitle: Creamos experiencias donde la inteligencia artificial potencia a equipos, usuarios y organizaciones en cualquier contexto.
+    title: "Transformamos los límites de tu negocio."
+    subtitle: "Escenarios donde la inteligencia artificial amplifica a equipos, usuarios y organizaciones en cualquier contexto. Estos son algunos retos que resolvemos:"
     card1:
-        title: "Procesos internos que se vuelven autónomos"
-        description: "Backoffice y operaciones liberados de tareas repetitivas gracias a agentes que ejecutan, integran y aprenden, permitiendo que las personas se concentren en lo humano."
+        title: "Procesos internos autónomos"
+        description: "Liberamos Backoffice y Operaciones de tareas repetitivas. Los agentes de IA ejecutan, integran y aprenden, permitiendo que sus equipos se concentren en el criterio y el valor estratégico."
     card2:
-        title: "Asistentes que amplifican a las personas"
-        description: "Experiencias digitales donde la IA acompaña, guía y anticipa necesidades, convirtiéndose en un copiloto confiable para empleados y usuarios finales."
+        title: "Asistentes que amplifican la productividad"
+        description: "Experiencias digitales donde la IA anticipa necesidades y se convierte en un copiloto confiable para empleados y usuarios finales, acelerando la toma de decisiones."
     card3:
-        title: "Productos digitales que se adaptan y evolucionan"
-        description: "Aplicaciones y plataformas potenciadas con IA desde el núcleo: experiencias que aprenden del uso, se personalizan y responden de forma dinámica a cada contexto."
+        title: "Productos que se adaptan y evolucionan en tiempo real"
+        description: "Plataformas potenciadas con IA desde el núcleo: experiencias que aprenden del uso, se personalizan automáticamente y responden de forma dinámica a cada contexto de mercado."
     card4:
-        title: "Decisiones claras en medio de la complejidad"
-        description: "La información deja de ser un obstáculo: documentos, registros y datos se transforman en conocimiento accionable para responder más rápido y con precisión."
+        title: "Decisiones claras frente a la complejidad de los datos"
+        description: "La información deja de ser un obstáculo. Documentos, registros y bases de datos se transforman en conocimiento accionable e inmediato para que su organización responda con precisión y velocidad."
 
 en:
-    title: "Scenarios where humans and AI empower each other"
-    subtitle: We create experiences where artificial intelligence empowers teams, users, and organizations in any context.
+    title: "We transform the boundaries of your business."
+    subtitle: "Scenarios where artificial intelligence amplifies teams, users, and organizations in any context. Here are some challenges we solve:"
     card1:
-        title: "Internal processes that become autonomous"
-        description: "Backoffice and operations freed from repetitive tasks thanks to agents that execute, integrate and learn, allowing people to focus on the human aspect."
+        title: "Autonomous internal processes"
+        description: "We free Backoffice and Operations from repetitive tasks. AI agents execute, integrate, and learn, allowing your teams to focus on judgment and strategic value."
     card2:
-        title: "Assistants that amplify people"
-        description: "Digital experiences where AI accompanies, guides and anticipates needs, becoming a reliable copilot for employees and end users."
+        title: "Assistants that amplify productivity"
+        description: "Digital experiences where AI anticipates needs and becomes a reliable co-pilot for employees and end users, accelerating decision-making."
     card3:
-        title: "Digital products that adapt and evolve"
-        description: "Applications and platforms powered by AI from the core: experiences that learn from use, personalize and respond dynamically to each context."
+        title: "Products that adapt and evolve in real-time"
+        description: "Platforms powered by AI at their core: experiences that learn from usage, automatically personalize, and dynamically respond to each market context."
     card4:
-        title: "Clear decisions amid complexity"
-        description: "Information is no longer an obstacle: documents, records and data are transformed into actionable knowledge to respond faster and more accurately."
+        title: "Clear decisions amidst data complexity"
+        description: "Information is no longer an obstacle. Documents, records, and databases are transformed into actionable and immediate knowledge so your organization can respond with precision and speed."
 </i18n>

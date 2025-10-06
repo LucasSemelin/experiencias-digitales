@@ -96,14 +96,14 @@ const { t } = useI18n({
 <i18n lang="yaml">
 es:
     tagline: Automation. Augmentation. Autonomy.
-    title: Diseñamos experiencias inteligentes que potencian a las personas
-    description: Creamos experiencias digitales de alto valor para tus usuarios a través de la combinación de diseño UX, ingeniería de software e inteligencia artificial.
+    title: "Ingeniería de la Evolución: Sistemas Digitales que Aprenden, Colaboran y Crecen."
+    description: Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.
     mainCTA: Conversemos sobre tu proyecto
     secondaryCTA: o conocé cómo trabajamos
 en:
     tagline: Automation. Augmentation. Autonomy.
-    title: We design intelligent experiences that empower people
-    description: We deliver high-value digital experiences for your users through the combination of UX design, software engineering, and artificial intelligence.
+    title: "Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow."
+    description: We are moving beyond static software. We design and build living systems where the combination of UX, Engineering, and AI transforms challenges into continuous growth.
     mainCTA: Let's talk about your project
     secondaryCTA: or see how we work
 </i18n>

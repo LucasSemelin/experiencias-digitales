@@ -231,40 +231,40 @@ onUnmounted(() => {
 
 <i18n lang="yaml">
 es:
-    title: "Un proceso vivo que evoluciona con cada paso"
-    subtitle: Nuestro proceso de trabajo se basa en etapas que se solapan, se retroalimentan y se repiten. Cada ciclo integra insights y métricas que permiten que el producto evolucione de manera continua.
+    title: "Metodología Diseñada para la Evolución Continua"
+    subtitle: "Un proceso vivo que evoluciona con cada paso. Nuestra metodología se basa en etapas que se solapan, se retroalimentan y se escalan. Cada ciclo integra *insights* y métricas avanzadas que garantizan que el producto **evolucione de forma proactiva y continua"
     step1:
-        title: "Descubrimiento estratégico"
-        description: "Entendemos a fondo tu contexto, usuarios, procesos y objetivos. Aquí combinamos análisis humano con IA para detectar patrones, oportunidades y puntos críticos más rápido."
+        title: "Descubrimiento Estratégico & AI-Powered Research"
+        description: "Entendemos a fondo tu contexto, usuarios y objetivos. Combinamos análisis humano con IA para detectar patrones de alto valor, oportunidades ocultas y puntos críticos más rápido que la competencia."
     step2:
-        title: "Diseño de experiencias"
-        description: "Definimos arquitecturas de interacción centradas en personas y agentes de IA. Herramientas inteligentes nos permiten anticipar escenarios, validar flujos y ahorrar tiempo en exploración."
+        title: "Arquitectura de Experiencia Humano-AI"
+        description: "Definimos arquitecturas de interacción centradas en personas y sistemas inteligentes. Utilizamos herramientas de IA para anticipar escenarios, validar flujos de trabajo y acelerar la fase de diseño."
     step3:
-        title: "Prototipado y validación"
-        description: "Creamos prototipos que se testean con usuarios y también con simulaciones potenciadas por IA, lo que acelera la iteración y reduce riesgos antes del desarrollo."
+        title: "Prototipado y Validación Predictiva"
+        description: "Creamos prototipos que se testean con usuarios y con simulaciones potenciadas por IA. Esto acelera la iteración, reduce el riesgo de inversión y valida el valor antes del primer commit."
     step4:
-        title: "Implementación de software e IA"
-        description: "Desarrollamos aplicaciones digitales preparadas para la inteligencia artificial, integrando agentes, memoria, analítica y automatización. Usamos IA en el propio proceso de ingeniería para optimizar calidad y velocidad de entrega."
+        title: "Implementación de Software AI-Ready."
+        description: "Desarrollamos plataformas digitales preparadas para el futuro, integrando agentes, memoria, analítica y automatización. Usamos AI en nuestra propia ingeniería para optimizar la calidad del código y la velocidad de entrega."
     step5:
-        title: "Evolución continua"
-        description: "Nada queda estático. Medimos, analizamos y mejoramos con datos reales, apoyándonos en analítica avanzada y agentes que monitorean el uso en tiempo real para guiar la evolución del producto."
+        title: "Evolución Continua & Escalabilidad Garantizada"
+        description: "Nada es estático. Medimos, analizamos y mejoramos con datos reales, apoyándonos en analítica avanzada y agentes que monitorean el valor en tiempo real para guiar el camino al crecimiento."
 
 en:
-    title: "A living process that evolves with each step"
-    subtitle: Our work process is based on overlapping, feedback-driven, and iterative stages. Each cycle integrates insights and metrics that allow the product to evolve continuously.
+    title: "Methodology Designed for Continuous Evolution"
+    subtitle: "A living process that evolves with every step. Our methodology is based on overlapping, feedback-driven, and scalable stages. Each cycle integrates advanced insights and metrics to ensure the product **proactively and continuously evolves**."
     step1:
-        title: "Strategic Discovery"
-        description: "We deeply understand your context, users, processes, and objectives. Here we combine human analysis with AI to detect patterns, opportunities, and critical points faster."
+        title: "Strategic Discovery & AI-Powered Research"
+        description: "We deeply understand your context, users, and goals. We combine human analysis with AI to uncover high-value patterns, hidden opportunities, and pain points faster than the competition."
     step2:
-        title: "Experience Design"
-        description: "We define interaction architectures centered on people and AI agents. Intelligent tools allow us to anticipate scenarios, validate flows, and save time in exploration."
+        title: "Human-AI Experience Architecture"
+        description: "We define interaction architectures centered on people and intelligent systems. We use AI tools to anticipate scenarios, validate workflows, and accelerate the design phase."
     step3:
-        title: "Prototyping and Validation"
-        description: "We create prototypes that are tested with users and also with AI-powered simulations, which accelerates iteration and reduces risks before development."
+        title: "Predictive Prototyping & Validation"
+        description: "We create prototypes tested with users and AI-powered simulations. This accelerates iteration, reduces investment risk, and validates value before the first commit."
     step4:
-        title: "Software and AI Implementation"
-        description: "We develop digital applications prepared for artificial intelligence, integrating agents, memory, analytics, and automation. We use AI in the engineering process itself to optimize quality and delivery speed."
+        title: "AI-Ready Software Implementation"
+        description: "We develop future-ready digital platforms, integrating agents, memory, analytics, and automation. We use AI in our own engineering to optimize code quality and delivery speed."
     step5:
-        title: "Continuous Evolution"
-        description: "Nothing remains static. We measure, analyze, and improve with real data, relying on advanced analytics and agents that monitor usage in real-time to guide product evolution."
+        title: "Continuous Evolution & Guaranteed Scalability"
+        description: "Nothing is static. We measure, analyze, and improve with real data, leveraging advanced analytics and agents that monitor value in real-time to guide the path to growth."
 </i18n>
