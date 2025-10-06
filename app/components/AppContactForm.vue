@@ -331,7 +331,7 @@
 
                             <!-- Twitter (X) -->
                             <NuxtLink
-                                to="https://x.com/ExpDigitales"
+                                to="https://x.com/myntropic"
                                 target="_blank"
                                 class="flex items-center gap-3 px-4 py-3 bg-grey-900/30 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
