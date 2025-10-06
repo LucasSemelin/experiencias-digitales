@@ -294,7 +294,7 @@
                             class="flex flex-col sm:flex-row items-center justify-center gap-4"
                         >
                             <span class="text-xl text-white font-body">
-                                hi@myntropic.com
+                                hi@myntropic.studio
                             </span>
                             <button
                                 class="px-4 py-2 text-xs flex items-center gap-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors hover:cursor-pointer"
@@ -356,7 +356,7 @@ import AppSectionSubtitle from "./AppSectionSubtitle.vue";
 
 const { t } = useI18n({ useScope: "local" });
 
-const email = ref("hi@myntropic.com");
+const email = ref("hi@myntropic.studio");
 const { copy, copied } = useClipboard({ email });
 
 const form = ref({
