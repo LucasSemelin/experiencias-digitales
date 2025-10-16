@@ -121,13 +121,8 @@ export default defineNuxtConfig({
             redirectOn: "root",
         },
     },
-    modules: [
-        "@nuxt/eslint",
-        "@nuxt/image",
-        "@nuxtjs/i18n", // "nuxt-resend",
-        "@vueuse/nuxt",
-        "nuxt-gtag",
-    ],
+    modules: ["@nuxt/eslint", "@nuxt/image", // "nuxt-resend",
+    "@nuxtjs/i18n", "@vueuse/nuxt", "nuxt-gtag", "@nuxtjs/seo"],
     vite: {
         plugins: [tailwindcss()],
     },
