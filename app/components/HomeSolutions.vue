@@ -11,6 +11,11 @@
                 <div class="lg:order-2 order-1">
                     <AppH3 class="mb-4">{{ t("solution1.title") }}</AppH3>
                     <p
+                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold max-w-md"
+                    >
+                        {{ t("solution1.subtitle") }}
+                    </p>
+                    <p
                         class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-2"
                     >
                         {{ t("solution1.description") }}
@@ -24,7 +29,7 @@
                         <NuxtImg
                             src="/images/solutions/solution1.jpg"
                             class="w-full h-full object-cover"
-                            alt="Experiencias centradas en las personas"
+                            :alt="t('solution1.title')"
                         />
                     </div>
                 </div>
@@ -37,6 +42,12 @@
                 <!-- Mobile order: title first -->
                 <div class="order-1">
                     <AppH3 class="mb-4">{{ t("solution2.title") }}</AppH3>
+                    <p
+                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold max-w-md"
+                    >
+                        {{ t("solution2.subtitle") }}
+                    </p>
+                    <p>{{ t("solution2.subtitle") }}</p>
                     <p
                         class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-1"
                     >
@@ -65,6 +76,11 @@
                 <div class="lg:order-2 order-1">
                     <AppH3 class="mb-4">{{ t("solution3.title") }}</AppH3>
                     <p
+                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold max-w-md"
+                    >
+                        {{ t("solution3.subtitle") }}
+                    </p>
+                    <p
                         class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-2"
                     >
                         {{ t("solution3.description") }}
@@ -92,6 +108,11 @@
                 <div class="order-1">
                     <AppH3 class="mb-4">{{ t("solution4.title") }}</AppH3>
                     <p
+                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold max-w-md"
+                    >
+                        {{ t("solution4.subtitle") }}
+                    </p>
+                    <p
                         class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-1"
                     >
                         {{ t("solution4.description") }}
@@ -118,6 +139,11 @@
                 <!-- Mobile order: title first -->
                 <div class="lg:order-2 order-1">
                     <AppH3 class="mb-4">{{ t("solution5.title") }}</AppH3>
+                    <p
+                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold max-w-md"
+                    >
+                        {{ t("solution5.subtitle") }}
+                    </p>
                     <p
                         class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-2"
                     >
@@ -150,37 +176,47 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Diseñamos el futuro de la colaboración Humano + IA"
+    title: "Soluciones que evolucionan con tu empresa"
     solution1:
-        title: "Experiencias que Colaboran: La IA como Copiloto Humano"
-        description: "Diseñamos interacciones donde humanos y agentes de IA colaboran de forma fluida y natural. Nuestro enfoque UX asegura que la inteligencia artificial sea un aliado que amplifica el criterio humano, eliminando la fricción y la percepción de barrera."
+        title: Colaboración Humano + IA
+        subtitle: "Diseñamos experiencias donde la inteligencia artificial potencia el criterio humano."
+        description: "Creamos interacciones fluidas entre personas y agentes de IA. Nuestro enfoque UX asegura que la inteligencia artificial sea un copiloto confiable, eliminando fricciones y ampliando la capacidad de decisión de los equipos."
     solution2:
-        title: "Arquitectura Inteligente: Software Diseñado para Escalar con AI"
-        description: "Creamos aplicaciones digitales (desde SaaS hasta sistemas críticos) que integran la inteligencia artificial desde el núcleo. La inteligencia no es un parche, sino una capa esencial de la arquitectura que garantiza la evolución y la personalización basadas en datos."
+        title: "Arquitectura Inteligente"
+        subtitle: "Software diseñado para escalar con IA desde su núcleo."
+        description: "Desarrollamos aplicaciones digitales, desde SaaS hasta sistemas críticos, con la inteligencia artificial integrada en la arquitectura. Esto permite personalización continua, aprendizaje con el uso y decisiones basadas en datos reales."
     solution3:
-        title: "Orquestación de Agentes: El Motor de Eficiencia Autónoma"
-        description: "Diseñamos entornos donde equipos de agentes de IA trabajan de manera coordinada y autónoma para resolver tareas de alto impacto. Definimos roles, reglas y flujos para que la IA sea un verdadero motor de eficiencia que libera a su equipo para el criterio humano y la estrategia."
+        title: "Orquestación de Agentes"
+        subtitle: "El motor detrás de la eficiencia autónoma."
+        description: "Diseñamos entornos donde equipos de agentes de IA trabajan de forma coordinada para ejecutar tareas complejas. Definimos roles, reglas y flujos inteligentes que transforman la IA en un verdadero motor operativo, liberando a las personas para el análisis y la estrategia."
     solution4:
-        title: "Aumento de Procesos: Flujos de Negocio Inteligentes y sin Errores"
-        description: "Convertimos sus operaciones internas en flujos inteligentes basados en datos que reducen drásticamente el tiempo de ejecución y minimizan los errores críticos. La IA potencia a sus equipos, liberándolos de lo repetitivo para que puedan aportar creatividad, visión y foco estratégico."
+        title: "Aumento de Procesos"
+        subtitle: "Flujos de negocio más rápidos, precisos y sin errores."
+        description: "Transformamos tus operaciones internas en procesos inteligentes que se ejecutan con asistencia de IA. Automatizamos lo repetitivo y potenciamos la eficiencia, para que tus equipos se concentren en crear valor y tomar mejores decisiones."
     solution5:
-        title: "Escalamiento Continuo: Soluciones Que Evolucionan con el Mercado"
-        description: "Nada es estático. Nuestras soluciones se adaptan y crecen incorporando métricas, feedback y analítica predictiva. Aseguramos que su plataforma evolucione continuamente junto a su negocio, garantizando siempre el máximo Retorno de Inversión (ROI)."
+        title: "Escalamiento Continuo"
+        subtitle: "Soluciones que crecen al ritmo del mercado."
+        description: "Nada en tu negocio es estático, y tu software tampoco debería serlo. Creamos plataformas que evolucionan con métricas, feedback y analítica predictiva, asegurando adaptación constante y máximo retorno de inversión."
 en:
-    title: "We design the future of Human + AI collaboration"
+    title: "Solutions that evolve with your business"
     solution1:
-        title: "Collaborative Experiences: AI as a Human Co-pilot"
-        description: "We design interactions where humans and AI agents collaborate seamlessly and naturally. Our UX approach ensures that artificial intelligence is an ally that amplifies human judgment, eliminating friction and the perception of barriers."
+        title: "Human + AI Collaboration"
+        subtitle: "Designing experiences where AI empowers human judgment"
+        description: "We create seamless interactions between people and AI agents. Our UX-driven approach ensures that AI acts as a reliable co-pilot, removing friction and amplifying team decision-making capabilities."
     solution2:
-        title: "Intelligent architecture: Software designed to scale with AI"
-        description: "We create digital applications (from SaaS to mission-critical systems) that integrate artificial intelligence from the core. Intelligence is not a patch, but an essential layer of the architecture that ensures evolution and data-driven personalization."
+        title: "Intelligent Architecture"
+        subtitle: "AI-scalable software designed from the ground up"
+        description: "We build digital applications, from SaaS to mission-critical systems, with AI integrated into the architecture. This enables continuous personalization, learning from usage, and data-driven decisions."
     solution3:
-        title: "Agent orchestration: The engine of autonomous efficiency"
-        description: "We design environments where teams of AI agents work autonomously and coordinatedly to solve high-impact tasks. We define roles, rules and flows to make AI a true engine of efficiency that frees your team for human judgment and strategy."
+        title: "Agent Orchestration"
+        subtitle: "The engine behind autonomous efficiency"
+        description: "We design environments where teams of AI agents work in a coordinated manner to execute complex tasks. We define intelligent roles, rules, and workflows that transform AI into a true operational engine, freeing humans for analysis and strategy."
     solution4:
-        title: "Augmentation of business processes: Intelligent and error-free workflows"
-        description: "We turn your internal operations into intelligent data-driven flows that drastically reduce execution time and minimize critical errors. AI empowers your teams, freeing them from the repetitive so they can bring creativity, vision and strategic focus."
+        title: "Process Augmentation"
+        subtitle: "Intelligent and error-free workflows"
+        description: "We transform your internal operations into intelligent processes powered by AI assistance. We automate the repetitive and enhance efficiency, allowing your teams to focus on creating value and making better decisions."
     solution5:
-        title: "Continuous scaling: Solutions that evolve with the market"
-        description: "Nothing is static. Our solutions adapt and grow by incorporating metrics, feedback and predictive analytics. We ensure that your platform continuously evolves alongside your business, always guaranteeing the highest Return on Investment (ROI)."
+        title: "Continuous Scaling"
+        subtitle: "Solutions that grow at market speed"
+        description: "Nothing in your business is static, and neither should your software be. We create platforms that evolve with metrics, feedback, and predictive analytics, ensuring constant adaptation and maximum return on investment."
 </i18n>

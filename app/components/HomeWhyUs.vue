@@ -128,33 +128,33 @@ const { t } = useI18n({ useScope: "local" });
 <i18n lang="yaml">
 es:
     title: "Lo que nos hace diferentes"
-    subtitle: "Lo que nos diferencia no es solo lo que hacemos, sino cómo lo hacemos: unimos experiencia humana, ingeniería y la inteligencia artificial en un proceso vivo que evoluciona junto a cada proyecto. Más de 20 años creando software y productos digitales para startups, empresas y organizaciones."
+    subtitle: "No solo desarrollamos software. Diseñamos cómo el software entiende, aprende y evoluciona. Nuestra diferencia está en la forma en que unimos la ingeniería, el diseño y la inteligencia artificial para construir sistemas que piensan con propósito y crecen con el uso."
     card1:
-        title: "Visión Integral 360º"
-        description: "UX, Software e Inteligencia Artificial conectados como un solo sistema operativo desde el inicio."
+        title: "Visión integral desde el inicio"
+        description: "Conectamos UX, ingeniería y AI como un solo sistema operativo. Cada proyecto parte de una comprensión profunda del contexto: negocio, usuarios, datos y entorno tecnológico."
     card2:
-        title: "Diseño Centrado en el Aumento Humano"
-        description: "La IA potencia la capacidad humana. Nunca la reemplaza o la obstaculiza."
+        title: "Diseño centrado en el aumento humano"
+        description: "Creemos en la colaboración entre personas y sistemas inteligentes. Diseñamos experiencias donde la IA amplifica la capacidad humana —no la reemplaza—, generando confianza, fluidez y autonomía."
     card3:
-        title: "IA Aplicada al ROI"
-        description: "Multiagentes, memoria y analítica avanzada enfocados exclusivamente a resolver problemas críticos y generar Retorno de Inversión, no a sumar complejidad."
+        title: "Arquitectura evolutiva y contextual"
+        description: "El software que desarrollamos no es estático: se adapta, aprende y se ajusta a su entorno. Implementamos memoria, agentes y analítica adaptativa para garantizar coherencia y mejora continua."
     card4:
-        title: "Proceso Vivo y Proactivo"
-        description: "Etapas que se retroalimentan y escalan automáticamente con los datos de uso real, garantizando la evolución continua."
+        title: "IA aplicada al impacto real"
+        description: "Usamos inteligencia artificial donde genera valor medible: reducción de costos, optimización de flujos y aceleración de decisiones. La tecnología se integra al servicio de los objetivos del negocio, no al revés."
 
 en:
     title: "What sets us apart"
-    subtitle: "What sets us apart is not just what we do, but how we do it: we combine human experience, engineering, and artificial intelligence in a living process that evolves with each project. Over 20 years creating software and digital products for startups, companies, and organizations."
+    subtitle: "We don't just build software. We design how software understands, learns, and evolves. Our difference lies in how we combine engineering, design, and artificial intelligence to create systems that think with purpose and grow with use."
     card1:
-        title: "Comprehensive 360º Vision"
-        description: "UX, Software, and Artificial Intelligence connected as a single operating system from the start."
+        title: "Holistic vision from day one"
+        description: "We connect UX, engineering, and AI as a single operating system. Every project starts with a deep understanding of the context: business, users, data, and technological environment."
     card2:
-        title: "Human-Centered Augmentation Design"
-        description: "AI enhances human capability. It never replaces or hinders it."
+        title: "Human-centered design"
+        description: "We believe in collaboration between people and intelligent systems. We design experiences where AI amplifies human capability —not replaces it—, generating trust, fluidity, and autonomy."
     card3:
-        title: "Applied AI for ROI"
-        description: "Multi-agents, memory, and advanced analytics focused exclusively on solving critical problems and generating Return on Investment, not adding complexity."
+        title: "Evolutionary and contextual architecture"
+        description: "The software we develop is not static: it adapts, learns, and adjusts to its environment. We implement memory, agents, and adaptive analytics to ensure coherence and continuous improvement."
     card4:
-        title: "Living and Proactive Process"
-        description: "Stages that feed back and scale automatically with real usage data, ensuring continuous evolution."
+        title: "Impact-driven AI"
+        description: "We use artificial intelligence where it generates measurable value: cost reduction, flow optimization, and decision acceleration. Technology is integrated to serve business objectives, not the other way around."
 </i18n>

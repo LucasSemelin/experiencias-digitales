@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-background text-grey-100 select-none">
+    <div class="bg-background text-grey-100">
         <HomeHero />
         <AppTrustedBy />
         <HomeSolutions id="solutions" />

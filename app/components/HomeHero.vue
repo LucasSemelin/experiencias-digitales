@@ -5,17 +5,13 @@
         <!-- Hero Content -->
         <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-16">
             <div class="flex flex-col items-center text-center gap-8">
-                <!-- Tagline -->
+                <!-- Main Headline -->
                 <div class="py-2">
                     <p
-                        class="text-primary font-semibold text-lg lg:text-xl font-open-sans tagline"
+                        class="text-primary font-semibold pb-2 text-lg lg:text-xl font-open-sans tagline"
                     >
                         {{ t("tagline") }}
                     </p>
-                </div>
-
-                <!-- Main Headline -->
-                <div class="py-2">
                     <h1
                         class="font-title font-normal text-4xl xl:text-5xl text-grey-100 leading-tight max-w-4xl"
                     >
@@ -95,15 +91,15 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 es:
-    tagline: Automation. Augmentation. Autonomy.
-    title: "Ingeniería de la Evolución: Sistemas Digitales que Aprenden, Colaboran y Crecen."
-    description: Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.
+    tagline: Context & Evolution Engineering
+    title: Diseñamos y desarrollamos software que evoluciona con tu empresa
+    description: Creamos sistemas digitales aplicando UX, ingeniería de software e inteligencia artificial para diseñar soluciones que entienden su contexto, aprenden del uso y evolucionan con tu negocio
     mainCTA: Conversemos sobre tu proyecto
     secondaryCTA: o conocé cómo trabajamos
 en:
-    tagline: Automation. Augmentation. Autonomy.
-    title: "Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow."
-    description: We are moving beyond static software. We design and build living systems where the combination of UX, Engineering, and AI transforms challenges into continuous growth.
+    tagline: Context & Evolution Engineering
+    title: We design and build software that evolves with your business
+    description: We create digital systems by applying UX, software engineering, and artificial intelligence to design solutions that understand their context, learn from usage, and evolve with your business
     mainCTA: Let's talk about your project
     secondaryCTA: or see how we work
 </i18n>

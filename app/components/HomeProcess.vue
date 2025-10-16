@@ -61,6 +61,11 @@
                                             {{ step.title }}
                                         </AppH3>
                                         <p
+                                            class="text-gray-500 mb-2 text-xl font-semibold"
+                                        >
+                                            {{ step.subtitle }}
+                                        </p>
+                                        <p
                                             class="text-grey-300 leading-relaxed max-w-lg"
                                         >
                                             {{ step.description }}
@@ -76,7 +81,7 @@
                         <div class="relative">
                             <!-- Connecting Line -->
                             <div
-                                class="absolute left-10 top-24 h-[calc(100%-20rem)] w-0.5 border-l-2 border-dashed border-gradient-from z-0"
+                                class="absolute left-10 top-24 h-[calc(100%-28rem)] w-0.5 border-l-2 border-dashed border-gradient-from z-0"
                             />
 
                             <!-- Process Steps -->
@@ -120,6 +125,11 @@
                                             {{ step.title }}
                                         </AppH3>
                                         <p
+                                            class="text-gray-500 mb-4 text-base font-semibold"
+                                        >
+                                            {{ step.subtitle }}
+                                        </p>
+                                        <p
                                             class="text-grey-300 leading-relaxed text-sm"
                                         >
                                             {{ step.description }}
@@ -143,28 +153,34 @@ const { t } = useI18n({ useScope: "local" });
 
 interface ProcessStep {
     title: string;
+    subtitle: string;
     description: string;
 }
 
 const processSteps = computed((): ProcessStep[] => [
     {
         title: t("step1.title"),
+        subtitle: t("step1.subtitle"),
         description: t("step1.description"),
     },
     {
         title: t("step2.title"),
+        subtitle: t("step2.subtitle"),
         description: t("step2.description"),
     },
     {
         title: t("step3.title"),
+        subtitle: t("step3.subtitle"),
         description: t("step3.description"),
     },
     {
         title: t("step4.title"),
+        subtitle: t("step4.subtitle"),
         description: t("step4.description"),
     },
     {
         title: t("step5.title"),
+        subtitle: t("step5.subtitle"),
         description: t("step5.description"),
     },
 ]);
@@ -231,40 +247,50 @@ onUnmounted(() => {
 
 <i18n lang="yaml">
 es:
-    title: "Metodología Diseñada para la Evolución Continua"
-    subtitle: "Un proceso vivo que evoluciona con cada paso. Nuestra metodología se basa en etapas que se solapan, se retroalimentan y se escalan. Cada ciclo integra *insights* y métricas avanzadas que garantizan que el producto **evolucione de forma proactiva y continua"
+    title: "Nuestro proceso de ingeniería evolutiva"
+    subtitle: "Un proceso vivo que combina ingeniería, contexto y adaptación. En Myntropic Studio, cada proyecto atraviesa un ciclo diseñado para que el software no solo funcione, sino que entienda, aprenda y evolucione junto a tu empresa."
     step1:
-        title: "Descubrimiento Estratégico & AI-Powered Research"
-        description: "Entendemos a fondo tu contexto, usuarios y objetivos. Combinamos análisis humano con IA para detectar patrones de alto valor, oportunidades ocultas y puntos críticos más rápido que la competencia."
+        title: "Descubrimiento Estratégico y Contextual"
+        subtitle: Comprendemos el entorno antes de escribir una línea de código.
+        description: "Analizamos los objetivos del negocio, los usuarios, los flujos operativos y las interacciones críticas. Aplicamos herramientas de Context Engineering para definir cómo el sistema deberá razonar, recordar y actuar dentro de tu ecosistema digital."
     step2:
-        title: "Arquitectura de Experiencia Humano-AI"
-        description: "Definimos arquitecturas de interacción centradas en personas y sistemas inteligentes. Utilizamos herramientas de IA para anticipar escenarios, validar flujos de trabajo y acelerar la fase de diseño."
+        title: "Arquitectura Cognitiva y Diseño de Experiencia"
+        subtitle: Diseñamos cómo el sistema piensa y cómo las personas interactúan con él.
+        description: "Unimos UX y arquitectura para estructurar la comprensión contextual, la lógica de decisión y las reglas de colaboración entre humanos y agentes. El resultado: una base sólida que conecta propósito, experiencia y comportamiento inteligente."
     step3:
-        title: "Prototipado y Validación Predictiva"
-        description: "Creamos prototipos que se testean con usuarios y con simulaciones potenciadas por IA. Esto acelera la iteración, reduce el riesgo de inversión y valida el valor antes del primer commit."
+        title: "Prototipado, Validación y Aprendizaje"
+        subtitle: Convertimos ideas en experiencias tangibles y medibles.
+        description: "Creamos prototipos funcionales que se testean con usuarios y simulaciones impulsadas por IA. Esto nos permite validar valor, flujo y viabilidad antes del desarrollo, reduciendo riesgo y acelerando el aprendizaje."
     step4:
-        title: "Implementación de Software AI-Ready."
-        description: "Desarrollamos plataformas digitales preparadas para el futuro, integrando agentes, memoria, analítica y automatización. Usamos AI en nuestra propia ingeniería para optimizar la calidad del código y la velocidad de entrega."
+        title: "Desarrollo Adaptativo y AI-Driven"
+        subtitle: Construimos software preparado para aprender y escalar.
+        description: "Implementamos arquitecturas modernas (API, agentes, memoria, analítica) con una base técnica sólida y extensible. El software nace con la capacidad de adaptarse a nuevos datos, escenarios y objetivos sin perder coherencia."
     step5:
-        title: "Evolución Continua & Escalabilidad Garantizada"
-        description: "Nada es estático. Medimos, analizamos y mejoramos con datos reales, apoyándonos en analítica avanzada y agentes que monitorean el valor en tiempo real para guiar el camino al crecimiento."
+        title: "Evolución Continua y Mejora Contextual"
+        subtitle: El software sigue aprendiendo después del lanzamiento.
+        description: "Medimos el uso real, analizamos patrones y retroalimentamos el sistema. Cada ciclo integra Adaptive Engineering para ajustar funciones, interfaces y comportamientos según el contexto cambiante del negocio."
 
 en:
     title: "Methodology Designed for Continuous Evolution"
     subtitle: "A living process that evolves with every step. Our methodology is based on overlapping, feedback-driven, and scalable stages. Each cycle integrates advanced insights and metrics to ensure the product **proactively and continuously evolves**."
     step1:
-        title: "Strategic Discovery & AI-Powered Research"
-        description: "We deeply understand your context, users, and goals. We combine human analysis with AI to uncover high-value patterns, hidden opportunities, and pain points faster than the competition."
+        title: "Strategic & Contextual Discovery"
+        subtitle: We deeply understand your context, users, and goals.
+        description: "We analyze business objectives, users, operational flows, and critical interactions. We apply Context Engineering tools to define how the system should reason, remember, and act within your digital ecosystem."
     step2:
-        title: "Human-AI Experience Architecture"
-        description: "We define interaction architectures centered on people and intelligent systems. We use AI tools to anticipate scenarios, validate workflows, and accelerate the design phase."
+        title: "Cognitive Architecture & Experience Design"
+        subtitle: We design how the system thinks and how people interact with it.
+        description: "We combine UX and architecture to structure contextual understanding, decision logic, and collaboration rules between humans and agents. The result: a solid foundation that connects purpose, experience, and intelligent behavior."
     step3:
-        title: "Predictive Prototyping & Validation"
-        description: "We create prototypes tested with users and AI-powered simulations. This accelerates iteration, reduces investment risk, and validates value before the first commit."
+        title: "Prototyping, Validation & Learning"
+        subtitle: We turn ideas into tangible, testable experiences.
+        description: "We create functional prototypes tested with users and AI-driven simulations. This allows us to validate value, flow, and feasibility before development, reducing risk and accelerating learning."
     step4:
-        title: "AI-Ready Software Implementation"
-        description: "We develop future-ready digital platforms, integrating agents, memory, analytics, and automation. We use AI in our own engineering to optimize code quality and delivery speed."
+        title: "Adaptive, AI-Driven Development"
+        subtitle: We build future-ready software designed to learn and scale.
+        description: "We implement modern architectures (APIs, agents, memory, analytics) with a solid and extensible technical foundation. The software is born with the ability to adapt to new data, scenarios, and objectives without losing coherence."
     step5:
-        title: "Continuous Evolution & Guaranteed Scalability"
-        description: "Nothing is static. We measure, analyze, and improve with real data, leveraging advanced analytics and agents that monitor value in real-time to guide the path to growth."
+        title: "Continuous Evolution & Contextual Improvement"
+        subtitle: The software keeps learning post-launch.
+        description: "We measure real usage, analyze patterns, and feed the system. Each cycle integrates Adaptive Engineering to adjust features, interfaces, and behaviors according to the changing business context."
 </i18n>
