@@ -3,7 +3,7 @@
         class="hero-section relative w-full min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
     >
         <!-- Dark overlay for better text readability -->
-        <div class="absolute inset-0 bg-black/50 z-0" />
+        <div class="absolute inset-0 bg-black/30 z-0" />
 
         <!-- Hero Content -->
         <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-16">
