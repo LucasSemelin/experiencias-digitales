@@ -302,6 +302,7 @@
                             >
                                 <NuxtImg
                                     src="/images/icons/copy.svg"
+                                    alt="Copy email address hi@myntropic.studio"
                                     class="inline size-4"
                                 />
                                 <span
@@ -325,6 +326,7 @@
                             >
                                 <NuxtImg
                                     src="/images/icons/linkedin.svg"
+                                    alt="Linkedin Logo"
                                     class="size-6 group-hover:scale-110 transition-transform duration-300"
                                 />
                             </NuxtLink>
@@ -337,6 +339,7 @@
                             >
                                 <NuxtImg
                                     src="/images/icons/x.svg"
+                                    alt="Twitter (X) Logo"
                                     class="size-6 group-hover:scale-110 transition-transform duration-300"
                                 />
                             </NuxtLink>
