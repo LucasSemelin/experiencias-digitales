@@ -1,10 +1,15 @@
 <template>
     <section
-        class="relative w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-gradient-from via-35% via-gradient-via to-gradient-to overflow-hidden"
+        class="hero-section relative w-full min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
     >
+        <!-- Dark overlay for better text readability -->
+        <div class="absolute inset-0 bg-black/50 z-0" />
+
         <!-- Hero Content -->
         <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-16">
-            <div class="flex flex-col items-center text-center gap-8">
+            <div
+                class="flex flex-col items-start lg:items-center text-left lg:text-center gap-8"
+            >
                 <!-- Main Headline -->
                 <div class="py-2">
                     <p
@@ -30,7 +35,7 @@
 
                 <!-- Call-to-Action Section -->
                 <div
-                    class="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center pt-8"
+                    class="flex flex-col lg:flex-row gap-6 lg:gap-12 items-start lg:items-center pt-8"
                 >
                     <!-- Primary CTA Button -->
                     <AppButton destination="#contact">
@@ -64,6 +69,17 @@ const { t } = useI18n({
 
 .font-open-sans {
     font-family: "Open Sans", sans-serif;
+}
+
+/* Responsive background images */
+.hero-section {
+    background-image: url("/images/icons/homehero-mobile.jpg");
+}
+
+@media (min-width: 1024px) {
+    .hero-section {
+        background-image: url("/images/homehero.jpg");
+    }
 }
 
 /* Enhanced responsive design */
