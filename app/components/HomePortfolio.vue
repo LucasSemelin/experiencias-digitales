@@ -7,7 +7,7 @@
             <div class="space-y-6 lg:space-y-8 max-w-4xl mx-auto mt-12">
                 <!-- Card 1: Optimización de procesos de compliance -->
                 <div
-                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl overflow-hidden hover:border-grey-700/70 transition-all duration-300 group"
+                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-3xl overflow-hidden hover:border-grey-700/70 transition-all duration-300 group"
                 >
                     <div class="flex flex-col md:flex-row">
                         <!-- Image -->
@@ -62,7 +62,7 @@
 
                 <!-- Card 2: Plataforma de salud -->
                 <div
-                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl overflow-hidden hover:border-grey-700/70 transition-all duration-300 group"
+                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-3xl overflow-hidden hover:border-grey-700/70 transition-all duration-300 group"
                 >
                     <div class="flex flex-col md:flex-row">
                         <!-- Image -->
@@ -117,7 +117,7 @@
 
                 <!-- Card 3: SaaS B2B huella de carbono -->
                 <div
-                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl overflow-hidden hover:border-grey-700/70 transition-all duration-300 group"
+                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-3xl overflow-hidden hover:border-grey-700/70 transition-all duration-300 group"
                 >
                     <div class="flex flex-col md:flex-row">
                         <!-- Image -->

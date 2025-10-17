@@ -45,11 +45,11 @@
                                                 }"
                                             />
                                             <!-- Step Number Badge -->
-                                            <div
+                                            <!-- <div
                                                 class="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% border-2 border-primary rounded-full flex items-center justify-center font-bold text-base text-background shadow-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
                                             >
                                                 {{ index + 1 }}
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
 
@@ -252,23 +252,23 @@ es:
     step1:
         title: "Descubrimiento Estratégico y Contextual"
         subtitle: "Entendemos tu organización, tus usuarios y tu ecosistema."
-        description: "Analizamos objetivos, flujos operativos e interacciones críticas para identificar oportunidades de evolución. Mediante Ingeniería Contextual, definimos cómo el sistema debe percibir, razonar y actuar dentro de su entorno. 🟢 Resultado: Una comprensión compartida y una hoja de ruta estratégica para la evolución del sistema."
+        description: "Analizamos objetivos, flujos operativos e interacciones críticas para identificar oportunidades de evolución. Mediante Ingeniería Contextual, definimos cómo el sistema debe percibir, razonar y actuar dentro de su entorno."
     step2:
         title: "Arquitectura Cognitiva y Diseño de Experiencia"
         subtitle: "Diseñamos cómo el sistema piensa y cómo las personas interactúan con él."
-        description: "Combinamos estrategia UX y arquitectura para definir modelos contextuales, lógica adaptativa y colaboración entre humanos y agentes de IA. El resultado: una experiencia coherente que conecta propósito, inteligencia y usabilidad. 🟢 Resultado: Un plano cognitivo y experiencial para un sistema inteligente."
+        description: "Combinamos estrategia UX y arquitectura para definir modelos contextuales, lógica adaptativa y colaboración entre humanos y agentes de IA. El resultado: una experiencia coherente que conecta propósito, inteligencia y usabilidad."
     step3:
         title: "Prototipado, Validación y Aprendizaje"
         subtitle: "Convertimos ideas en experiencias comprobables y basadas en evidencia."
-        description: "Creamos prototipos interactivos y simulaciones impulsadas por IA para validar valor, flujo y viabilidad antes del desarrollo. Esto reduce el riesgo, acelera el aprendizaje y asegura la alineación entre usuarios, negocio y tecnología. 🟢 Resultado: Conceptos validados, listos para la implementación adaptativa."
+        description: "Creamos prototipos interactivos y simulaciones impulsadas por IA para validar valor, flujo y viabilidad antes del desarrollo. Esto reduce el riesgo, acelera el aprendizaje y asegura la alineación entre usuarios, negocio y tecnología."
     step4:
         title: "Desarrollo Adaptativo e Implementación Inteligente"
         subtitle: "Construimos software preparado para aprender y escalar."
-        description: "Implementamos arquitecturas robustas — APIs, capas de datos, agentes de IA y memoria contextual — que permiten adaptabilidad desde el primer día. El sistema evoluciona naturalmente a medida que recibe nuevos datos y comportamientos. 🟢 Resultado: Un sistema inteligente y escalable, diseñado para evolucionar continuamente."
+        description: "Implementamos arquitecturas robustas — APIs, capas de datos, agentes de IA y memoria contextual — que permiten adaptabilidad desde el primer día. El sistema evoluciona naturalmente a medida que recibe nuevos datos y comportamientos."
     step5:
         title: "Evolución Continua y Mejora Contextual"
         subtitle: "Aprendemos del uso real y evolucionamos con el tiempo."
-        description: "Tras el lanzamiento, iniciamos un ciclo de retroalimentación adaptativa: medimos el uso, analizamos el contexto y evolucionamos funciones, interfaces y comportamientos mediante Ingeniería Adaptativa. El software nunca se detiene: crece con tu negocio. 🟢 Resultado: Un sistema vivo, alineado con la evolución de la organización."
+        description: "Tras el lanzamiento, iniciamos un ciclo de retroalimentación adaptativa: medimos el uso, analizamos el contexto y evolucionamos funciones, interfaces y comportamientos mediante Ingeniería Adaptativa. El software nunca se detiene: crece con tu negocio."
 
 en:
     title: "Methodology Designed for Continuous Evolution"
@@ -276,21 +276,21 @@ en:
     step1:
         title: "Strategic & Contextual Discovery"
         subtitle: "Understanding your organization, your users, and your ecosystem."
-        description: "We start by analyzing goals, users, operations, and critical interactions to uncover opportunities for evolution. Through Context Engineering, we define how the system should perceive, reason, and act within its environment. 🟢 Outcome: A shared understanding and strategic roadmap for system evolution."
+        description: "We start by analyzing goals, users, operations, and critical interactions to uncover opportunities for evolution. Through Context Engineering, we define how the system should perceive, reason, and act within its environment."
     step2:
         title: "Cognitive Architecture & Experience Design"
         subtitle: "Designing how the system thinks and how people interact with it."
-        description: "We combine UX strategy and system architecture to define contextual models, adaptive logic, and collaboration between humans and AI agents. The result: a coherent experience that connects business purpose, intelligence, and usability. 🟢 Outcome: A cognitive and experiential blueprint for an intelligent system."
+        description: "We combine UX strategy and system architecture to define contextual models, adaptive logic, and collaboration between humans and AI agents. The result: a coherent experience that connects business purpose, intelligence, and usability."
     step3:
         title: "Prototyping, Validation & Learning"
         subtitle: "Turning ideas into testable, evidence-based experiences."
-        description: "We build interactive prototypes and AI-driven simulations to validate value, flow, and feasibility before development. This reduces risk, accelerates learning, and ensures alignment between users, business, and technology. 🟢 Outcome: Proven concepts ready for adaptive implementation."
+        description: "We build interactive prototypes and AI-driven simulations to validate value, flow, and feasibility before development. This reduces risk, accelerates learning, and ensures alignment between users, business, and technology."
     step4:
         title: "Adaptive Development & Intelligent Implementation"
         subtitle: "Building future-ready software designed to learn and scale."
-        description: "We implement robust architectures — APIs, data layers, AI agents, and contextual memory — enabling adaptability from day one. The software evolves naturally through new data, behaviors, and insights. 🟢 Outcome: A scalable, intelligent system built for continuous evolution."
+        description: "We implement robust architectures — APIs, data layers, AI agents, and contextual memory — enabling adaptability from day one. The software evolves naturally through new data, behaviors, and insights."
     step5:
         title: "Continuous Evolution & Contextual Improvement"
         subtitle: "Learning from real usage and evolving over time."
-        description: "After launch, we enter an adaptive feedback cycle — measuring usage, analyzing context, and evolving features, interfaces, and logic through Adaptive Engineering. Your software never stops improving — it grows with your business. 🟢 Outcome: A living system aligned with your organization's evolution."
+        description: "After launch, we enter an adaptive feedback cycle — measuring usage, analyzing context, and evolving features, interfaces, and logic through Adaptive Engineering. Your software never stops improving — it grows with your business."
 </i18n>
