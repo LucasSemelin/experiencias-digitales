@@ -19,6 +19,7 @@
                     >
                         {{ t("card1.title") }}
                     </h3>
+                    <p class="mb-2 lg:text-lg">{{ t("card1.subtitle") }}</p>
                     <p
                         class="text-grey-300 text-sm lg:text-base leading-relaxed"
                     >
@@ -35,6 +36,7 @@
                     >
                         {{ t("card2.title") }}
                     </h3>
+                    <p class="mb-2 lg:text-lg">{{ t("card2.subtitle") }}</p>
                     <p
                         class="text-grey-300 text-sm lg:text-base leading-relaxed"
                     >
@@ -51,6 +53,7 @@
                     >
                         {{ t("card3.title") }}
                     </h3>
+                    <p class="mb-2 lg:text-lg">{{ t("card3.subtitle") }}</p>
                     <p
                         class="text-grey-300 text-sm lg:text-base leading-relaxed"
                     >
@@ -67,6 +70,7 @@
                     >
                         {{ t("card4.title") }}
                     </h3>
+                    <p class="mb-2 lg:text-lg">{{ t("card4.subtitle") }}</p>
                     <p
                         class="text-grey-300 text-sm lg:text-base leading-relaxed"
                     >
@@ -87,34 +91,42 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Soluciones que transforman los límites de tu negocio"
-    subtitle: "Diseñamos y desarrollamos software que amplifica las capacidades de tu empresa. Aplicamos inteligencia artificial, contexto y arquitectura adaptativa para transformar operaciones, productos y experiencias en ecosistemas digitales que aprenden y mejoran con el uso. Estos son los escenarios donde nuestro enfoque genera mayor impacto:"
+    title: "Soluciones que amplían las capacidades de tu negocio"
+    subtitle: "Aplicamos ingeniería contextual e inteligencia adaptativa para transformar operaciones, productos y procesos de decisión en sistemas digitales dinámicos que aprenden, mejoran y escalan junto a tu organización."
     card1:
-        title: "Procesos internos que se optimizan solos"
-        description: "Desarrollamos sistemas internos y backoffice que automatizan tareas repetitivas, se integran con tus herramientas actuales y aprenden de cada ejecución. El resultado: menos errores, más eficiencia y equipos enfocados en decisiones estratégicas."
+        title: "Operaciones Autónomas"
+        subtitle: Procesos que se optimizan a sí mismos mediante inteligencia
+        description: "Diseñamos sistemas internos y plataformas back-office que se automatizan y mejoran con el uso. Cada ejecución alimenta al sistema con datos para su optimización, reduciendo errores y aumentando la eficiencia operativa."
     card2:
-        title: "Asistentes y plataformas que colaboran con tu equipo"
-        description: "Creamos interfaces y herramientas donde agentes de IA trabajan junto a las personas, anticipando necesidades y ejecutando acciones con contexto. La inteligencia artificial no reemplaza: acompaña, amplifica y acelera el trabajo humano."
+        title: "Colaboración Humano–IA"
+        subtitle: Inteligencia artificial que potencia, no reemplaza, las capacidades humanas
+        description: "Creamos herramientas e interfaces donde agentes de IA trabajan junto a las personas, comprendiendo el contexto, anticipando necesidades y ejecutando tareas con precisión."
     card3:
-        title: "Software que entiende su entorno y se adapta"
-        description: "Diseñamos aplicaciones que comprenden su contexto —usuarios, roles, datos y objetivos— y responden de forma dinámica. Desde SaaS hasta sistemas empresariales, construimos soluciones que aprenden y evolucionan con tu negocio."
+        title: "Productos Adaptativos"
+        subtitle: Aplicaciones que evolucionan con su entorno
+        description: "Desarrollamos productos SaaS y sistemas empresariales capaces de aprender del uso y adaptarse al cambio del negocio. Las experiencias evolucionan junto a los usuarios, roles y objetivos."
     card4:
-        title: "Decisiones más claras, impulsadas por contexto y datos"
-        description: "Convertimos información dispersa en conocimiento accionable. Nuestros sistemas integran memoria, analítica y feedback continuo para ayudarte a decidir con precisión y en tiempo real."
+        title: "Inteligencia Contextual para Decisiones"
+        subtitle: Decisiones más claras, impulsadas por datos y contexto
+        description: "Integrando memoria, analítica y retroalimentación continua, convertimos información dispersa en conocimiento accionable. Los sistemas aprenden del uso real para ofrecer decisiones más precisas y oportunas."
 
 en:
-    title: "Solutions that push your business boundaries"
-    subtitle: "We design and build software that amplifies your company's capabilities. We apply artificial intelligence, context, and adaptive architecture to transform operations, products, and experiences into digital ecosystems that learn and improve with use. These are the scenarios where our approach generates the most impact:"
+    title: "Solutions that evolve business capabilities"
+    subtitle: "We apply context-driven engineering and adaptive intelligence to transform operations, products, and decision-making into dynamic digital systems that learn, improve, and scale with your organization."
     card1:
-        title: "Autonomous processes that optimize themselves"
-        description: "We develop internal systems and back-office solutions that automate repetitive tasks, integrate with your current tools, and learn from each execution. The result: fewer errors, increased efficiency, and teams focused on strategic decisions."
+        title: "Autonomous Operations"
+        subtitle: Processes that optimize themselves through intelligence
+        description: "We design internal systems and back-office platforms that automate and improve through usage. Each execution becomes data for optimization, reducing errors, eliminating friction, and increasing operational efficiency."
     card2:
-        title: "Assistants that amplify human capabilities"
-        description: "We create interfaces and tools where AI agents work alongside people, anticipating needs and executing actions with context. Artificial intelligence doesn't replace: it accompanies, amplifies, and accelerates human work."
+        title: "Human–AI Collaboration"
+        subtitle: AI that augments human capabilities, not replaces them
+        description: "We create tools and interfaces where AI agents work alongside people, understanding context, anticipating needs, and executing tasks with precision. The result is amplified human judgment and faster decision-making."
     card3:
-        title: "Products that evolve with their context"
-        description: "We design applications that understand their context—users, roles, data, and goals—and respond dynamically. From SaaS to enterprise systems, we build solutions that learn and evolve with your business."
+        title: "Adaptive Products"
+        subtitle: Applications that evolve with their environment
+        description: "We build SaaS and enterprise systems capable of learning from usage and adapting to business change. These products evolve features, behaviors, and experiences over time, staying relevant as the organization grows."
     card4:
-        title: "Clearer decisions, driven by context and data"
-        description: "We turn scattered information into actionable knowledge. Our systems integrate memory, analytics, and continuous feedback to help you decide with precision and in real-time."
+        title: "Context-Driven Intelligence"
+        subtitle: Decisions guided by memory, analytics, and feedback
+        description: "We integrate data, context, and continuous feedback loops to turn information into actionable insight. Our systems learn from real use, helping organizations decide faster and with more precision."
 </i18n>

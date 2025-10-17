@@ -247,50 +247,50 @@ onUnmounted(() => {
 
 <i18n lang="yaml">
 es:
-    title: "Nuestro proceso de ingeniería evolutiva"
-    subtitle: "Un proceso vivo que combina ingeniería, contexto y adaptación. En Myntropic Studio, cada proyecto atraviesa un ciclo diseñado para que el software no solo funcione, sino que entienda, aprenda y evolucione junto a tu empresa."
+    title: "Metodología Diseñada para la Evolución Continua"
+    subtitle: "Un proceso vivo que evoluciona en cada paso. Nuestra metodología integra estrategia, arquitectura, implementación y evolución en un ciclo continuo. Cada fase se retroalimenta con aprendizajes del uso real, asegurando que el software aprenda, se adapte y crezca junto a la organización."
     step1:
         title: "Descubrimiento Estratégico y Contextual"
-        subtitle: Comprendemos el entorno antes de escribir una línea de código.
-        description: "Analizamos los objetivos del negocio, los usuarios, los flujos operativos y las interacciones críticas. Aplicamos herramientas de Context Engineering para definir cómo el sistema deberá razonar, recordar y actuar dentro de tu ecosistema digital."
+        subtitle: "Entendemos tu organización, tus usuarios y tu ecosistema."
+        description: "Analizamos objetivos, flujos operativos e interacciones críticas para identificar oportunidades de evolución. Mediante Ingeniería Contextual, definimos cómo el sistema debe percibir, razonar y actuar dentro de su entorno. 🟢 Resultado: Una comprensión compartida y una hoja de ruta estratégica para la evolución del sistema."
     step2:
         title: "Arquitectura Cognitiva y Diseño de Experiencia"
-        subtitle: Diseñamos cómo el sistema piensa y cómo las personas interactúan con él.
-        description: "Unimos UX y arquitectura para estructurar la comprensión contextual, la lógica de decisión y las reglas de colaboración entre humanos y agentes. El resultado: una base sólida que conecta propósito, experiencia y comportamiento inteligente."
+        subtitle: "Diseñamos cómo el sistema piensa y cómo las personas interactúan con él."
+        description: "Combinamos estrategia UX y arquitectura para definir modelos contextuales, lógica adaptativa y colaboración entre humanos y agentes de IA. El resultado: una experiencia coherente que conecta propósito, inteligencia y usabilidad. 🟢 Resultado: Un plano cognitivo y experiencial para un sistema inteligente."
     step3:
         title: "Prototipado, Validación y Aprendizaje"
-        subtitle: Convertimos ideas en experiencias tangibles y medibles.
-        description: "Creamos prototipos funcionales que se testean con usuarios y simulaciones impulsadas por IA. Esto nos permite validar valor, flujo y viabilidad antes del desarrollo, reduciendo riesgo y acelerando el aprendizaje."
+        subtitle: "Convertimos ideas en experiencias comprobables y basadas en evidencia."
+        description: "Creamos prototipos interactivos y simulaciones impulsadas por IA para validar valor, flujo y viabilidad antes del desarrollo. Esto reduce el riesgo, acelera el aprendizaje y asegura la alineación entre usuarios, negocio y tecnología. 🟢 Resultado: Conceptos validados, listos para la implementación adaptativa."
     step4:
-        title: "Desarrollo Adaptativo y AI-Driven"
-        subtitle: Construimos software preparado para aprender y escalar.
-        description: "Implementamos arquitecturas modernas (API, agentes, memoria, analítica) con una base técnica sólida y extensible. El software nace con la capacidad de adaptarse a nuevos datos, escenarios y objetivos sin perder coherencia."
+        title: "Desarrollo Adaptativo e Implementación Inteligente"
+        subtitle: "Construimos software preparado para aprender y escalar."
+        description: "Implementamos arquitecturas robustas — APIs, capas de datos, agentes de IA y memoria contextual — que permiten adaptabilidad desde el primer día. El sistema evoluciona naturalmente a medida que recibe nuevos datos y comportamientos. 🟢 Resultado: Un sistema inteligente y escalable, diseñado para evolucionar continuamente."
     step5:
         title: "Evolución Continua y Mejora Contextual"
-        subtitle: El software sigue aprendiendo después del lanzamiento.
-        description: "Medimos el uso real, analizamos patrones y retroalimentamos el sistema. Cada ciclo integra Adaptive Engineering para ajustar funciones, interfaces y comportamientos según el contexto cambiante del negocio."
+        subtitle: "Aprendemos del uso real y evolucionamos con el tiempo."
+        description: "Tras el lanzamiento, iniciamos un ciclo de retroalimentación adaptativa: medimos el uso, analizamos el contexto y evolucionamos funciones, interfaces y comportamientos mediante Ingeniería Adaptativa. El software nunca se detiene: crece con tu negocio. 🟢 Resultado: Un sistema vivo, alineado con la evolución de la organización."
 
 en:
     title: "Methodology Designed for Continuous Evolution"
-    subtitle: "A living process that evolves with every step. Our methodology is based on overlapping, feedback-driven, and scalable stages. Each cycle integrates advanced insights and metrics to ensure the product **proactively and continuously evolves**."
+    subtitle: "A living process that evolves with every step. Our methodology integrates strategy, architecture, implementation, and evolution in a continuous loop. Each phase overlaps, feeding insights from real usage to ensure the software learns, adapts, and grows with your organization."
     step1:
         title: "Strategic & Contextual Discovery"
-        subtitle: We deeply understand your context, users, and goals.
-        description: "We analyze business objectives, users, operational flows, and critical interactions. We apply Context Engineering tools to define how the system should reason, remember, and act within your digital ecosystem."
+        subtitle: "Understanding your organization, your users, and your ecosystem."
+        description: "We start by analyzing goals, users, operations, and critical interactions to uncover opportunities for evolution. Through Context Engineering, we define how the system should perceive, reason, and act within its environment. 🟢 Outcome: A shared understanding and strategic roadmap for system evolution."
     step2:
         title: "Cognitive Architecture & Experience Design"
-        subtitle: We design how the system thinks and how people interact with it.
-        description: "We combine UX and architecture to structure contextual understanding, decision logic, and collaboration rules between humans and agents. The result: a solid foundation that connects purpose, experience, and intelligent behavior."
+        subtitle: "Designing how the system thinks and how people interact with it."
+        description: "We combine UX strategy and system architecture to define contextual models, adaptive logic, and collaboration between humans and AI agents. The result: a coherent experience that connects business purpose, intelligence, and usability. 🟢 Outcome: A cognitive and experiential blueprint for an intelligent system."
     step3:
         title: "Prototyping, Validation & Learning"
-        subtitle: We turn ideas into tangible, testable experiences.
-        description: "We create functional prototypes tested with users and AI-driven simulations. This allows us to validate value, flow, and feasibility before development, reducing risk and accelerating learning."
+        subtitle: "Turning ideas into testable, evidence-based experiences."
+        description: "We build interactive prototypes and AI-driven simulations to validate value, flow, and feasibility before development. This reduces risk, accelerates learning, and ensures alignment between users, business, and technology. 🟢 Outcome: Proven concepts ready for adaptive implementation."
     step4:
-        title: "Adaptive, AI-Driven Development"
-        subtitle: We build future-ready software designed to learn and scale.
-        description: "We implement modern architectures (APIs, agents, memory, analytics) with a solid and extensible technical foundation. The software is born with the ability to adapt to new data, scenarios, and objectives without losing coherence."
+        title: "Adaptive Development & Intelligent Implementation"
+        subtitle: "Building future-ready software designed to learn and scale."
+        description: "We implement robust architectures — APIs, data layers, AI agents, and contextual memory — enabling adaptability from day one. The software evolves naturally through new data, behaviors, and insights. 🟢 Outcome: A scalable, intelligent system built for continuous evolution."
     step5:
         title: "Continuous Evolution & Contextual Improvement"
-        subtitle: The software keeps learning post-launch.
-        description: "We measure real usage, analyze patterns, and feed the system. Each cycle integrates Adaptive Engineering to adjust features, interfaces, and behaviors according to the changing business context."
+        subtitle: "Learning from real usage and evolving over time."
+        description: "After launch, we enter an adaptive feedback cycle — measuring usage, analyzing context, and evolving features, interfaces, and logic through Adaptive Engineering. Your software never stops improving — it grows with your business. 🟢 Outcome: A living system aligned with your organization's evolution."
 </i18n>

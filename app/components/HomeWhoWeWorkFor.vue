@@ -13,7 +13,7 @@
                     <div class="grid grid-cols-4 gap-6">
                         <!-- Column 1 -->
                         <div
-                            class="flex flex-col justify-center p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
+                            class="flex flex-col justify-between p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
                         >
                             <AppH3
                                 class="font-title text-lg font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4"
@@ -28,11 +28,16 @@
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant1.description") }}
                             </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant1.result") }}
+                            </p>
                         </div>
 
                         <!-- Column 2 -->
                         <div
-                            class="flex flex-col justify-center p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
+                            class="flex flex-col justify-between p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
                         >
                             <AppH3
                                 class="font-title text-lg font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4"
@@ -47,11 +52,16 @@
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant2.description") }}
                             </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant2.result") }}
+                            </p>
                         </div>
 
                         <!-- Column 3 -->
                         <div
-                            class="flex flex-col justify-center p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
+                            class="flex flex-col justify-between p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
                         >
                             <AppH3
                                 class="font-title text-lg font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4"
@@ -66,11 +76,16 @@
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant3.description") }}
                             </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant3.result") }}
+                            </p>
                         </div>
 
                         <!-- Column 4 -->
                         <div
-                            class="flex flex-col justify-center p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
+                            class="flex flex-col justify-between p-6 bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-xl hover:border-grey-700/70 transition-all duration-300"
                         >
                             <AppH3
                                 class="font-title text-lg font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4"
@@ -84,6 +99,11 @@
                             </p>
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant4.description") }}
+                            </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant4.result") }}
                             </p>
                         </div>
                     </div>
@@ -118,6 +138,11 @@
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant1.description") }}
                             </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant1.result") }}
+                            </p>
                         </div>
 
                         <!-- Card 2 -->
@@ -131,6 +156,11 @@
                             </h3>
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant2.description") }}
+                            </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant2.result") }}
                             </p>
                         </div>
 
@@ -146,6 +176,11 @@
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant3.description") }}
                             </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant3.result") }}
+                            </p>
                         </div>
 
                         <!-- Card 4 -->
@@ -159,6 +194,11 @@
                             </h3>
                             <p class="text-grey-300 leading-relaxed text-sm">
                                 {{ t("quadrant4.description") }}
+                            </p>
+                            <p
+                                class="text-green-400 leading-relaxed text-sm mt-3 font-medium"
+                            >
+                                {{ t("quadrant4.result") }}
                             </p>
                         </div>
                     </div>
@@ -177,42 +217,50 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Cómo transformamos organizaciones"
-    subtitle: "A través de nuestro enfoque de Evolution Engineering, ayudamos a organizaciones a repensar cómo funciona su software, sus procesos y sus experiencias. El resultado: sistemas más inteligentes, equipos más enfocados y negocios que crecen con propósito."
+    title: "Cómo Transformamos las Organizaciones"
+    subtitle: "A través de nuestro enfoque de Ingeniería Evolutiva y Contextual, ayudamos a las organizaciones a repensar cómo sus sistemas, procesos y experiencias evolucionan. El resultado: ecosistemas más inteligentes, operaciones más adaptativas y crecimiento sostenible impulsado por la inteligencia y el contexto."
     quadrant1:
-        title: "Impulsamos lo nuevo"
-        subtitle: "Software y plataformas creadas para nacer con inteligencia y contexto."
-        description: "Diseñamos y desarrollamos productos digitales, desde SaaS hasta soluciones internas, donde la IA, la UX y la arquitectura adaptativa trabajan desde el inicio para garantizar escalabilidad y coherencia."
+        title: "Impulsamos lo Nuevo"
+        subtitle: "Diseñamos sistemas inteligentes desde el primer día."
+        description: "Ayudamos a las organizaciones a crear plataformas preparadas para la IA y conscientes de su contexto, donde la UX, los datos y la inteligencia trabajan como un solo ecosistema adaptativo. Nuestra consultoría garantiza que cada nuevo producto nazca con la capacidad de aprender, evolucionar y escalar de forma coherente."
+        result: "🟢 Resultado: Software preparado para la inteligencia, la adaptabilidad y la evolución continua."
     quadrant2:
-        title: "Potenciamos lo existente"
-        subtitle: "Evolucionamos sistemas actuales para que aprendan y se ajusten al uso real."
-        description: "Modernizamos arquitecturas, incorporamos memoria contextual, agentes de IA y analítica adaptativa, logrando que tus sistemas actuales sean más eficientes, autónomos y relevantes."
+        title: "Potenciamos lo Existente"
+        subtitle: "Evolucionamos lo que ya funciona — de forma inteligente."
+        description: "Transformamos sistemas actuales en plataformas adaptativas y autoevolutivas. Integramos capas contextuales, agentes de IA y analítica adaptativa para modernizar arquitecturas heredadas y alinearlas con el uso real y los cambios del negocio."
+        result: "🟢 Resultado: Sistemas que aprenden del uso, reducen la fricción y se mantienen relevantes."
     quadrant3:
-        title: "Reinventamos lo interno"
-        subtitle: "Transformamos operaciones en ecosistemas digitales inteligentes."
-        description: "Digitalizamos procesos complejos y los convertimos en flujos automatizados que se integran con tus herramientas actuales. El resultado: equipos más ágiles, menos fricción y decisiones basadas en datos reales."
+        title: "Reinventamos lo Interno"
+        subtitle: "Convertimos las operaciones en flujos inteligentes."
+        description: "Analizamos y rediseñamos los procesos internos para que sean más ágiles, autónomos y guiados por datos. Mediante automatización y aumento inteligente de procesos, transformamos operaciones complejas en sistemas dinámicos que respaldan decisiones estratégicas."
+        result: "🟢 Resultado: Operaciones más inteligentes, decisiones más rápidas y equipos potenciados."
     quadrant4:
-        title: "Expandimos lo externo"
-        subtitle: "Creamos experiencias que conectan personas, datos y sistemas inteligentes."
-        description: "Diseñamos productos orientados a usuarios, partners o clientes finales, donde la inteligencia artificial mejora la interacción y genera valor continuo en cada punto de contacto."
+        title: "Expandimos lo Externo"
+        subtitle: "Creamos experiencias que conectan personas, datos e inteligencia."
+        description: "Diseñamos productos y experiencias centradas en el usuario donde la IA potencia la interacción, la personalización y la generación de valor en cada punto de contacto digital. El objetivo: construir ecosistemas donde la tecnología y las personas evolucionen juntas."
+        result: "🟢 Resultado: Productos inteligentes que se adaptan a los usuarios y crecen con su contexto."
 
 en:
-    title: "How we transform organizations"
-    subtitle: "Through our Evolution Engineering approach, we help organizations rethink how their software, processes, and experiences work. The result: smarter systems, more focused teams, and businesses that grow with purpose."
+    title: "How We Transform Organizations"
+    subtitle: "Through our Evolutionary & Contextual Engineering approach, we help organizations rethink how their systems, processes, and experiences evolve. The result: smarter ecosystems, more adaptive operations, and sustainable business growth driven by intelligence and context."
     quadrant1:
-        title: "Drive the new"
-        subtitle: "Software and platforms built to be intelligent and context-aware from day one."
-        description: "We design and develop digital products, from SaaS to internal solutions, where AI, UX, and adaptive architecture work together from the start to ensure scalability and coherence."
+        title: "Drive the New Era"
+        subtitle: "Designing intelligent systems from day one."
+        description: "We help organizations create AI-ready and context-aware platforms — from SaaS to enterprise tools — where UX, data, and intelligence work together as a single adaptive ecosystem. Our consulting ensures that every new product is born to learn, evolve, and scale coherently over time."
+        result: "🟢 Result: Software built for intelligence, adaptability, and long-term evolution."
     quadrant2:
-        title: "Enhance the existing"
-        subtitle: "We evolve existing systems to learn and adapt to real-world usage."
-        description: "We modernize architectures, incorporating contextual memory, AI agents, and adaptive analytics, making your current systems more efficient, autonomous, and relevant."
+        title: "Enhance the Existing"
+        subtitle: "Evolving what already works — intelligently."
+        description: "We transform existing systems into adaptive, self-improving platforms. By integrating contextual layers, AI agents, and adaptive analytics, we modernize legacy architectures, aligning them with real-world data and business change."
+        result: "🟢 Result: Systems that learn from usage, reduce friction, and stay relevant."
     quadrant3:
-        title: "Reinvent the internal"
-        subtitle: "We transform internal processes to be more agile and data-driven."
-        description: "We digitize complex processes and turn them into automated workflows that integrate with your current tools. The result: more agile teams, less friction, and decisions based on real data."
+        title: "Reinvent the Internal"
+        subtitle: "Transforming operations into intelligent workflows."
+        description: "We analyze and redesign your internal processes to make them more agile, autonomous, and data-driven. Through process augmentation and automation, we turn complex operations into dynamic systems that support decision-making and strategic execution."
+        result: "🟢 Result: Smarter operations, faster decisions, and empowered teams."
     quadrant4:
-        title: "Expand the external"
-        subtitle: "We create experiences that connect people, data, and intelligent systems."
-        description: "We design user-centric products where artificial intelligence enhances interaction and generates continuous value at every touchpoint."
+        title: "Expand the External"
+        subtitle: "Creating experiences that connect people, data, and intelligence."
+        description: "We design user-centric experiences where AI enhances interaction, personalization, and value generation across every digital touchpoint. Our goal: to create ecosystems where technology and people evolve together."
+        result: "🟢 Result: Intelligent products that adapt to users and grow with their context."
 </i18n>
