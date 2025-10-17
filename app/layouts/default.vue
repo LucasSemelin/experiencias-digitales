@@ -20,6 +20,28 @@
                 </div>
             </div>
         </section>
+
+        <!-- Footer Links -->
+        <footer class="pb-8 px-4 lg:px-8">
+            <div class="max-w-2xl mx-auto text-center">
+                <div class="flex justify-center items-center gap-6 text-sm">
+                    <NuxtLink
+                        to="/cookie-policy"
+                        class="text-grey-400 hover:text-primary transition-colors duration-200"
+                    >
+                        {{ t("footer.cookiePolicy") }}
+                    </NuxtLink>
+                    <span class="text-grey-600">•</span>
+                    <NuxtLink
+                        to="/privacy-policy"
+                        class="text-grey-400 hover:text-primary transition-colors duration-200"
+                    >
+                        {{ t("footer.privacyPolicy") }}
+                    </NuxtLink>
+                </div>
+            </div>
+        </footer>
+
         <AppCookiesConsent />
     </div>
 </template>
@@ -39,8 +61,14 @@ useHead({
 es:
     basedin: "Desde "
     workingwith: creando experiencias inteligentes para empresas globales.
+    footer:
+        cookiePolicy: "Política de Cookies"
+        privacyPolicy: "Política de Privacidad"
 
 en:
     basedin: "Based in "
     workingwith: We deliver digital solutions for global clients
+    footer:
+        cookiePolicy: "Cookie Policy"
+        privacyPolicy: "Privacy Policy"
 </i18n>
