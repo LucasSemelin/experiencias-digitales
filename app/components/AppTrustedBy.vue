@@ -13,7 +13,7 @@ const { t } = useI18n({ useScope: "local" });
 
                 <!-- Company Logos -->
                 <div
-                    class="flex flex-wrap items-center justify-center gap-8 lg:gap-12 xl:gap-12 w-full"
+                    class="flex flex-wrap items-center justify-around lg:justify-center gap-8 lg:gap-12 xl:gap-12 w-full"
                 >
                     <TrustedIcon
                         logo-path="/images/trusted/logo-eunoia.svg"
@@ -24,7 +24,7 @@ const { t } = useI18n({ useScope: "local" });
                     <TrustedIcon
                         logo-path="/images/trusted/logo-carbonwatcher.svg"
                         alt-text="Carbon Watcher"
-                        class="h-12 lg:h-10"
+                        class="h-10 lg:h-10"
                     />
                     <TrustedIcon
                         logo-path="/images/trusted/logo-archetify.svg"
@@ -39,12 +39,12 @@ const { t } = useI18n({ useScope: "local" });
                     <TrustedIcon
                         logo-path="/images/trusted/logo-cenital.svg"
                         alt-text="Cenital"
-                        class="h-6 lg:h-8"
+                        class="h-7 lg:h-8"
                     />
                     <TrustedIcon
                         logo-path="/images/trusted/logo-tna.svg"
                         alt-text="TNA"
-                        class="h-5 lg:h-5"
+                        class="h-4 lg:h-5"
                     />
                     <TrustedIcon
                         logo-path="/images/trusted/logo-quilmes.svg"

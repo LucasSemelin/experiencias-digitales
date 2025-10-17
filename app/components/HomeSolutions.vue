@@ -5,18 +5,18 @@
 
             <!-- Solution 1 -->
             <div
-                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16"
+                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16 lg:mb-28"
             >
                 <!-- Mobile order: title first -->
                 <div class="lg:order-2 order-1">
                     <AppH3 class="mb-4">{{ t("solution1.title") }}</AppH3>
                     <p
-                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold"
+                        class="text-zinc-500 mb-4 text-base lg:text-xl font-semibold"
                     >
                         {{ t("solution1.subtitle") }}
                     </p>
                     <p
-                        class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-2"
+                        class="text-zinc-200 text-sm lg:text-base leading-relaxed order-3 lg:order-2"
                     >
                         {{ t("solution1.description") }}
                     </p>
@@ -27,7 +27,7 @@
                 <!-- Image placeholder - Desktop left, Mobile middle -->
                 <div class="lg:order-1 order-2 flex justify-center">
                     <div
-                        class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
+                        class="w-full lg:max-w-xl h-64 lg:h-80 rounded-4xl overflow-hidden"
                     >
                         <NuxtImg
                             src="/images/solutions/solution1.jpg"
@@ -40,19 +40,19 @@
 
             <!-- Solution 2 -->
             <div
-                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16"
+                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16 lg:mb-28"
             >
                 <!-- Mobile order: title first -->
                 <div class="order-1">
                     <AppH3 class="mb-4">{{ t("solution2.title") }}</AppH3>
                     <p
-                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold"
+                        class="text-zinc-500 mb-4 text-base lg:text-xl font-semibold"
                     >
                         {{ t("solution2.subtitle") }}
                     </p>
                     <p>{{ t("solution2.subtitle") }}</p>
                     <p
-                        class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-1"
+                        class="text-zinc-200 text-sm lg:text-base leading-relaxed order-3 lg:order-1"
                     >
                         {{ t("solution2.description") }}
                     </p>
@@ -63,7 +63,7 @@
                 <!-- Image placeholder - Desktop right, Mobile middle -->
                 <div class="order-2 flex justify-center">
                     <div
-                        class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
+                        class="w-full lg:max-w-xl h-64 lg:h-80 rounded-4xl overflow-hidden"
                     >
                         <NuxtImg
                             src="/images/solutions/solution2.jpg"
@@ -76,18 +76,18 @@
 
             <!-- Solution 3 -->
             <div
-                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16"
+                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16 lg:mb-28"
             >
                 <!-- Mobile order: title first -->
                 <div class="lg:order-2 order-1">
                     <AppH3 class="mb-4">{{ t("solution3.title") }}</AppH3>
                     <p
-                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold"
+                        class="text-zinc-500 mb-4 text-base lg:text-xl font-semibold"
                     >
                         {{ t("solution3.subtitle") }}
                     </p>
                     <p
-                        class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-2"
+                        class="text-zinc-200 text-sm lg:text-base leading-relaxed order-3 lg:order-2"
                     >
                         {{ t("solution3.description") }}
                     </p>
@@ -98,7 +98,7 @@
                 <!-- Image placeholder - Desktop left, Mobile middle -->
                 <div class="lg:order-1 order-2 flex justify-center">
                     <div
-                        class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
+                        class="w-full lg:max-w-xl h-64 lg:h-80 rounded-4xl overflow-hidden"
                     >
                         <NuxtImg
                             src="/images/solutions/solution3.jpg"
@@ -111,18 +111,18 @@
 
             <!-- Solution 4 -->
             <div
-                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16"
+                class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16 lg:mb-28"
             >
                 <!-- Mobile order: title first -->
                 <div class="order-1">
                     <AppH3 class="mb-4">{{ t("solution4.title") }}</AppH3>
                     <p
-                        class="text-grey-500 mb-4 text-base lg:text-xl font-semibold"
+                        class="text-zinc-500 mb-4 text-base lg:text-xl font-semibold"
                     >
                         {{ t("solution4.subtitle") }}
                     </p>
                     <p
-                        class="text-gray-300 text-sm lg:text-base leading-relaxed order-3 lg:order-1"
+                        class="text-zinc-200 text-sm lg:text-base leading-relaxed order-3 lg:order-1"
                     >
                         {{ t("solution4.description") }}
                     </p>
@@ -133,7 +133,7 @@
                 <!-- Image placeholder - Desktop right, Mobile middle -->
                 <div class="order-2 flex justify-center">
                     <div
-                        class="w-full lg:max-w-md h-64 lg:h-80 rounded-xl overflow-hidden"
+                        class="w-full lg:max-w-xl h-64 lg:h-80 rounded-4xl overflow-hidden"
                     >
                         <NuxtImg
                             src="/images/solutions/solution4.jpg"

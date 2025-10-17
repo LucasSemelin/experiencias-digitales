@@ -33,7 +33,7 @@
                                 v-model="form.name"
                                 type="text"
                                 autocomplete="name"
-                                class="block w-full rounded-xl border border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border border-zinc-700/50 bg-zinc-800/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 :placeholder="t('fullNamePlaceholder')"
                                 required
                             />
@@ -52,7 +52,7 @@
                                 v-model="form.email"
                                 type="email"
                                 autocomplete="email"
-                                class="block w-full rounded-xl border border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border border-zinc-700/50 bg-zinc-800/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 placeholder="example@domain.com"
                                 required
                             />
@@ -71,7 +71,7 @@
                                 v-model="form.company"
                                 type="text"
                                 autocomplete="organization"
-                                class="block w-full rounded-xl border border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border border-zinc-700/50 bg-zinc-800/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 :placeholder="t('companyPlaceholder')"
                             />
                         </div>
@@ -156,7 +156,7 @@
                                 id="message"
                                 v-model="form.message"
                                 rows="6"
-                                class="block w-full rounded-xl border resize-none border-grey-800/50 bg-grey-900/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
+                                class="block w-full rounded-xl border resize-none border-zinc-700/50 bg-zinc-800/30 text-white focus:ring-4 focus:ring-primary focus:outline-none sm:text-sm p-4"
                                 :placeholder="t('messagePlaceholder')"
                                 required
                             ></textarea>

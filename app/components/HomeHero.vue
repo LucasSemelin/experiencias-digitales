@@ -3,12 +3,12 @@
         class="hero-section relative w-full min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
     >
         <!-- Dark overlay for better text readability -->
-        <div class="absolute inset-0 bg-black/30 z-0" />
+        <div class="absolute inset-0 bg-black/40 lg:bg-black/20 z-0" />
 
         <!-- Hero Content -->
-        <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-16">
+        <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-16 mt-32">
             <div
-                class="flex flex-col items-start lg:items-center text-left lg:text-center gap-8"
+                class="flex flex-col items-start lg:items-center text-left lg:text-center gap-2 lg:gap-8"
             >
                 <!-- Main Headline -->
                 <div class="py-2">
@@ -73,7 +73,7 @@ const { t } = useI18n({
 
 /* Responsive background images */
 .hero-section {
-    background-image: url("/images/icons/homehero-mobile.jpg");
+    background-image: url("/images/homehero-mobile.jpg");
 }
 
 @media (min-width: 1024px) {
