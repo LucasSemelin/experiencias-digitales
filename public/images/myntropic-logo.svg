@@ -1,12 +1,11 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="24" cy="24" r="24" fill="url(#paint0_radial_1_240)"/>
-<circle cx="23.9999" cy="24" r="17.7833" fill="#00DC81"/>
-<circle cx="23.9999" cy="24" r="11.8057" fill="#070809"/>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" rx="150" fill="url(#paint0_radial_129_32)"/>
+<circle cx="150.146" cy="149.999" r="111.146" fill="#00DC81"/>
+<circle cx="149.999" cy="150.001" r="73.7858" fill="#09090B"/>
 <defs>
-<radialGradient id="paint0_radial_1_240" cx="0" cy="0" r="1" gradientTransform="matrix(0.37912 40.2385 -40.2385 0.820857 24.3874 0.582113)" gradientUnits="userSpaceOnUse">
-<stop stop-color="#3FB77D"/>
-<stop offset="0.0001" stop-color="#02856A"/>
-<stop offset="1" stop-color="#020617"/>
+<radialGradient id="paint0_radial_129_32" cx="0" cy="0" r="1" gradientTransform="matrix(2.3695 251.491 -251.491 5.13036 152.421 3.63821)" gradientUnits="userSpaceOnUse">
+<stop offset="0.0001" stop-color="#424842"/>
+<stop offset="1" stop-color="#242D33"/>
 </radialGradient>
 </defs>
 </svg>

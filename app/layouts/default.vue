@@ -7,14 +7,14 @@
         <!-- Location & Time Zone -->
         <footer class="py-8 px-4 lg:px-8">
             <div class="max-w-2xl mx-auto text-center">
-                <div class="bg-gray-800 rounded-4xl p-6">
-                    <p class="text-slate-300 text-base font-body">
+                <div class="bg-zinc-900 rounded-4xl p-6">
+                    <p class="text-zinc-300 text-base font-body">
                         {{ t("basedin") }}
                         <span class="text-white font-semibold"
                             >Buenos Aires, Argentina</span
                         >
                     </p>
-                    <p class="text-slate-300 text-base font-body">
+                    <p class="text-zinc-300 text-base font-body">
                         {{ t("workingwith") }}
                     </p>
                     <div class="max-w-2xl mx-auto text-center mt-4">
@@ -23,14 +23,14 @@
                         >
                             <NuxtLink
                                 to="/cookie-policy"
-                                class="text-grey-400 hover:text-primary transition-colors duration-200"
+                                class="text-zinc-400 hover:text-primary transition-colors duration-200"
                             >
                                 {{ t("footer.cookiePolicy") }}
                             </NuxtLink>
-                            <span class="text-grey-600">•</span>
+                            <span class="text-zinc-600">•</span>
                             <NuxtLink
                                 to="/privacy-policy"
-                                class="text-grey-400 hover:text-primary transition-colors duration-200"
+                                class="text-zinc-400 hover:text-primary transition-colors duration-200"
                             >
                                 {{ t("footer.privacyPolicy") }}
                             </NuxtLink>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="mt-4">
-                    <p class="text-xs text-gray-400">
+                    <p class="text-xs text-zinc-400">
                         {{ t("footer.copyright") }}
                     </p>
                 </div>

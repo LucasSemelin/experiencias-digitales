@@ -24,7 +24,7 @@
                         <div>
                             <label
                                 for="name"
-                                class="block text-sm font-medium text-slate-300 mb-2"
+                                class="block text-sm font-medium text-zinc-300 mb-2"
                             >
                                 {{ t("fullNameLabel") }}
                             </label>
@@ -43,7 +43,7 @@
                         <div>
                             <label
                                 for="email"
-                                class="block text-sm font-medium text-slate-300 mb-2"
+                                class="block text-sm font-medium text-zinc-300 mb-2"
                             >
                                 {{ t("emailLabel") }}
                             </label>
@@ -62,7 +62,7 @@
                         <div>
                             <label
                                 for="company"
-                                class="block text-sm font-medium text-slate-300 mb-2"
+                                class="block text-sm font-medium text-zinc-300 mb-2"
                             >
                                 {{ t("companyLabel") }}
                             </label>
@@ -148,7 +148,7 @@
                         <div>
                             <label
                                 for="message"
-                                class="block text-sm font-medium text-slate-300 mb-2"
+                                class="block text-sm font-medium text-zinc-300 mb-2"
                             >
                                 {{ t("messageLabel") }}
                             </label>
@@ -166,7 +166,7 @@
                         <div>
                             <label
                                 for="files"
-                                class="block text-sm font-medium text-slate-300 mb-2"
+                                class="block text-sm font-medium text-zinc-300 mb-2"
                             >
                                 {{ t("fileUploadLabel") }}
                             </label>
@@ -181,13 +181,13 @@
                                 />
                                 <label
                                     for="files"
-                                    class="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-grey-800/50 rounded-xl cursor-pointer bg-grey-900/30 hover:bg-slate-700/50 transition-all duration-300 group"
+                                    class="flex flex-col items-center justify-center w-full h-32 border-2 border-dashed border-zinc-700/50 rounded-xl cursor-pointer bg-zinc-800/30 hover:bg-zinc-800/50 transition-all duration-300 group"
                                 >
                                     <div
                                         class="flex flex-col items-center justify-center pt-5 pb-6"
                                     >
                                         <svg
-                                            class="w-8 h-8 mb-4 text-slate-400 group-hover:text-primary transition-colors"
+                                            class="w-8 h-8 mb-4 text-zinc-400 group-hover:text-primary transition-colors"
                                             aria-hidden="true"
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
@@ -202,7 +202,7 @@
                                             />
                                         </svg>
                                         <p
-                                            class="mb-2 text-sm text-slate-400 group-hover:text-white transition-colors"
+                                            class="mb-2 text-sm text-zinc-400 group-hover:text-white transition-colors"
                                         >
                                             <span class="font-semibold">{{
                                                 t("fileUploadClick")
@@ -210,7 +210,7 @@
                                             {{ t("fileUploadDrag") }}
                                         </p>
                                         <p
-                                            class="text-xs text-slate-500 group-hover:text-slate-400 transition-colors"
+                                            class="text-xs text-zinc-500 group-hover:text-zinc-400 transition-colors"
                                         >
                                             {{ t("fileUploadFormats") }}
                                         </p>
@@ -225,10 +225,10 @@
                                         <div
                                             v-for="(file, index) in form.files"
                                             :key="index"
-                                            class="flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-lg px-3 py-1 text-sm"
+                                            class="flex items-center gap-2 bg-zinc-600/40 border border-zinc-400/50 rounded-lg px-3 py-1 text-sm"
                                         >
                                             <svg
-                                                class="w-4 h-4 text-primary"
+                                                class="w-4 h-4 text-zinc-200"
                                                 fill="currentColor"
                                                 viewBox="0 0 20 20"
                                             >
@@ -245,7 +245,7 @@
                                             <button
                                                 @click="removeFile(index)"
                                                 type="button"
-                                                class="text-primary hover:text-primary transition-colors"
+                                                class="text-zinc-400 hover:text-primary transition-colors"
                                             >
                                                 <svg
                                                     class="w-4 h-4"
@@ -263,7 +263,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="text-xs text-slate-400 mt-2">
+                            <p class="text-xs text-zinc-400 mt-2">
                                 {{ t("fileUploadDescription") }}
                             </p>
                         </div>
@@ -297,7 +297,7 @@
                                 hi@myntropic.studio
                             </span>
                             <button
-                                class="px-4 py-2 text-xs flex items-center gap-2 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors hover:cursor-pointer"
+                                class="px-4 py-2 text-xs flex items-center gap-2 bg-zinc-800 rounded-xl hover:bg-zinc-700 transition-colors hover:cursor-pointer"
                                 @click="copy(email)"
                             >
                                 <NuxtImg
@@ -322,12 +322,12 @@
                             <NuxtLink
                                 to="https://www.linkedin.com/company/myntropic/"
                                 target="_blank"
-                                class="flex items-center gap-3 px-4 py-3 bg-grey-900/30 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
+                                class="flex items-center gap-3 px-4 py-3 bg-zinc-800 rounded-xl hover:bg-zinc-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
                                 <NuxtImg
                                     src="/images/icons/linkedin.svg"
                                     alt="Linkedin Logo"
-                                    class="size-6 group-hover:scale-110 transition-transform duration-300"
+                                    class="size-10 group-hover:scale-110 transition-transform duration-300"
                                 />
                             </NuxtLink>
 
@@ -335,12 +335,12 @@
                             <NuxtLink
                                 to="https://x.com/myntropic"
                                 target="_blank"
-                                class="flex items-center gap-3 px-4 py-3 bg-grey-900/30 rounded-xl hover:bg-slate-700/50 text-primary hover:text-primary transition-all duration-300 group"
+                                class="flex items-center gap-3 px-4 py-3 bg-zinc-800 rounded-xl hover:bg-zinc-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
                                 <NuxtImg
                                     src="/images/icons/x.svg"
                                     alt="Twitter (X) Logo"
-                                    class="size-6 group-hover:scale-110 transition-transform duration-300"
+                                    class="size-8 group-hover:scale-110 transition-transform duration-300"
                                 />
                             </NuxtLink>
                         </div>

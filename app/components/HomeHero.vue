@@ -108,14 +108,14 @@ const { t } = useI18n({
 <i18n lang="yaml">
 es:
     tagline: Consultoría en Ingeniería Evolutiva y Contextual
-    title: Transformamos la forma en que las organizaciones diseñan y evolucionan su software
-    description: Ayudamos a las organizaciones a entender, diseñar y evolucionar sus sistemas digitales para que sean inteligentes, adaptativos y sostenibles. A través de una combinación de ingeniería de software, análisis contextual y diseño impulsado por inteligencia artificial, guiamos a las empresas en la creación de sistemas que aprenden y crecen con el uso real.
+    title: Transformamos la forma en que las organizaciones evolucionan sus sistemas digitales
+    description: Ayudamos a las organizaciones a entender, diseñar y evolucionar sus sistemas digitales para que sean inteligentes, adaptativos y sostenibles.
     mainCTA: Conversemos sobre tu proyecto
     secondaryCTA: o conocé cómo trabajamos
 en:
     tagline: Evolutionary & Contextual Engineering Consulting
-    title: Transforming How Organizations Build and Evolve Software
-    description: We help organizations understand, design, and evolve their digital systems to become intelligent, adaptive, and sustainable. Through a blend of software engineering, context analysis, and AI-driven design, we guide businesses in building systems that learn and grow with real usage.
+    title: We transform how organizations evolve their digital systems
+    description: We help organizations understand, design, and evolve their digital systems to become intelligent, adaptive, and sustainable.
     mainCTA: Let's talk about your project
     secondaryCTA: or see how we work
 </i18n>
