@@ -9,6 +9,7 @@ export default defineNuxtConfig({
         head: {
             charset: "utf-8",
             viewport: "width=device-width, initial-scale=1",
+
             script: [
                 {
                     src: "https://t.contentsquare.net/uxa/4707ddaf46a33.js",
@@ -74,7 +75,7 @@ export default defineNuxtConfig({
                 {
                     name: "twitter:title",
                     content:
-                        "Myntropic Studio | Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow",
+                        "Myntropic Studio | Software & Context Engineering",
                 },
                 {
                     name: "twitter:description",
@@ -109,6 +110,7 @@ export default defineNuxtConfig({
         },
     },
     i18n: {
+        baseUrl: "https://myntropic.studio",
         defaultLocale: "es",
         locales: [
             { code: "es", name: "Español" },
@@ -136,5 +138,9 @@ export default defineNuxtConfig({
     gtag: {
         enabled: process.env.NODE_ENV === "production",
         id: "G-YE8VMK86WG",
+    },
+    site: {
+        url: "https://myntropic.studio",
+        name: "Myntropic Studio",
     },
 });
