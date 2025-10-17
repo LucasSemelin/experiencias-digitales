@@ -40,12 +40,12 @@ export default defineNuxtConfig({
                 {
                     property: "og:title",
                     content:
-                        "Myntropic Studio | Software & Context Engineering",
+                        "Myntropic Studio | Evolutionary & Contextual Engineering Consulting for Intelligent Systems",
                 },
                 {
                     property: "og:description",
                     content:
-                        "Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.",
+                        "We help organizations design and evolve intelligent, adaptive, and sustainable software systems. Through Evolutionary & Contextual Engineering, we combine UX, AI, and software architecture to create systems that learn and grow with your business.",
                 },
                 {
                     property: "og:image",
@@ -75,12 +75,12 @@ export default defineNuxtConfig({
                 {
                     name: "twitter:title",
                     content:
-                        "Myntropic Studio | Software & Context Engineering",
+                        "Myntropic Studio | Evolutionary & Contextual Engineering Consulting for Intelligent Systems",
                 },
                 {
                     name: "twitter:description",
                     content:
-                        "Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.",
+                        "We help organizations design and evolve intelligent, adaptive, and sustainable software systems. Through Evolutionary & Contextual Engineering, we combine UX, AI, and software architecture to create systems that learn and grow with your business.",
                 },
                 {
                     name: "twitter:image",
@@ -90,7 +90,7 @@ export default defineNuxtConfig({
                 {
                     name: "description",
                     content:
-                        "Dejamos de construir software estático. Diseñamos y construimos sistemas vivos donde la combinación de UX, Ingeniería y AI transforma desafíos en crecimiento continuo.",
+                        "We help organizations design and evolve intelligent, adaptive, and sustainable software systems. Through Evolutionary & Contextual Engineering, we combine UX, AI, and software architecture to create systems that learn and grow with your business.",
                 },
                 {
                     name: "keywords",
