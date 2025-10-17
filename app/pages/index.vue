@@ -20,19 +20,16 @@ const { t } = useI18n({
 
 // Dynamic title based on locale
 useHead({
-    title: computed(
-        () =>
-            "Myntropic Studio | Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow"
-    ),
+    title: computed(() => "Myntropic Studio | Software & Context Engineering"),
 });
 </script>
 
 <i18n lang="yaml">
 es:
     seo:
-        title: "Myntropic Studio | Ingeniería de la Evolución: Sistemas Digitales que Aprenden, Colaboran y Crecen"
+        title: "Myntropic Studio | Software & Context Engineering"
 
 en:
     seo:
-        title: "Myntropic Studio | Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow"
+        title: "Myntropic Studio | Software & Context Engineering"
 </i18n>

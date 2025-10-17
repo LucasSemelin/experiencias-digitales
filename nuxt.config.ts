@@ -39,7 +39,7 @@ export default defineNuxtConfig({
                 {
                     property: "og:title",
                     content:
-                        "Myntropic Studio | Engineering Evolution: Digital Systems that Learn, Collaborate, and Grow",
+                        "Myntropic Studio | Software & Context Engineering",
                 },
                 {
                     property: "og:description",
@@ -121,8 +121,14 @@ export default defineNuxtConfig({
             redirectOn: "root",
         },
     },
-    modules: ["@nuxt/eslint", "@nuxt/image", // "nuxt-resend",
-    "@nuxtjs/i18n", "@vueuse/nuxt", "nuxt-gtag", "@nuxtjs/seo"],
+    modules: [
+        "@nuxt/eslint",
+        "@nuxt/image", // "nuxt-resend",
+        "@nuxtjs/i18n",
+        "@vueuse/nuxt",
+        "nuxt-gtag",
+        "@nuxtjs/seo",
+    ],
     vite: {
         plugins: [tailwindcss()],
     },
