@@ -1,7 +1,8 @@
 <template>
     <div class="bg-zinc-950 text-zinc-100">
-        <ServicesHero />
-        <ServicesServices />
+        <SolutionsHero />
+        <SolutionsWhatWeSolve />
+        <SolutionsSolutions />
         <AppTrustedBy />
         <HomeTestimonials />
         <AppContactForm id="contact" />

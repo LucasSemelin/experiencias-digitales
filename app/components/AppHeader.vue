@@ -33,7 +33,7 @@
                         class="flex items-center gap-12 text-sm text-white font-open-sans"
                     >
                         <NuxtLink
-                            href="#solutions"
+                            href="/solutions"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.solutions") }}
@@ -110,7 +110,7 @@
                 >
                     <nav class="flex flex-col space-y-4">
                         <NuxtLink
-                            href="#solutions"
+                            href="/solutions"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
