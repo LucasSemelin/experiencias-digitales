@@ -59,7 +59,7 @@
                     </div>
 
                     <!-- Contact Button -->
-                    <AppButton destination="#contact">{{
+                    <AppButton destination="/contact">{{
                         t("nav.contact")
                     }}</AppButton>
                 </nav>
@@ -138,7 +138,7 @@
                             {{ t("nav.portfolio") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="#contact"
+                            to="/contact"
                             class="bg-primary w-full text-gray-900 px-6 py-3 rounded-lg text-sm font-semibold font-open-sans hover:bg-emerald-300 transition-colors text-center mt-4 self-start"
                             @click="closeMobileMenu"
                         >

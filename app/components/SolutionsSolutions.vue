@@ -213,6 +213,31 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Closing Section -->
+            <div class="text-center mt-16 lg:mt-24">
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl lg:text-3xl font-bold text-white mb-6">
+                        {{ t("closing.title") }}
+                    </h3>
+                    <p
+                        class="text-lg lg:text-xl text-zinc-300 mb-8 leading-relaxed"
+                    >
+                        {{ t("closing.subtitle") }}
+                    </p>
+                    <p
+                        class="text-base lg:text-lg text-zinc-400 mb-8 leading-relaxed"
+                    >
+                        {{ t("closing.description") }}
+                    </p>
+                    <AppButton
+                        :href="t('closing.cta.link')"
+                        class="inline-flex items-center"
+                    >
+                        {{ t("closing.cta.text") }}
+                    </AppButton>
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -221,6 +246,7 @@
 import AppH2 from "./AppH2.vue";
 import AppH3 from "./AppH3.vue";
 import AppSectionSubtitle from "./AppSectionSubtitle.vue";
+import AppButton from "./AppButton.vue";
 
 const { t } = useI18n({ useScope: "local" });
 </script>
@@ -231,66 +257,80 @@ es:
     subtitle: "Convertimos desafíos recurrentes en oportunidades de evolución continua. Cada solución conecta estrategia empresarial, experiencia de usuario y tecnología adaptativa — transformando la complejidad en flujo inteligente."
     solution1:
         title: "De la ineficiencia → a operaciones inteligentes"
-        problem: "Los procesos dependen de personas, no de sistemas. Las tareas se repiten, los errores se acumulan y los equipos pierden tiempo corrigiendo en lugar de mejorar."
-        solution: "Rediseñamos y automatizamos operaciones usando lógica adaptativa, datos contextuales y coordinación inteligente. Cada proceso se vuelve más inteligente, rápido y confiable con cada ciclo."
+        problem: "Los procesos dependen de personas, no de sistemas. Los errores se repiten, las tareas se duplican y se pierde tiempo arreglando lo que no debería romperse."
+        solution: "A través de la Ingeniería de Contexto, mapeamos flujos de trabajo reales y lógica de decisiones. A través de la Ingeniería de Software, los automatizamos y orquestamos con arquitecturas adaptativas. A través del Diseño UX, hacemos el proceso intuitivo para cada usuario."
         outcome: "Menos errores, menos trabajo manual y operaciones que aprenden y se auto-optimizan con el tiempo."
     solution2:
-        title: "De puntos ciegos → a visibilidad total"
-        problem: "La información clave vive en hojas de cálculo, correos electrónicos o herramientas desconectadas. Los líderes no pueden ver lo que realmente está pasando hasta que es demasiado tarde."
-        solution: "Creamos plataformas contextuales que unifican datos, acciones e insights en un solo lugar — haciendo visible el rendimiento y el contexto en tiempo real."
-        outcome: "Visibilidad clara, decisiones confiadas y la capacidad de actuar antes de que los problemas escalen."
+        title: "De puntos ciegos → a visibilidad contextual"
+        problem: "La información está dispersa, los equipos carecen de claridad y las decisiones se toman en la oscuridad."
+        solution: "Con la Ingeniería de Contexto, definimos las métricas y señales que importan. Con la Ingeniería de Software, unificamos sistemas y flujos de datos en una capa contextual. Con el Diseño UX, visualizamos insights — para que todos puedan ver, entender y actuar en tiempo real."
+        outcome: "Visibilidad en tiempo real, decisiones confiadas y control basado en contexto, no en suposiciones."
     solution3:
         title: "De la rigidez → a software adaptativo"
-        problem: "Cada cambio en el negocio se siente como empezar desde cero. El sistema no puede evolucionar sin fricción o costo extra."
-        solution: "Construimos sistemas modulares, escalables y listos para IA que se adaptan dinámicamente a nuevos datos, contextos y comportamiento del usuario."
-        outcome: "Un ecosistema de software vivo que crece con tu negocio en lugar de limitarlo."
+        problem: "La tecnología no puede seguir el ritmo de la evolución empresarial — los sistemas se vuelven obsoletos tan pronto como se lanzan."
+        solution: "Construimos sistemas modulares y escalables usando fundamentos de Ingeniería de Software que soportan el cambio. Incorporamos lógica de Ingeniería de Contexto que les permite adaptarse dinámicamente. Y aplicamos principios de Diseño UX para asegurar flexibilidad sin complejidad."
+        outcome: "Software que evoluciona naturalmente con tu negocio, en lugar de romperse con cada cambio."
     solution4:
-        title: "De la fricción → a experiencias de usuario fluidas"
-        problem: "Los usuarios luchan con interfaces confusas y flujos rotos. La participación cae y los equipos de soporte cargan con la carga."
-        solution: "Diseñamos experiencias centradas en humanos que se alinean con cómo las personas realmente piensan y actúan. La inteligencia guía las interacciones sutilmente, reduciendo la fricción y aumentando la claridad."
-        outcome: "Usuarios más felices, menos errores y una experiencia que se siente sin esfuerzo e intuitiva."
+        title: "De la fricción → a experiencias humanas fluidas"
+        problem: "Los usuarios enfrentan confusión, fricción e ineficiencia en cómo interactúan con los sistemas."
+        solution: "Aplicamos Diseño UX para crear experiencias que se sientan naturales y coherentes. Usamos Ingeniería de Contexto para alinear el comportamiento del sistema con flujos de trabajo humanos reales. E incorporamos Ingeniería de Software que soporta interacción adaptativa y responsiva."
+        outcome: "Usuarios más felices, mayor adopción y productos que se sienten sin esfuerzo e inteligentes."
     solution5:
         title: "De silos → a inteligencia conectada"
-        problem: "Los equipos de diseño, ingeniería y negocio operan por separado, y las iniciativas de IA no se integran con el producto principal."
-        solution: "Conectamos sistemas, datos y personas a través de una arquitectura cognitiva unificada — donde la información y la inteligencia fluyen libremente entre equipos y herramientas."
-        outcome: "Una organización sincronizada donde cada capa — humana y digital — trabaja junta de manera inteligente."
+        problem: "Los equipos y tecnologías no se comunican. Diseño, ingeniería e IA viven en mundos separados."
+        solution: "Arquitecturamos sistemas integrados donde Contexto, Software y UX coexisten bajo un modelo evolutivo único. La información fluye continuamente entre personas y sistemas — creando alineación e inteligencia compartida."
+        outcome: "Visión unificada, colaboración sincronizada y sistemas que aprenden a través de la organización."
     solution6:
-        title: "Del estancamiento → a evolución continua"
-        problem: "Después del lanzamiento, los productos dejan de mejorar. No hay un proceso estructurado para aprender de los usuarios o el contexto."
-        solution: "Implementamos marcos de evolución continua que miden, analizan y refinan productos a lo largo del tiempo — transformando la retroalimentación en mejora adaptativa."
-        outcome: "Un sistema que se auto-mejora y se vuelve más inteligente con cada interacción y ciclo de negocio."
+        title: "De proyectos fallidos → a resultados reales e iterativos"
+        problem: "Has invertido en proveedores y consultores que nunca entregaron. Plazos largos, costos altos, cero resultados."
+        solution: "Trabajamos a través de ciclos cortos y validados: 1. Descubrimiento + Prototipo – Un prototipo funcional en el primer mes. 2. Desarrollo Central – Software funcionando en operación limitada. 3. Despliegue – Sistema de producción completo con entrenamiento y monitoreo. 4. Evolución – Mejoras mensuales continuas y expansión. Ves progreso, usas software real temprano y evolucionas basado en evidencia — no en promesas."
+        outcome: "Resultados funcionando cada mes. Menor riesgo. Mayor confianza. Evolución medible."
+    closing:
+        title: "La Ingeniería de Evolución es cómo hacemos que el software realmente funcione."
+        subtitle: "No se trata de reemplazar tecnología — se trata de diseñar sistemas que aprenden, se adaptan y crecen con tu organización."
+        description: "En Myntropic Studio, construimos la próxima generación de sistemas inteligentes: sistemas que entienden el contexto, conectan personas y tecnología, y evolucionan con propósito."
+        cta:
+            text: "→ Inicia tu Consulta de Evolución"
+            link: "/contact"
 
 en:
     title: "How We Solve Them"
     subtitle: "We turn recurring challenges into opportunities for continuous evolution. Each solution connects business strategy, user experience, and adaptive technology, transforming complexity into intelligent flow."
     solution1:
         title: "From inefficiency → to intelligent operations"
-        problem: "Processes depend on people, not systems. Tasks are repeated, errors pile up, and teams waste time fixing instead of improving."
-        solution: "We redesign and automate operations using adaptive logic, contextual data, and intelligent coordination. Each process becomes smarter, faster, and more reliable with every cycle."
+        problem: "Processes rely on people, not systems. Errors repeat, tasks are duplicated, and time is lost fixing what shouldn't break."
+        solution: "Through Context Engineering, we map real workflows and decision logic. Through Software Engineering, we automate and orchestrate them with adaptive architectures. Through UX Design, we make the process intuitive for every user."
         outcome: "Fewer errors, less manual work, and operations that learn and self-optimize over time."
     solution2:
-        title: "From blind spots → to full visibility"
-        problem: "Key information lives in spreadsheets, emails, or disconnected tools. Leaders can't see what's really happening until it's too late."
-        solution: "We create contextual platforms that unify data, actions, and insights in one place — making performance and context visible in real time."
-        outcome: "Clear visibility, confident decisions, and the ability to act before problems scale."
+        title: "From blind spots → to contextual visibility"
+        problem: "Information is scattered, teams lack clarity, and decisions are made in the dark."
+        solution: "With Context Engineering, we define the metrics and signals that matter. With Software Engineering, we unify systems and data streams into one contextual layer. With UX Design, we visualize insight — so everyone can see, understand, and act in real time."
+        outcome: "Real-time visibility, confident decisions, and control grounded in context, not assumptions."
     solution3:
         title: "From rigidity → to adaptive software"
-        problem: "Every change in the business feels like starting from scratch. The system can't evolve without friction or extra cost."
-        solution: "We build modular, scalable, and AI-ready systems that adapt dynamically to new data, contexts, and user behavior."
-        outcome: "A living software ecosystem that grows with your business instead of holding it back."
+        problem: "Technology can't keep up with business evolution — systems grow outdated as soon as they're launched."
+        solution: "We build modular, scalable systems using Software Engineering foundations that support change. We embed Context Engineering logic that allows them to adapt dynamically. And we apply UX Design principles to ensure flexibility without complexity."
+        outcome: "Software that evolves naturally with your business, instead of breaking with every change."
     solution4:
-        title: "From friction → to fluid user experiences"
-        problem: "Users struggle with confusing interfaces and broken flows. Engagement drops, and support teams carry the burden."
-        solution: "We design human-centered experiences that align with how people actually think and act. Intelligence guides interactions subtly, reducing friction and increasing clarity."
-        outcome: "Happier users, fewer errors, and an experience that feels effortless and intuitive."
+        title: "From friction → to fluid human experiences"
+        problem: "Users face confusion, friction, and inefficiency in how they interact with systems."
+        solution: "We apply UX Design to craft experiences that feel natural and coherent. We use Context Engineering to align the system's behavior with real human workflows. And we embed Software Engineering that supports adaptive, responsive interaction."
+        outcome: "Happier users, higher adoption, and products that feel effortless and intelligent."
     solution5:
         title: "From silos → to connected intelligence"
-        problem: "Design, engineering, and business teams operate separately, and AI initiatives don't integrate with the core product."
-        solution: "We connect systems, data, and people through a unified cognitive architecture — where information and intelligence flow freely between teams and tools."
-        outcome: "A synchronized organization where every layer — human and digital — works together intelligently."
+        problem: "Teams and technologies don't communicate. Design, engineering, and AI live in separate worlds."
+        solution: "We architect integrated systems where Context, Software, and UX coexist under a single evolutionary model. Information flows continuously between people and systems — creating alignment and shared intelligence."
+        outcome: "Unified vision, synchronized collaboration, and systems that learn across the organization."
     solution6:
-        title: "From stagnation → to continuous evolution"
-        problem: "After launch, products stop improving. There's no structured process for learning from users or context."
-        solution: "We implement continuous evolution frameworks that measure, analyze, and refine products over time — transforming feedback into adaptive improvement."
-        outcome: "A self-improving system that grows smarter with every interaction and business cycle."
+        title: "From failed projects → to real, iterative results"
+        problem: "You've invested in vendors and consultants who never delivered. Long timelines, high costs, zero outcomes."
+        solution: "We work through short, validated cycles: 1. Discovery + Prototype – A functional prototype in the first month. 2. Core Development – Working software in limited operation. 3. Rollout – Full production system with training and monitoring. 4. Evolution – Continuous monthly improvements and expansion. You see progress, use real software early, and evolve based on evidence — not promises."
+        outcome: "Working results every month. Lower risk. Higher trust. Measurable evolution."
+    closing:
+        title: "Evolution Engineering is how we make software truly work."
+        subtitle: "It's not about replacing technology — it's about designing systems that learn, adapt, and grow with your organization."
+        description: "At Myntropic Studio, we build the next generation of intelligent systems: systems that understand context, connect people and technology, and evolve with purpose."
+        cta:
+            text: "→ Start your Evolution Consultation"
+            link: "/contact"
 </i18n>

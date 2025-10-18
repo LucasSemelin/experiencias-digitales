@@ -1,16 +1,6 @@
 <template>
     <section id="contact" class="bg-dark py-16 px-4 lg:px-8">
         <div class="max-w-6xl mx-auto">
-            <!-- Title Section -->
-            <div class="mb-12">
-                <AppH2>
-                    {{ t("title") }}
-                </AppH2>
-                <AppSectionSubtitle>
-                    {{ t("subtitle") }}
-                </AppSectionSubtitle>
-            </div>
-
             <!-- Contact Form -->
             <div class="max-w-2xl mx-auto">
                 <div
@@ -354,8 +344,6 @@
 <script setup>
 import { useClipboard } from "@vueuse/core";
 import AppButton from "./AppButton.vue";
-import AppH2 from "./AppH2.vue";
-import AppSectionSubtitle from "./AppSectionSubtitle.vue";
 
 const { t } = useI18n({ useScope: "local" });
 
@@ -430,8 +418,6 @@ const removeFile = (index) => {
 
 <i18n lang="yaml">
 es:
-    title: "Hagamos experiencias inteligentes que potencien a las personas."
-    subtitle: "Cada proyecto es único. Queremos entender tu contexto para diseñar la mejor solución juntos."
     fullNameLabel: "Nombre completo *"
     fullNamePlaceholder: "Tu nombre completo"
     emailLabel: "Correo electrónico *"
@@ -466,8 +452,6 @@ es:
     emailCopied: "¡Copiado!"
 
 en:
-    title: "Let's Build What's Next"
-    subtitle: "Have an idea for a smarter product? Whether you're planning something new or evolving a live platform, we can help you design and build intelligent web software, where AI feels seamless, UX feels intuitive, and engineering stands the test of time."
     fullNameLabel: "Full Name *"
     fullNamePlaceholder: "Your full name"
     emailLabel: "Email *"
