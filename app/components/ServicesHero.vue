@@ -111,11 +111,11 @@ es:
     title: Ingeniería, Diseño e Inteligencia trabajando juntos
     description: Combinamos software, contexto y experiencia para crear sistemas adaptativos que entienden tu negocio, aprenden del uso real y mejoran con el tiempo, sin necesidad de reconstrucciones constantes.
     mainCTA: Explora nuestros servicios
-    secondaryCTA: o habla con nuestro equipo
+    secondaryCTA: o hablemos sobre tu proyecto
 en:
     tagline: Designing for evolution
     title: Engineering, Design, and Intelligence working together
     description: We combine software, context, and experience to create adaptive systems that understand your business, learn from real use, and keep improving over time, without the need for constant rebuilding.
     mainCTA: Explore our services
-    secondaryCTA: or talk to our team
+    secondaryCTA: or let's talk about your project
 </i18n>

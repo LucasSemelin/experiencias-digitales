@@ -231,7 +231,7 @@
                         {{ t("closing.description") }}
                     </p>
                     <AppButton
-                        :href="t('closing.cta.link')"
+                        destination="/contact"
                         class="inline-flex items-center"
                     >
                         {{ t("closing.cta.text") }}
@@ -290,7 +290,7 @@ es:
         subtitle: "No se trata de reemplazar tecnología — se trata de diseñar sistemas que aprenden, se adaptan y crecen con tu organización."
         description: "En Myntropic Studio, construimos la próxima generación de sistemas inteligentes: sistemas que entienden el contexto, conectan personas y tecnología, y evolucionan con propósito."
         cta:
-            text: "→ Inicia tu Consulta de Evolución"
+            text: "Descubrí qué significa la evolución para tu negocio"
             link: "/contact"
 
 en:
@@ -331,6 +331,6 @@ en:
         subtitle: "It's not about replacing technology — it's about designing systems that learn, adapt, and grow with your organization."
         description: "At Myntropic Studio, we build the next generation of intelligent systems: systems that understand context, connect people and technology, and evolve with purpose."
         cta:
-            text: "→ Start your Evolution Consultation"
+            text: "Discover what evolution means for your business"
             link: "/contact"
 </i18n>

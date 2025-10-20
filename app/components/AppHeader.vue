@@ -45,10 +45,10 @@
                             {{ t("nav.services") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="#approach"
+                            to="/about"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            {{ t("nav.approach") }}
+                            {{ t("nav.about") }}
                         </NuxtLink>
                         <NuxtLink
                             to="#portfolio"
@@ -124,11 +124,11 @@
                             {{ t("nav.services") }}
                         </NuxtLink>
                         <NuxtLink
-                            href="#approach"
+                            href="/about"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            {{ t("nav.approach") }}
+                            {{ t("nav.about") }}
                         </NuxtLink>
                         <NuxtLink
                             to="#portfolio"
@@ -156,6 +156,12 @@ const isMobileMenuOpen = ref(false);
 
 const { t } = useI18n({ useScope: "local" });
 
+useHead({
+    title: computed(
+        () => "About Us | Evolutionary & Contextual Software Engineering"
+    ),
+});
+
 function toggleMobileMenu() {
     isMobileMenuOpen.value = !isMobileMenuOpen.value;
 }
@@ -170,7 +176,7 @@ es:
     nav:
         solutions: "Nuestras Soluciones"
         services: "Nuestros Servicios"
-        approach: "Cómo Trabajamos"
+        about: "Sobre Nosotros"
         portfolio: "Casos de Éxito"
         contact: "Contactanos"
 
@@ -178,7 +184,7 @@ en:
     nav:
         solutions: "Our Solutions"
         services: "Our Services"
-        approach: "How We Work"
+        about: "About Us"
         portfolio: "Success Stories"
         contact: "Contact Us"
 </i18n>
