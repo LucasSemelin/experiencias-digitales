@@ -117,7 +117,7 @@
                             {{ t("nav.solutions") }}
                         </NuxtLink>
                         <NuxtLink
-                            href="#use-cases"
+                            href="/services"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
