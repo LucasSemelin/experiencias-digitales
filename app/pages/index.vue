@@ -9,7 +9,7 @@
         <HomeProcess id="approach" />
         <HomeWhoWeWorkFor />
         <HomeWhyUs />
-        <HomePortfolio id="portfolio" />
+        <!-- <HomePortfolio id="portfolio" /> -->
         <HomeTestimonials />
         <!-- <AppContactForm id="contact" /> -->
     </div>
