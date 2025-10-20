@@ -45,16 +45,16 @@
                             {{ t("nav.services") }}
                         </NuxtLink>
                         <NuxtLink
+                            to="/case-studies"
+                            class="hover:text-emerald-400 transition-colors"
+                        >
+                            {{ t("nav.portfolio") }}
+                        </NuxtLink>
+                        <NuxtLink
                             to="/about"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.about") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            to="#portfolio"
-                            class="hover:text-emerald-400 transition-colors"
-                        >
-                            {{ t("nav.portfolio") }}
                         </NuxtLink>
                     </div>
 
@@ -123,19 +123,20 @@
                         >
                             {{ t("nav.services") }}
                         </NuxtLink>
+
+                        <NuxtLink
+                            to="/case-studies"
+                            class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
+                            @click="closeMobileMenu"
+                        >
+                            {{ t("nav.portfolio") }}
+                        </NuxtLink>
                         <NuxtLink
                             href="/about"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
                             {{ t("nav.about") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            to="#portfolio"
-                            class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
-                            @click="closeMobileMenu"
-                        >
-                            {{ t("nav.portfolio") }}
                         </NuxtLink>
                         <NuxtLink
                             to="/contact"
@@ -177,7 +178,7 @@ es:
         solutions: "Nuestras Soluciones"
         services: "Nuestros Servicios"
         about: "Sobre Nosotros"
-        portfolio: "Casos de Éxito"
+        portfolio: "Portfolio"
         contact: "Contactanos"
 
 en:
@@ -185,7 +186,7 @@ en:
         solutions: "Our Solutions"
         services: "Our Services"
         about: "About Us"
-        portfolio: "Success Stories"
+        portfolio: "Case Studies"
         contact: "Contact Us"
 </i18n>
 
