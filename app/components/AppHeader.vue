@@ -33,25 +33,25 @@
                         class="flex items-center gap-12 text-sm text-white font-open-sans"
                     >
                         <NuxtLink
-                            href="/solutions"
+                            href="/solutions/"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.solutions") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="/services"
+                            to="/services/"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.services") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="/case-studies"
+                            to="/case-studies/"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.portfolio") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="/about"
+                            to="/about/"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.about") }}
@@ -59,7 +59,7 @@
                     </div>
 
                     <!-- Contact Button -->
-                    <AppButton destination="/contact">{{
+                    <AppButton destination="/contact/">{{
                         t("nav.contact")
                     }}</AppButton>
                 </nav>
@@ -110,14 +110,14 @@
                 >
                     <nav class="flex flex-col space-y-4">
                         <NuxtLink
-                            href="/solutions"
+                            href="/solutions/"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
                             {{ t("nav.solutions") }}
                         </NuxtLink>
                         <NuxtLink
-                            href="/services"
+                            href="/services/"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
@@ -125,21 +125,21 @@
                         </NuxtLink>
 
                         <NuxtLink
-                            to="/case-studies"
+                            to="/case-studies/"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
                             {{ t("nav.portfolio") }}
                         </NuxtLink>
                         <NuxtLink
-                            href="/about"
+                            href="/about/"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
                             {{ t("nav.about") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="/contact"
+                            to="/contact/"
                             class="bg-primary w-full text-gray-900 px-6 py-3 rounded-lg text-sm font-semibold font-open-sans hover:bg-emerald-300 transition-colors text-center mt-4 self-start"
                             @click="closeMobileMenu"
                         >

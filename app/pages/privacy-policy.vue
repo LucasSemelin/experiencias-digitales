@@ -219,7 +219,7 @@
                         <p class="text-grey-200 leading-relaxed">
                             {{ t("cookies.description") }}
                             <NuxtLink
-                                to="/cookie-policy"
+                                to="/cookie-policy/"
                                 class="text-primary hover:text-white transition-colors duration-200 underline"
                             >
                                 {{ t("cookies.link") }} </NuxtLink

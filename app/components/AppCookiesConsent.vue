@@ -10,7 +10,7 @@
             <p class="text-grey-300 text-sm leading-relaxed">
                 {{ t("content.text") }}
                 <NuxtLink
-                    to="/cookie-policy"
+                    to="/cookie-policy/"
                     class="text-primary hover:text-white transition-colors duration-200 underline"
                 >
                     {{ t("content.link") }} </NuxtLink
