@@ -39,10 +39,10 @@
                             {{ t("nav.solutions") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="#use-cases"
+                            to="/services"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            {{ t("nav.useCases") }}
+                            {{ t("nav.services") }}
                         </NuxtLink>
                         <NuxtLink
                             to="#approach"
@@ -121,7 +121,7 @@
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            {{ t("nav.useCases") }}
+                            {{ t("nav.services") }}
                         </NuxtLink>
                         <NuxtLink
                             href="#approach"
@@ -169,7 +169,7 @@ function closeMobileMenu() {
 es:
     nav:
         solutions: "Nuestras Soluciones"
-        useCases: "Dónde Impactamos"
+        services: "Nuestros Servicios"
         approach: "Cómo Trabajamos"
         portfolio: "Casos de Éxito"
         contact: "Contactanos"
@@ -177,7 +177,7 @@ es:
 en:
     nav:
         solutions: "Our Solutions"
-        useCases: "Where We Impact"
+        services: "Our Services"
         approach: "How We Work"
         portfolio: "Success Stories"
         contact: "Contact Us"

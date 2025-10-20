@@ -5,14 +5,14 @@
         <SolutionsSolutions />
         <AppTrustedBy />
         <HomeTestimonials />
-        <AppContactForm id="contact" />
+        <!-- <AppContactForm id="contact" /> -->
     </div>
 </template>
 
 <script setup lang="ts">
 useHead({
     title: computed(
-        () => "Adaptive & Context-Aware Software Engineering Services"
+        () => "Our Solutions | Evolutionary & Contextual Software Engineering"
     ),
 });
 </script>

@@ -1,9 +1,9 @@
 <template>
     <section
-        class="hero-section relative w-full min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
+        class="hero-section relative w-full min-h-screen flex items-center justify-center bg-cover bg-[25%] lg:bg-center bg-no-repeat overflow-hidden"
     >
         <!-- Dark overlay for better text readability -->
-        <div class="absolute inset-0 bg-black/40 lg:bg-black/20 z-0" />
+        <div class="absolute inset-0 bg-black/50 lg:bg-black/50 z-0" />
 
         <!-- Hero Content -->
         <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-16 mt-32">
@@ -27,7 +27,7 @@
                 <!-- Description -->
                 <div class="py-2">
                     <p
-                        class="font-open-sans text-white text-base lg:text-lg xl:text-xl max-w-4xl leading-relaxed description"
+                        class="font-open-sans text-white text-base lg:text-lg xl:text-2xl max-w-4xl leading-relaxed description"
                     >
                         {{ t("description") }}
                     </p>
@@ -38,7 +38,7 @@
                     class="flex flex-col lg:flex-row gap-6 lg:gap-12 items-start lg:items-center pt-8"
                 >
                     <!-- Primary CTA Button -->
-                    <AppButton destination="#contact">
+                    <AppButton destination="/contact">
                         {{ t("mainCTA") }}
                     </AppButton>
 
@@ -73,7 +73,7 @@ const { t } = useI18n({
 
 /* Responsive background images */
 .hero-section {
-    background-image: url("/images/homehero-mobile.jpg");
+    background-image: url("/images/homehero.jpg");
 }
 
 @media (min-width: 1024px) {
@@ -108,14 +108,14 @@ const { t } = useI18n({
 <i18n lang="yaml">
 es:
     tagline: Consultoría en Ingeniería Evolutiva y Contextual
-    title: Transformamos la forma en que las organizaciones evolucionan sus sistemas digitales
+    title: Diseñamos y Evolucionamos Software que se Adapta a tu Negocio
     description: Ayudamos a las organizaciones a entender, diseñar y evolucionar sus sistemas digitales para que sean inteligentes, adaptativos y sostenibles.
     mainCTA: Conversemos sobre tu proyecto
     secondaryCTA: o conocé cómo trabajamos
 en:
     tagline: Evolutionary & Contextual Engineering Consulting
-    title: We transform how organizations evolve their digital systems
-    description: We help organizations understand, design, and evolve their digital systems to become intelligent, adaptive, and sustainable.
+    title: We Design and Evolve Software That Adapts to Your Business
+    description: We create intelligent systems that learn from context, improve with use, and grow alongside your organization.
     mainCTA: Let's talk about your project
     secondaryCTA: or see how we work
 </i18n>

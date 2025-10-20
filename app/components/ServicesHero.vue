@@ -3,7 +3,7 @@
         class="hero-section relative w-full min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
     >
         <!-- Dark overlay for better text readability -->
-        <div class="absolute inset-0 bg-black/40 lg:bg-black/60 z-0" />
+        <div class="absolute inset-0 bg-gray-950/70 lg:bg-gray-950/80 z-0" />
 
         <!-- Hero Content -->
         <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-16 mt-32">
@@ -12,6 +12,11 @@
             >
                 <!-- Main Headline -->
                 <div class="py-2">
+                    <p
+                        class="text-primary font-semibold pb-2 text-lg lg:text-xl font-open-sans tagline"
+                    >
+                        {{ t("tagline") }}
+                    </p>
                     <h1
                         class="font-title font-normal text-4xl xl:text-5xl text-grey-100 leading-tight max-w-4xl"
                     >
@@ -33,14 +38,14 @@
                     class="flex flex-col lg:flex-row gap-6 lg:gap-12 items-start lg:items-center pt-8"
                 >
                     <!-- Primary CTA Button -->
-                    <AppButton destination="#contact">
+                    <AppButton destination="#services">
                         {{ t("mainCTA") }}
                     </AppButton>
 
                     <!-- Secondary CTA Link -->
                     <NuxtLink
-                        href="#approach"
-                        class="text-grey-100 text-sm underline hover:text-primary transition-colors duration-300 px-4 py-2"
+                        href="/contact"
+                        class="text-grey-100 text-sm underline hover:text-primary transition-colors duration-300 px-4 py-2 capitalize"
                     >
                         {{ t("secondaryCTA") }}
                     </NuxtLink>
@@ -102,13 +107,15 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 es:
-    title: De la consultoría a la evolución continua
-    description: Nuestros servicios están diseñados como un marco evolutivo, un proceso paso a paso que combina estrategia, arquitectura, implementación y mejora continua. Cada fase se construye sobre la anterior, asegurando que el software evolucione de manera coherente a lo largo del tiempo.
-    mainCTA: Conversemos sobre tu proyecto
-    secondaryCTA: o conocé cómo trabajamos
+    tagline: Diseñando para la evolución
+    title: Ingeniería, Diseño e Inteligencia trabajando juntos
+    description: Combinamos software, contexto y experiencia para crear sistemas adaptativos que entienden tu negocio, aprenden del uso real y mejoran con el tiempo, sin necesidad de reconstrucciones constantes.
+    mainCTA: Explora nuestros servicios
+    secondaryCTA: o habla con nuestro equipo
 en:
-    title: From consulting to continuous evolution
-    description: Our services are designed as an evolutionary framework, a step-by-step process that combines strategy, architecture, implementation, and continuous improvement. Each phase builds on the previous one, ensuring that software evolves coherently over time.
-    mainCTA: Let's talk about your project
-    secondaryCTA: or see how we work
+    tagline: Designing for evolution
+    title: Engineering, Design, and Intelligence working together
+    description: We combine software, context, and experience to create adaptive systems that understand your business, learn from real use, and keep improving over time, without the need for constant rebuilding.
+    mainCTA: Explore our services
+    secondaryCTA: or talk to our team
 </i18n>

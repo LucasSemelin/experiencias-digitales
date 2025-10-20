@@ -1,17 +1,19 @@
 <template>
     <div class="bg-zinc-950 text-zinc-100">
         <ServicesHero />
-        <ServicesServices />
+        <ServicesOverview />
+        <ServicesServices id="services" />
+        <ServicesCTA />
         <AppTrustedBy />
         <HomeTestimonials />
-        <AppContactForm id="contact" />
+        <!-- <AppContactForm id="contact" /> -->
     </div>
 </template>
 
 <script setup lang="ts">
 useHead({
     title: computed(
-        () => "Adaptive & Context-Aware Software Engineering Services"
+        () => "Our Services | Evolutionary & Contextual Software Engineering"
     ),
 });
 </script>

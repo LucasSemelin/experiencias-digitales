@@ -33,17 +33,17 @@
                     class="flex flex-col lg:flex-row gap-6 lg:gap-12 items-start lg:items-center pt-8"
                 >
                     <!-- Primary CTA Button -->
-                    <AppButton destination="#contact">
+                    <AppButton destination="/contact">
                         {{ t("mainCTA") }}
                     </AppButton>
 
                     <!-- Secondary CTA Link -->
-                    <NuxtLink
+                    <!-- <NuxtLink
                         href="#approach"
                         class="text-grey-100 text-sm underline hover:text-primary transition-colors duration-300 px-4 py-2"
                     >
                         {{ t("secondaryCTA") }}
-                    </NuxtLink>
+                    </NuxtLink> -->
                 </div>
             </div>
         </div>

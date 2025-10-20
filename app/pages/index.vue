@@ -1,6 +1,8 @@
 <template>
     <div class="bg-zinc-950 text-zinc-100">
         <HomeHero />
+        <!-- Phrase Section -->
+        <HomePhrase />
         <AppTrustedBy />
         <HomeSolutions id="solutions" />
         <HomeUseCases id="use-cases" />
@@ -9,15 +11,11 @@
         <HomeWhyUs />
         <HomePortfolio id="portfolio" />
         <HomeTestimonials />
-        <AppContactForm id="contact" />
+        <!-- <AppContactForm id="contact" /> -->
     </div>
 </template>
 
 <script setup>
-const { t } = useI18n({
-    useScope: "local",
-});
-
 // Dynamic title based on locale
 useHead({
     title: computed(

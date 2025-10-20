@@ -171,8 +171,8 @@ useHead({
 <i18n lang="yaml">
 es:
     meta:
-        title: "Contacto - Myntropic Studio"
-        description: "¿Listo para llevar tu producto al próximo nivel? Conversemos sobre tu proyecto y cómo podemos ayudarte a crear software inteligente y experiencias excepcionales."
+        title: "Contactanos — Expertos en Ingeniería de Software y Contexto Evolutiva"
+        description: "Conectá con Myntropic Studio para conversar sobre cómo podemos ayudar a tu organización a diseñar, construir y evolucionar sistemas inteligentes. Creamos software adaptativo que entiende su contexto y crece junto a tu negocio."
     hero:
         tagline: "¿Tenés un proyecto en mente?"
         title: "Hablemos de tu próximo proyecto"
@@ -187,8 +187,8 @@ es:
 
 en:
     meta:
-        title: "Contact - Myntropic Studio"
-        description: "Ready to take your product to the next level? Let's talk about your project and how we can help you build intelligent software and exceptional experiences."
+        title: "Get in Touch — Evolutionary Software & Context Engineering Experts"
+        description: "Connect with Myntropic Studio to discuss how we can help your organization design, build, and evolve intelligent systems. Let’s shape adaptive software that understands context and grows with your business."
     hero:
         tagline: "Got a project in mind?"
         title: "Let's talk about your next project"
