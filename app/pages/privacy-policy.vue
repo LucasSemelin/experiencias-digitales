@@ -227,7 +227,7 @@
                         </p>
                     </section>
 
-                    <!-- Section 5: Data retention -->
+                    <!-- Section 5: Data retentionn -->
                     <section>
                         <h2
                             class="font-title text-2xl lg:text-3xl text-white mb-6"
