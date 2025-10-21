@@ -2,7 +2,7 @@
     <div class="bg-zinc-950 text-zinc-100">
         <ServicesHero />
         <ServicesOverview />
-        <ServicesServices id="services" />
+        <ServicesServices id="services/" />
         <ServicesCTA />
         <AppTrustedBy />
         <HomeTestimonials />
