@@ -48,7 +48,7 @@
 
                         <!-- Secondary CTA Link -->
                         <NuxtLink
-                            href="/contact/"
+                            href="/contact"
                             class="text-grey-100 text-sm underline hover:text-primary transition-colors duration-300 px-4 py-2"
                         >
                             {{ t("hero.secondaryCTA") }}
@@ -311,7 +311,7 @@
 
                             <!-- Secondary CTA -->
                             <NuxtLink
-                                to="/services/"
+                                to="/services"
                                 class="inline-flex items-center text-zinc-300 text-sm lg:text-base hover:text-primary transition-colors duration-300 group"
                             >
                                 {{ t("cta.secondary") }}

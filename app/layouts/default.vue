@@ -22,14 +22,14 @@
                             class="flex justify-center items-center gap-6 text-sm"
                         >
                             <NuxtLink
-                                to="/cookie-policy/"
+                                to="/cookie-policy"
                                 class="text-zinc-400 hover:text-primary transition-colors duration-200"
                             >
                                 {{ t("footer.cookiePolicy") }}
                             </NuxtLink>
                             <span class="text-zinc-600">•</span>
                             <NuxtLink
-                                to="/privacy-policy/"
+                                to="/privacy-policy"
                                 class="text-zinc-400 hover:text-primary transition-colors duration-200"
                             >
                                 {{ t("footer.privacyPolicy") }}

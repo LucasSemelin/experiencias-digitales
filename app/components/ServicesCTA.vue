@@ -50,7 +50,7 @@
 
                         <!-- Secondary CTA -->
                         <NuxtLink
-                            to="/contact/"
+                            to="/contact"
                             class="inline-flex items-center text-zinc-300 text-sm lg:text-base hover:text-primary transition-colors duration-300 group"
                         >
                             {{ t("cta.secondary") }}
