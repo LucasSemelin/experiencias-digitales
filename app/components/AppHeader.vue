@@ -59,7 +59,7 @@
                     </div>
 
                     <!-- Contact Button -->
-                    <AppButton destination="/contact/">{{
+                    <AppButton destination="/contact">{{
                         t("nav.contact")
                     }}</AppButton>
                 </nav>
