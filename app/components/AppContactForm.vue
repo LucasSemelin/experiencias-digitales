@@ -280,7 +280,7 @@
                 <div class="max-w-2xl mx-auto text-center">
                     <div class="space-y-6">
                         <!-- Email -->
-                        <div
+                        <!-- <div
                             class="flex flex-col sm:flex-row items-center justify-center gap-4"
                         >
                             <span class="text-xl text-white font-body">
@@ -304,7 +304,7 @@
                                     t("emailCopy")
                                 }}</span>
                             </button>
-                        </div>
+                        </div> -->
 
                         <!-- Social Links -->
                         <div class="flex justify-center gap-6">
