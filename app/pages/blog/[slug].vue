@@ -7,9 +7,9 @@
             :style="`background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('${post.meta.image}')`"
         ></div>
         <!-- Contenedor del post superpuesto -->
-        <div class="relative z-20 max-w-4xl mx-auto px-4 lg:px-8 -mt-24">
+        <div class="relative z-20 max-w-4xl mx-auto px-4 lg:px-8 -mt-64">
             <div
-                class="bg-zinc-950/70 backdrop-blur-sm rounded-2xl shadow-2xl px-6 py-8"
+                class="md:bg-zinc-950/70 md:backdrop-blur-sm rounded-2xl shadow-2xl px-6 py-8"
             >
                 <h1
                     class="font-title text-2xl lg:text-3xl xl:text-4xl text-zinc-100 text-left lg:text-center leading-normal pt-4 mb-8"
@@ -21,29 +21,10 @@
                     <!-- Article Header -->
                     <header class="mb-16">
                         <!-- Back to Blog Link -->
-                        <NuxtLink
-                            to="/blog"
-                            class="inline-flex items-center gap-2 text-zinc-400 hover:text-primary transition-colors duration-300 mb-8 group"
-                        >
-                            <svg
-                                class="w-4 h-4 transition-transform duration-300 group-hover:-translate-x-1"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M15 19l-7-7 7-7"
-                                />
-                            </svg>
-                            Volver al Blog
-                        </NuxtLink>
 
                         <!-- Article Meta -->
                         <div
-                            class="flex flex-wrap items-center gap-6 text-zinc-400"
+                            class="flex flex-wrap items-center gap-6 text-xs lg:text-sm text-zinc-400"
                         >
                             <!-- Date -->
                             <div
@@ -267,12 +248,6 @@
                         <p class="text-zinc-400 text-lg mb-8">
                             El artículo que buscas no existe o ha sido movido.
                         </p>
-                        <NuxtLink
-                            to="/blog"
-                            class="inline-flex items-center gap-2 bg-primary text-background px-6 py-3 rounded-lg font-semibold hover:bg-gradient-to-r hover:from-gradient-from hover:via-gradient-via hover:to-gradient-to transition-all duration-300"
-                        >
-                            Volver al Blog
-                        </NuxtLink>
                     </div>
                 </div>
             </div>
