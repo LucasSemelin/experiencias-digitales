@@ -1,25 +1,29 @@
 <template>
-    <div class="min-h-screen bg-background">
+    <div class="min-h-screen bg-zinc-950">
         <!-- Header Spacer -->
-        <div class="h-32"></div>
+        <div class="h-32" />
 
         <!-- Blog Container -->
-        <div class="max-w-7xl mx-auto px-4 lg:px-8 py-16">
+        <div class="max-w-7xl mx-auto px-4 lg:px-8">
             <!-- Blog Header -->
-            <header class="text-center mb-16">
+            <!-- <header class="text-center mb-16">
                 <h1
                     class="font-title text-4xl lg:text-5xl xl:text-6xl text-grey-100 leading-tight mb-6"
                 >
-                    Blog de Myntropic
+                    {{
+                        locale === "en" ? "Myntropic Blog" : "Blog de Myntropic"
+                    }}
                 </h1>
                 <p
                     class="text-grey-300 text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto"
                 >
-                    Descubre las últimas tendencias en transformación digital,
-                    innovación tecnológica y estrategias empresariales que están
-                    dando forma al futuro.
+                    {{
+                        locale === "en"
+                            ? "Discover the latest trends in digital transformation, technology innovation, and business strategies shaping the future."
+                            : "Descubre las últimas tendencias en transformación digital, innovación tecnológica y estrategias empresariales que están dando forma al futuro."
+                    }}
                 </p>
-            </header>
+            </header> -->
 
             <!-- Blog Posts Grid -->
             <div
@@ -29,15 +33,15 @@
                 <article
                     v-for="post in posts"
                     :key="post._path"
-                    class="bg-grey-900 rounded-lg overflow-hidden hover:bg-grey-800 transition-all duration-300 group border border-grey-800 hover:border-grey-700"
+                    class="bg-zinc-900 rounded-3xl overflow-hidden hover:bg-zinc-900/50 transition-all duration-300 group border cursor-pointer"
                 >
                     <!-- Featured Image -->
                     <div
-                        v-if="(post as any).image"
+                        v-if="post.meta.image"
                         class="aspect-video overflow-hidden"
                     >
                         <img
-                            :src="(post as any).image"
+                            :src="post.meta.image"
                             :alt="post.title"
                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />
@@ -66,11 +70,11 @@
                     <div class="p-6">
                         <!-- Post Meta -->
                         <div
-                            class="flex items-center gap-4 text-sm text-grey-400 mb-3"
+                            class="flex items-center gap-4 text-sm text-zinc-400 mb-3"
                         >
                             <!-- Date -->
                             <div
-                                v-if="(post as any).date"
+                                v-if="post.meta.date"
                                 class="flex items-center gap-1"
                             >
                                 <svg
@@ -86,14 +90,14 @@
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                                     />
                                 </svg>
-                                <time :datetime="(post as any).date">
-                                    {{ formatDate((post as any).date) }}
+                                <time :datetime="post.meta.date">
+                                    {{ formatDate(post.meta.date) }}
                                 </time>
                             </div>
 
                             <!-- Reading Time -->
                             <div
-                                v-if="(post as any).readingTime"
+                                v-if="post.meta.readingTime"
                                 class="flex items-center gap-1"
                             >
                                 <svg
@@ -109,53 +113,54 @@
                                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                                     />
                                 </svg>
-                                <span>{{ (post as any).readingTime }} min</span>
+                                <span
+                                    >{{ post.meta.readingTime }}
+                                    {{ t("reading_time") }}</span
+                                >
                             </div>
                         </div>
 
                         <!-- Post Title -->
                         <h2
-                            class="font-title text-xl lg:text-2xl text-grey-100 mb-3 leading-tight group-hover:text-primary transition-colors duration-300"
+                            class="font-title text-xl lg:text-2xl text-grey-100 mb-3 leading-tight"
                         >
                             {{ post.title }}
                         </h2>
 
                         <!-- Post Excerpt -->
                         <p
-                            v-if="(post as any).excerpt"
-                            class="text-grey-300 leading-relaxed mb-4 line-clamp-3"
+                            v-if="post.description"
+                            class="text-zinc-400 leading-relaxed mb-4 line-clamp-3 text-sm"
                         >
-                            {{ (post as any).excerpt }}
+                            {{ post.description }}
                         </p>
 
                         <!-- Tags -->
                         <div
-                            v-if="
-                                (post as any).tags && (post as any).tags.length
-                            "
+                            v-if="post.meta.tags && post.meta.tags.length"
                             class="flex flex-wrap gap-2 mb-4"
                         >
                             <span
-                                v-for="tag in (post as any).tags.slice(0, 3)"
+                                v-for="tag in post.meta.tags.slice(0, 3)"
                                 :key="tag"
-                                class="px-2 py-1 bg-grey-800 text-grey-400 text-xs rounded-full"
+                                class="px-2 py-1 bg-zinc-800 text-zinc-400 text-xs rounded-full"
                             >
                                 #{{ tag }}
                             </span>
                             <span
-                                v-if="(post as any).tags.length > 3"
-                                class="px-2 py-1 bg-grey-800 text-grey-400 text-xs rounded-full"
+                                v-if="post.meta.tags.length > 3"
+                                class="px-2 py-1 bg-zinc-800 text-zinc-400 text-xs rounded-full"
                             >
-                                +{{ (post as any).tags.length - 3 }}
+                                +{{ post.meta.tags.length - 3 }}
                             </span>
                         </div>
 
                         <!-- Read More Link -->
-                        <NuxtLink
+                        <!-- <NuxtLink
                             :to="post._path"
                             class="inline-flex items-center gap-2 text-primary hover:text-gradient-via transition-colors duration-300 font-semibold group"
                         >
-                            Leer más
+                            {{ locale === "en" ? "Read more" : "Leer más" }}
                             <svg
                                 class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
                                 fill="none"
@@ -169,7 +174,7 @@
                                     d="M9 5l7 7-7 7"
                                 />
                             </svg>
-                        </NuxtLink>
+                        </NuxtLink> -->
                     </div>
                 </article>
             </div>
@@ -190,45 +195,75 @@
                     />
                 </svg>
                 <h2 class="font-title text-2xl lg:text-3xl text-grey-100 mb-4">
-                    Próximamente
+                    {{ locale === "en" ? "Coming soon" : "Próximamente" }}
                 </h2>
                 <p class="text-grey-400 text-lg mb-8">
-                    Estamos trabajando en contenido increíble para ti. ¡Mantente
-                    atento!
+                    {{
+                        locale === "en"
+                            ? "We are working on amazing content for you. Stay tuned!"
+                            : "Estamos trabajando en contenido increíble para ti. ¡Mantente atento!"
+                    }}
                 </p>
-                <NuxtLink
-                    to="/contact"
-                    class="inline-flex items-center gap-2 bg-primary text-background px-6 py-3 rounded-lg font-semibold hover:bg-gradient-to-r hover:from-gradient-from hover:via-gradient-via hover:to-gradient-to transition-all duration-300"
-                >
-                    Contáctanos
-                </NuxtLink>
+                <AppButton destination="/contact" class="mx-auto">
+                    {{ locale === "en" ? "Contact us" : "Contactanos" }}
+                </AppButton>
             </div>
+
+            <!-- Debugging Output for Nuxt Content -->
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-// Fetch all blog posts
-const { data: posts } = await useAsyncData("blog-posts", () => {
-    return queryCollection("blog").sort({ date: -1 }).find();
+import { useI18n } from "vue-i18n";
+import { ref, onMounted } from "vue";
+const { t, locale } = useI18n();
+
+const debugContent = ref(null);
+
+onMounted(() => {
+    if (posts.value) debugContent.value = posts.value;
 });
 
-// Set page meta
+// Fetch all blog posts según idioma
+const { data: posts } = await useAsyncData(
+    `blog-posts-${locale.value}`,
+    async () => {
+        const collection = ("content_" + locale.value) as keyof Collections;
+        // Usar .all() para obtener todos los posts
+        const all = await queryCollection(collection).all();
+        // Asignar el array crudo para depuración
+        return all;
+    },
+    { watch: [locale] }
+);
+
+// Set page meta adaptado a idioma
 useSeoMeta({
-    title: "Blog - Myntropic | Transformación Digital e Innovación",
+    title:
+        locale.value === "en"
+            ? "Blog - Myntropic | Digital Transformation & Innovation"
+            : "Blog - Myntropic | Transformación Digital e Innovación",
     description:
-        "Descubre las últimas tendencias en transformación digital, innovación tecnológica y estrategias empresariales en el blog de Myntropic.",
-    ogTitle: "Blog - Myntropic | Transformación Digital e Innovación",
+        locale.value === "en"
+            ? "Discover the latest trends in digital transformation, technology innovation, and business strategies on the Myntropic blog."
+            : "Descubre las últimas tendencias en transformación digital, innovación tecnológica y estrategias empresariales en el blog de Myntropic.",
+    ogTitle:
+        locale.value === "en"
+            ? "Blog - Myntropic | Digital Transformation & Innovation"
+            : "Blog - Myntropic | Transformación Digital e Innovación",
     ogDescription:
-        "Descubre las últimas tendencias en transformación digital, innovación tecnológica y estrategias empresariales en el blog de Myntropic.",
+        locale.value === "en"
+            ? "Discover the latest trends in digital transformation, technology innovation, and business strategies on the Myntropic blog."
+            : "Descubre las últimas tendencias en transformación digital, innovación tecnológica y estrategias empresariales en el blog de Myntropic.",
     ogImage: "/images/og-blog.jpg",
     twitterCard: "summary_large_image",
 });
 
-// Format date function
+// Format date function multilenguaje
 const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString("es-ES", {
+    return date.toLocaleDateString(locale.value === "en" ? "en-US" : "es-ES", {
         year: "numeric",
         month: "short",
         day: "numeric",
@@ -242,5 +277,13 @@ const formatDate = (dateString: string) => {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    line-clamp: 3;
 }
 </style>
+
+<i18n lang="yaml">
+es:
+    reading_time: min de lectura
+en:
+    reading_time: min read
+</i18n>

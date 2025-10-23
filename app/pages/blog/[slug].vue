@@ -264,25 +264,44 @@ const route = useRoute();
 const slug = route.params.slug as string;
 
 // Fetch the blog post
-const { data: post } = await useAsyncData(`blog-${slug}`, () => {
-    const collection = ("content_" + locale.value) as keyof Collections;
-    return queryCollection(collection).path(`/blog/${slug}`).first();
-});
+const { data: post } = await useAsyncData(
+    `blog-${slug}-${locale.value}`,
+    async () => {
+        const collection = ("content_" + locale.value) as keyof Collections;
+        let content = await queryCollection(collection)
+            .path(`/blog/${slug}`)
+            .first();
+        // Fallback a inglés si no existe en el idioma actual
+        if (!content && locale.value !== "en") {
+            content = await queryCollection("content_en")
+                .path(`/blog/${slug}`)
+                .first();
+        }
+        return content;
+    },
+    { watch: [locale] }
+);
 
-// Set page meta
-useSeoMeta({
-    title: post.value?.title || "Artículo no encontrado",
-    description:
-        (post.value as any)?.excerpt ||
-        (post.value as any)?.description ||
-        "Blog de Myntropic",
-    ogTitle: post.value?.title || "Artículo no encontrado",
-    ogDescription:
-        (post.value as any)?.excerpt ||
-        (post.value as any)?.description ||
-        "Blog de Myntropic",
-    ogImage: (post.value as any)?.image || "/images/og-default.jpg",
-    twitterCard: "summary_large_image",
+// SEO dinámico multilenguaje
+watchEffect(() => {
+    if (!post.value) return;
+    useSeoMeta({
+        title: post.value.seo.title || t("not_found_title"),
+        description:
+            post.value.excerpt ||
+            post.value.seo.description ||
+            "Blog de Myntropic",
+        ogTitle: post.value.seo.title || t("not_found_title"),
+        ogDescription:
+            post.value.excerpt ||
+            post.value.seo.description ||
+            "Blog de Myntropic",
+        ogImage: post.value.meta.image || "/images/og-default.jpg",
+        twitterCard: "summary_large_image",
+        // SEO multilenguaje
+        language: locale.value,
+        ogLocale: locale.value === "en" ? "en_US" : "es_ES",
+    });
 });
 
 // Get current URL for sharing
