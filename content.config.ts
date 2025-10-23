@@ -1,10 +1,26 @@
 import { defineContentConfig, defineCollection } from "@nuxt/content";
 
+const commonSchema = undefined; // Puedes definir un schema común si lo necesitas
+
 export default defineContentConfig({
     collections: {
-        blog: defineCollection({
+        // Español
+        content_es: defineCollection({
             type: "page",
-            source: "blog/*.md",
+            source: {
+                include: "es/**",
+                prefix: "",
+            },
+            schema: commonSchema,
+        }),
+        // Inglés
+        content_en: defineCollection({
+            type: "page",
+            source: {
+                include: "en/**",
+                prefix: "",
+            },
+            schema: commonSchema,
         }),
     },
 });

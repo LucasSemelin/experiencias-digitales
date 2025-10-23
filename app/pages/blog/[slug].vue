@@ -257,6 +257,7 @@
 
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
+import type { Collections } from "@nuxt/content";
 const { t, locale } = useI18n({ useScope: "local" });
 
 const route = useRoute();
@@ -264,7 +265,8 @@ const slug = route.params.slug as string;
 
 // Fetch the blog post
 const { data: post } = await useAsyncData(`blog-${slug}`, () => {
-    return queryCollection("blog").path(`/blog/${slug}`).first();
+    const collection = ("content_" + locale.value) as keyof Collections;
+    return queryCollection(collection).path(`/blog/${slug}`).first();
 });
 
 // Set page meta
