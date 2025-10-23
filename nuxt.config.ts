@@ -130,6 +130,7 @@ export default defineNuxtConfig({
         "@vueuse/nuxt",
         "nuxt-gtag",
         "@nuxtjs/seo",
+        "@nuxt/content",
     ],
     vite: {
         plugins: [tailwindcss()],
