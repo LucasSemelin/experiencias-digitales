@@ -12,7 +12,7 @@
                 class="md:bg-zinc-950/70 md:backdrop-blur-sm rounded-2xl shadow-2xl px-6 py-8"
             >
                 <h1
-                    class="font-title text-2xl lg:text-3xl xl:text-4xl text-zinc-100 text-left lg:text-center leading-normal pt-4 mb-8"
+                    class="font-title text-lg lg:text-xl xl:text-2xl text-zinc-100 text-left lg:text-center leading-normal pt-4 mb-14"
                 >
                     {{ post.meta.title }}
                 </h1>
@@ -88,10 +88,10 @@
                                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                                     />
                                 </svg>
-                                <span
-                                    >{{ (post as any).meta.readingTime }} min
-                                    lectura</span
-                                >
+                                <span>
+                                    {{ (post as any).meta.readingTime }}
+                                    {{ t("reading_time") }}
+                                </span>
                             </div>
                         </div>
 
@@ -135,9 +135,9 @@
                             class="flex items-center justify-between flex-wrap gap-4"
                         >
                             <div class="flex items-center gap-4">
-                                <span class="text-zinc-400 font-semibold"
-                                    >Compartir:</span
-                                >
+                                <span class="text-zinc-400 font-semibold">{{
+                                    t("share")
+                                }}</span>
                                 <div class="flex gap-2">
                                     <!-- Twitter Share -->
                                     <a
@@ -203,7 +203,7 @@
                                 @click="scrollToTop"
                                 class="flex items-center gap-2 text-zinc-400 hover:text-primary transition-colors duration-300 group"
                             >
-                                <span>Volver arriba</span>
+                                <span>{{ t("back_to_top") }}</span>
                                 <svg
                                     class="w-4 h-4 transition-transform duration-300 group-hover:-translate-y-1"
                                     fill="none"
@@ -243,10 +243,10 @@
                         <h1
                             class="font-title text-3xl lg:text-4xl text-zinc-100 mb-4"
                         >
-                            Artículo no encontrado
+                            {{ t("not_found_title") }}
                         </h1>
                         <p class="text-zinc-400 text-lg mb-8">
-                            El artículo que buscas no existe o ha sido movido.
+                            {{ t("not_found_desc") }}
                         </p>
                     </div>
                 </div>
@@ -256,6 +256,9 @@
 </template>
 
 <script setup lang="ts">
+import { useI18n } from "vue-i18n";
+const { t, locale } = useI18n({ useScope: "local" });
+
 const route = useRoute();
 const slug = route.params.slug as string;
 
@@ -291,7 +294,8 @@ const currentUrl = computed(() => {
 // Format date function
 const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString("es-ES", {
+    // Usa el locale actual para el formato de fecha
+    return date.toLocaleDateString(locale.value === "en" ? "en-US" : "es-ES", {
         year: "numeric",
         month: "long",
         day: "numeric",
@@ -339,7 +343,7 @@ const scrollToTop = () => {
 }
 
 .prose h1 {
-    @apply text-4xl lg:text-5xl xl:text-6xl mb-6 mt-8;
+    @apply text-4xl lg:text-5xl xl:text-5xl mb-6 pb-6 mt-8;
 }
 
 .prose h2 {
@@ -536,3 +540,20 @@ const scrollToTop = () => {
     background-color: var(--page-bg) !important;
 }
 </style>
+
+<i18n lang="yaml">
+es:
+    share: "Compartir:"
+    copy_link: "Copiar enlace"
+    back_to_top: "Volver arriba"
+    not_found_title: "Artículo no encontrado"
+    not_found_desc: "El artículo que buscas no existe o ha sido movido."
+    reading_time: "min lectura"
+en:
+    share: "Share:"
+    copy_link: "Copy link"
+    back_to_top: "Back to top"
+    not_found_title: "Article not found"
+    not_found_desc: "The article you are looking for does not exist or has been moved."
+    reading_time: "min read"
+</i18n>
