@@ -30,139 +30,33 @@
                 v-if="posts && posts.length"
                 class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
             >
-                <article
+                <NuxtLink
                     v-for="post in posts"
-                    :key="post._path"
-                    class="bg-zinc-900 rounded-3xl overflow-hidden hover:bg-zinc-900/50 transition-all duration-300 group border cursor-pointer"
+                    :key="post.path"
+                    :to="post.path"
+                    class="bg-zinc-900 rounded-3xl overflow-hidden hover:bg-zinc-900/50 transition-all duration-300 group flex flex-col no-underline focus:outline-none focus:ring-2 focus:ring-primary"
+                    tabindex="0"
                 >
-                    <!-- Featured Image -->
-                    <div
-                        v-if="post.meta.image"
-                        class="aspect-video overflow-hidden"
-                    >
-                        <img
-                            :src="post.meta.image"
-                            :alt="post.title"
-                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
-                    </div>
-
-                    <!-- Placeholder for posts without image -->
-                    <div
-                        v-else
-                        class="aspect-video bg-gradient-to-br from-primary/20 to-gradient-via/20 flex items-center justify-center"
-                    >
-                        <svg
-                            class="w-16 h-16 text-primary/50"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
+                    <article class="flex flex-col h-full">
+                        <!-- Featured Image -->
+                        <div
+                            v-if="post.meta.image"
+                            class="aspect-video overflow-hidden"
                         >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
+                            <img
+                                :src="post.meta.image"
+                                :alt="post.title"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                             />
-                        </svg>
-                    </div>
-
-                    <div class="p-6">
-                        <!-- Post Meta -->
-                        <div
-                            class="flex items-center gap-4 text-sm text-zinc-400 mb-3"
-                        >
-                            <!-- Date -->
-                            <div
-                                v-if="post.meta.date"
-                                class="flex items-center gap-1"
-                            >
-                                <svg
-                                    class="w-4 h-4"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                                    />
-                                </svg>
-                                <time :datetime="post.meta.date">
-                                    {{ formatDate(post.meta.date) }}
-                                </time>
-                            </div>
-
-                            <!-- Reading Time -->
-                            <div
-                                v-if="post.meta.readingTime"
-                                class="flex items-center gap-1"
-                            >
-                                <svg
-                                    class="w-4 h-4"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                                    />
-                                </svg>
-                                <span
-                                    >{{ post.meta.readingTime }}
-                                    {{ t("reading_time") }}</span
-                                >
-                            </div>
                         </div>
 
-                        <!-- Post Title -->
-                        <h2
-                            class="font-title text-xl lg:text-2xl text-grey-100 mb-3 leading-tight"
-                        >
-                            {{ post.title }}
-                        </h2>
-
-                        <!-- Post Excerpt -->
-                        <p
-                            v-if="post.description"
-                            class="text-zinc-400 leading-relaxed mb-4 line-clamp-3 text-sm"
-                        >
-                            {{ post.description }}
-                        </p>
-
-                        <!-- Tags -->
+                        <!-- Placeholder for posts without image -->
                         <div
-                            v-if="post.meta.tags && post.meta.tags.length"
-                            class="flex flex-wrap gap-2 mb-4"
+                            v-else
+                            class="aspect-video bg-gradient-to-br from-primary/20 to-gradient-via/20 flex items-center justify-center"
                         >
-                            <span
-                                v-for="tag in post.meta.tags.slice(0, 3)"
-                                :key="tag"
-                                class="px-2 py-1 bg-zinc-800 text-zinc-400 text-xs rounded-full"
-                            >
-                                #{{ tag }}
-                            </span>
-                            <span
-                                v-if="post.meta.tags.length > 3"
-                                class="px-2 py-1 bg-zinc-800 text-zinc-400 text-xs rounded-full"
-                            >
-                                +{{ post.meta.tags.length - 3 }}
-                            </span>
-                        </div>
-
-                        <!-- Read More Link -->
-                        <!-- <NuxtLink
-                            :to="post._path"
-                            class="inline-flex items-center gap-2 text-primary hover:text-gradient-via transition-colors duration-300 font-semibold group"
-                        >
-                            {{ locale === "en" ? "Read more" : "Leer más" }}
                             <svg
-                                class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+                                class="w-16 h-16 text-primary/50"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
@@ -171,12 +65,101 @@
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M9 5l7 7-7 7"
+                                    d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
                                 />
                             </svg>
-                        </NuxtLink> -->
-                    </div>
-                </article>
+                        </div>
+
+                        <div class="p-6 flex-1 flex flex-col">
+                            <!-- Post Meta -->
+                            <div
+                                class="flex items-center gap-4 text-sm text-grey-400 mb-3"
+                            >
+                                <!-- Date -->
+                                <div
+                                    v-if="post.meta.date"
+                                    class="flex items-center gap-1"
+                                >
+                                    <svg
+                                        class="w-4 h-4"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                                        />
+                                    </svg>
+                                    <time :datetime="post.meta.date">
+                                        {{ formatDate(post.meta.date) }}
+                                    </time>
+                                </div>
+
+                                <!-- Reading Time -->
+                                <div
+                                    v-if="post.meta.readingTime"
+                                    class="flex items-center gap-1"
+                                >
+                                    <svg
+                                        class="w-4 h-4"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        />
+                                    </svg>
+                                    <span
+                                        >{{ post.meta.readingTime }}
+                                        {{ t("reading_time") }}</span
+                                    >
+                                </div>
+                            </div>
+
+                            <!-- Post Title -->
+                            <h2
+                                class="font-title text-xl lg:text-2xl text-grey-100 mb-3 leading-tight"
+                            >
+                                {{ post.title }}
+                            </h2>
+
+                            <!-- Post Excerpt -->
+                            <p
+                                v-if="post.description"
+                                class="text-grey-300 leading-relaxed mb-4 line-clamp-3 text-sm"
+                            >
+                                {{ post.description }}
+                            </p>
+
+                            <!-- Tags -->
+                            <div
+                                v-if="post.meta.tags && post.meta.tags.length"
+                                class="flex flex-wrap gap-2 mb-4"
+                            >
+                                <span
+                                    v-for="tag in post.meta.tags.slice(0, 3)"
+                                    :key="tag"
+                                    class="px-2 py-1 bg-grey-800 text-grey-400 text-xs rounded-full"
+                                >
+                                    #{{ tag }}
+                                </span>
+                                <span
+                                    v-if="post.meta.tags.length > 3"
+                                    class="px-2 py-1 bg-grey-800 text-grey-400 text-xs rounded-full"
+                                >
+                                    +{{ post.meta.tags.length - 3 }}
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                </NuxtLink>
             </div>
 
             <!-- Empty State -->

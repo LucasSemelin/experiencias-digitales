@@ -107,7 +107,7 @@
                             <span
                                 v-for="tag in (post as any).meta.tags"
                                 :key="tag"
-                                class="px-3 py-1 bg-zinc-900 text-zinc-300 text-sm rounded-full hover:bg-zinc-800 transition-colors duration-300"
+                                class="px-2 py-1 bg-grey-800 text-grey-400 text-xs rounded-full"
                             >
                                 #{{ tag }}
                             </span>
@@ -354,7 +354,10 @@ const scrollToTop = () => {
     @apply text-zinc-100;
 }
 
-.prose h1,
+.prose h1 {
+    @apply font-semibold text-zinc-100 font-title;
+}
+
 .prose h2,
 .prose h3,
 .prose h4,
