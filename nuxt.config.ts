@@ -120,7 +120,9 @@ export default defineNuxtConfig({
         detectBrowserLanguage: {
             useCookie: true,
             cookieKey: "i18n_redirected",
-            redirectOn: "root",
+            alwaysRedirect: true,
+            fallbackLocale: "es",
+            redirectCode: 301, // <-- ¡Asegúrate de esto!
         },
     },
     modules: [
