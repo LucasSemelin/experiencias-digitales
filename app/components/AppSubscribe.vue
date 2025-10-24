@@ -46,12 +46,10 @@ async function subscribe() {
     loading.value = true;
     error.value = "";
     try {
-        const res = await fetch("/api/subscribe", {
+        await $fetch("/api/subscribe", {
             method: "POST",
             body: new URLSearchParams({ email: email.value }),
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
         });
-        if (!res.ok) throw new Error("Network error");
         success.value = true;
         setTimeout(() => {
             email.value = "";

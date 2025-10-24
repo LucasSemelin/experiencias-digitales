@@ -143,6 +143,6 @@ export default defineNuxtConfig({
     site: {
         url: "https://myntropic.studio",
         name: "Myntropic Studio",
-        trailingSlash: true,
+        trailingSlash: false,
     },
 });

@@ -18,6 +18,7 @@ export default defineEventHandler(async (event) => {
             email = formData.get("email") as string;
         }
     }
+
     if (!email || typeof email !== "string" || !email.includes("@")) {
         return { error: "Invalid email" };
     }
@@ -32,6 +33,7 @@ export default defineEventHandler(async (event) => {
             unsubscribed: false,
             audienceId,
         });
+
         return { success: true };
     } catch (error) {
         console.error("Error subscribing:", error);
