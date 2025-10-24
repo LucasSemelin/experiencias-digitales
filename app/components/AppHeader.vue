@@ -51,6 +51,12 @@
                             {{ t("nav.portfolio") }}
                         </NuxtLink>
                         <NuxtLink
+                            to="/blog"
+                            class="hover:text-emerald-400 transition-colors"
+                        >
+                            {{ t("nav.blog") }}
+                        </NuxtLink>
+                        <NuxtLink
                             to="/about"
                             class="hover:text-emerald-400 transition-colors"
                         >
@@ -132,6 +138,13 @@
                             {{ t("nav.portfolio") }}
                         </NuxtLink>
                         <NuxtLink
+                            href="/blog"
+                            class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
+                            @click="closeMobileMenu"
+                        >
+                            {{ t("nav.blog") }}
+                        </NuxtLink>
+                        <NuxtLink
                             href="/about"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
@@ -177,6 +190,7 @@ es:
     nav:
         solutions: "Nuestras Soluciones"
         services: "Nuestros Servicios"
+        blog: "Insights"
         about: "Sobre Nosotros"
         portfolio: "Portfolio"
         contact: "Contactanos"
@@ -185,6 +199,7 @@ en:
     nav:
         solutions: "Our Solutions"
         services: "Our Services"
+        blog: "Insights"
         about: "About Us"
         portfolio: "Case Studies"
         contact: "Contact Us"
