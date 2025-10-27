@@ -139,7 +139,7 @@ export default defineNuxtConfig({
     },
     css: ["~/assets/css/app.css"],
     gtag: {
-        id: "GTM-WPK759W3",
+        id: "GTM-PXHVRBL6",
         enabled: process.env.NODE_ENV === "production",
     },
     site: {
