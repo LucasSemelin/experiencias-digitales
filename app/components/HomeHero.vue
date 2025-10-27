@@ -20,7 +20,9 @@
                     <h1
                         class="font-title font-normal text-4xl xl:text-5xl text-grey-100 leading-tight max-w-4xl"
                     >
-                        {{ t("title") }}
+                        <span>{{ t("title") }}</span>
+                        <!-- <br />
+                        <span>{{ t("title2") }}</span> -->
                     </h1>
                 </div>
 
@@ -107,15 +109,17 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 es:
-    tagline: Consultoría en Ingeniería Evolutiva y Contextual
-    title: Diseñamos y Evolucionamos Software que se Adapta a tu Negocio
-    description: Ayudamos a las organizaciones a entender, diseñar y evolucionar sus sistemas digitales para que sean inteligentes, adaptativos y sostenibles.
-    mainCTA: Conversemos sobre tu proyecto
-    secondaryCTA: o conocé cómo trabajamos
+    tagline: UX Onboarding para SaaS B2B & B2C
+    title: Menos fricción. Más activación.
+    title2: Construyamos inteligente
+    description: Ayudo a equipos de producto SaaS B2B y B2C a optimizar el onboarding con un enfoque UX y product-led que impulsa activación y crecimiento.
+    mainCTA: Comencemos ahora
+    secondaryCTA: o descubrí el proceso
 en:
-    tagline: Evolutionary & Contextual Engineering Consulting
-    title: We Design and Evolve Software That Adapts to Your Business
-    description: We create intelligent systems that learn from context, improve with use, and grow alongside your organization.
-    mainCTA: Let's talk about your project
-    secondaryCTA: or see how we work
+    tagline: UX Onboarding for B2B & B2C SaaS
+    title: Less Friction. More Activation.
+    title2: Let's Build Smart.
+    description: I help B2B and B2C SaaS product teams optimize onboarding with a UX and product-led approach that drives activation and growth.
+    mainCTA: Get Started Now
+    secondaryCTA: or discover the process
 </i18n>

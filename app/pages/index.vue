@@ -1,13 +1,13 @@
 <template>
     <div class="bg-zinc-950 text-zinc-100">
         <HomeHero />
-        <!-- Phrase Section -->
-        <HomePhrase />
+        <!-- Problems Section -->
         <AppTrustedBy />
+        <HomeProblems id="problems" />
+        <!-- <HomePhrase /> -->
         <HomeSolutions id="solutions" />
-        <HomeUseCases id="use-cases" />
         <HomeProcess id="approach" />
-        <HomeWhoWeWorkFor />
+        <!-- <HomeWhoWeWorkFor /> -->
         <HomeWhyUs />
         <!-- <HomePortfolio id="portfolio" /> -->
         <HomeTestimonials />

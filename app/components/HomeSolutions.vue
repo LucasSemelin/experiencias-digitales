@@ -2,7 +2,7 @@
     <section class="py-16">
         <div class="container mx-auto px-6">
             <AppH2 class="text-center mb-16">{{ t("title") }}</AppH2>
-
+            <AppSectionSubtitle>{{ t("subtitle") }}</AppSectionSubtitle>
             <!-- Solution 1 -->
             <div
                 class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-16 lg:mb-28"
@@ -10,6 +10,7 @@
                 <!-- Mobile order: title first -->
                 <div class="lg:order-2 order-1">
                     <AppH3 class="mb-4">{{ t("solution1.title") }}</AppH3>
+
                     <p
                         class="text-zinc-500 mb-4 text-base lg:text-xl font-semibold"
                     >
@@ -20,9 +21,9 @@
                     >
                         {{ t("solution1.description") }}
                     </p>
-                    <p class="text-sm mt-4 text-gradient-from">
+                    <!-- <p class="text-sm mt-4 text-gradient-from">
                         Outcome: {{ t("solution1.outcome") }}
-                    </p>
+                    </p> -->
                 </div>
                 <!-- Image placeholder - Desktop left, Mobile middle -->
                 <div class="lg:order-1 order-2 flex justify-center">
@@ -56,9 +57,9 @@
                     >
                         {{ t("solution2.description") }}
                     </p>
-                    <p class="text-sm mt-4 text-gradient-from">
+                    <!-- <p class="text-sm mt-4 text-gradient-from">
                         Outcome: {{ t("solution2.outcome") }}
-                    </p>
+                    </p> -->
                 </div>
                 <!-- Image placeholder - Desktop right, Mobile middle -->
                 <div class="order-2 flex justify-center">
@@ -91,9 +92,9 @@
                     >
                         {{ t("solution3.description") }}
                     </p>
-                    <p class="text-sm mt-4 text-gradient-from">
+                    <!-- <p class="text-sm mt-4 text-gradient-from">
                         Outcome: {{ t("solution3.outcome") }}
-                    </p>
+                    </p> -->
                 </div>
                 <!-- Image placeholder - Desktop left, Mobile middle -->
                 <div class="lg:order-1 order-2 flex justify-center">
@@ -126,9 +127,9 @@
                     >
                         {{ t("solution4.description") }}
                     </p>
-                    <p class="text-sm mt-4 text-gradient-from">
+                    <!-- <p class="text-sm mt-4 text-gradient-from">
                         Outcome: {{ t("solution4.outcome") }}
-                    </p>
+                    </p> -->
                 </div>
                 <!-- Image placeholder - Desktop right, Mobile middle -->
                 <div class="order-2 flex justify-center">
@@ -156,48 +157,50 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Soluciones diseñadas para evolucionar junto a tu negocio"
+    title: "Diseño experiencias de onboarding que activan, retienen y escalan."
+    subtitle: "Combino UX, estrategia product-led y analítica para eliminar fricciones, acelerar la activación y aumentar la retención de tus usuarios SaaS. Mi objetivo es simple: que cada nuevo usuario entienda el valor de tu producto desde el primer uso y quiera volver."
     solution1:
-        title: Consultoría Evolutiva y Contextual
-        subtitle: "Entendemos tu sistema, tus datos y tu contexto."
-        description: "Comenzamos analizando el ecosistema de tu organización para identificar puntos de fricción, dependencias y oportunidades de evolución. En conjunto, definimos una hoja de ruta para la transformación inteligente."
+        title: Diseño para activar antes
+        subtitle: "Cada interacción cuenta."
+        description: "Simplifico los primeros pasos del usuario para que alcance el valor del producto lo antes posible. Identifico fricciones, defino el “aha moment” y optimizo el recorrido inicial para aumentar la tasa de activación y reducir abandono."
         outcome: "Un plan estratégico para la evolución del sistema."
     solution2:
-        title: "Arquitectura Cognitiva y de Experiencia"
-        subtitle: "Diseñamos cómo el sistema piensa e interactúa."
-        description: "Definimos los modelos cognitivos, las capas de experiencia y la lógica adaptativa que conectan la intención humana con comportamientos inteligentes, garantizando usabilidad y conciencia contextual."
+        title: "Experiencias que retienen"
+        subtitle: "El onboarding no termina con el registro."
+        description: "Diseño recorridos guiados, mensajes contextuales y flujos que mantienen al usuario comprometido. El resultado: una experiencia más clara, más predecible y una retención que empieza desde el día uno."
         outcome: "Una arquitectura coherente que integra UX, inteligencia y adaptabilidad."
     solution3:
-        title: "Implementación de Sistemas Adaptativos"
-        subtitle: "Construimos bases inteligentes y escalables."
-        description: "Diseñamos e implementamos sistemas capaces de aprender, adaptarse e integrar componentes impulsados por IA. Desde SaaS hasta plataformas empresariales, desarrollamos cimientos preparados para el futuro."
+        title: "Onboarding que impulsa expansión"
+        subtitle: "La adopción interna es clave para crecer."
+        description: "Diseño experiencias que facilitan la comprensión, el uso compartido y la recomendación del producto dentro de las organizaciones B2B. Cuando los usuarios entienden y confían, se convierten en promotores naturales."
         outcome: "Un sistema vivo e inteligente, listo para crecer continuamente."
     solution4:
-        title: "Evolución Continua y Mejora Contextual"
-        subtitle: "Aprendemos del uso y evolucionamos con el tiempo."
-        description: "Una vez en producción, el sistema entra en un ciclo de mejora continua: medimos el uso real, analizamos señales contextuales y evolucionamos el software de forma iterativa según los datos y comportamientos."
+        title: "Crecimiento medible y sostenible"
+        subtitle: "Diseñar sin medir es adivinar."
+        description: "Integro analítica, comportamiento y métricas de activación para que tu onboarding sea una inversión con retorno, no un gasto operativo. Cada mejora tiene impacto directo en retención, expansión y valor del cliente."
         outcome: "Un sistema autoevolutivo alineado con la evolución del negocio."
 
 en:
-    title: "Solutions designed to evolve with your business"
+    title: "I design onboarding experiences that activate, retain, and scale."
+    subtitle: "I combine UX, product-led strategy, and analytics to eliminate friction, accelerate activation, and boost retention for your SaaS users. My goal is simple: to ensure every new user understands your product's value from the first use and wants to return."
     solution1:
-        title: "Evolutionary & Contextual Consulting"
-        subtitle: "Understanding your system, your data, and your context."
-        description: "We begin by analyzing your organization’s ecosystem to uncover friction points, dependencies, and opportunities for evolution. Together, we define a roadmap for intelligent transformation."
+        title: "Design to Activate Faster"
+        subtitle: "Every interaction counts."
+        description: "I streamline the user's initial steps to reach product value as quickly as possible. I identify frictions, define the 'aha moment,' and optimize the initial journey to increase activation rates and reduce abandonment."
         outcome: A strategic blueprint for system evolution.
     solution2:
-        title: "Cognitive & Experience Architecture"
-        subtitle: "Designing how the system thinks and interacts."
-        description: "We define the cognitive models, experience layers, and adaptive logic that connect human intent with intelligent behaviors, ensuring usability and contextual awareness."
+        title: "Experiences that Retain"
+        subtitle: "Onboarding doesn't end at sign-up."
+        description: "I design guided journeys, contextual messaging, and flows that keep users engaged. The result: a clearer, more predictable experience and retention that starts from day one."
         outcome: A cohesive architecture that blends UX, intelligence, and adaptability.
     solution3:
-        title: "Adaptive System Implementation"
-        subtitle: "Building intelligent and scalable foundations."
-        description: "We design and implement software systems capable of learning, adapting, and integrating AI-driven components. From SaaS to enterprise platforms, we engineer future-ready foundations."
+        title: "Onboarding that Drives Expansion"
+        subtitle: "Internal adoption is key to growth."
+        description: "I design experiences that facilitate understanding, sharing, and recommending the product within B2B organizations. When users understand and trust, they become natural promoters."
         outcome: A living, intelligent system ready for continuous growth.
     solution4:
-        title: "Continuous Evolution & Contextual Improvement"
-        subtitle: "Learning from usage and evolving over time."
-        description: "Once live, the system enters a continuous improvement loop, we measure real usage, analyze contextual signals, and iteratively evolve the software based on data and behavior."
+        title: "Measurable and Sustainable Growth"
+        subtitle: "Designing without measuring is guessing."
+        description: "I integrate analytics, behavior, and activation metrics so your onboarding is an investment with returns, not an operational expense. Every improvement has a direct impact on retention, expansion, and customer value."
         outcome: A self-improving system aligned with your business evolution.
 </i18n>

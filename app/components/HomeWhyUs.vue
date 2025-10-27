@@ -133,34 +133,34 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Lo que Nos Hace Diferentes"
-    subtitle: "No solo desarrollamos software — diseñamos cómo el software entiende, aprende y evoluciona. Nuestra diferencia está en cómo combinamos ingeniería, diseño e inteligencia artificial para crear sistemas que piensan con propósito, se adaptan al contexto y crecen con el uso."
+    title: "Lo que Me Hace Diferente"
+    subtitle: "No optimizo pasos, diseño experiencias que conectan valor, propósito y datos. Mi enfoque combina UX, estrategia product-led e inteligencia artificial para crear procesos de onboarding que aprenden del uso, se adaptan al contexto y evolucionan con el producto."
     card1:
-        title: "1. Visión Holística y Contextual desde el Inicio"
-        description: "Conectamos UX, ingeniería e inteligencia artificial como un sistema unificado. Cada proyecto comienza con un análisis profundo del ecosistema del negocio, los usuarios, las operaciones y los datos, para diseñar software que encaje naturalmente en su contexto real."
+        title: "1. Enfoque Integral y Product-Led"
+        description: "Combino estrategia, diseño y métricas para entender no solo qué hacen los usuarios, sino por qué lo hacen. Cada decisión de onboarding está guiada por datos, contexto y objetivos de negocio claros."
     card2:
-        title: "2. Inteligencia Centrada en las Personas"
-        description: "Diseñamos experiencias donde la IA amplifica la capacidad humana, no la reemplaza. Nuestras interfaces fomentan la colaboración entre personas y sistemas inteligentes, generando confianza, fluidez y autonomía."
+        title: "2. Experiencias Humanas Guiadas por Datos"
+        description: "Diseño recorridos que acompañan al usuario, no lo fuerzan. Cada interacción busca reducir fricción, aumentar confianza y ofrecer valor desde el primer uso, utilizando analítica y comportamiento real."
     card3:
-        title: "3. Arquitectura Evolutiva y Contextual"
-        description: "Los sistemas que diseñamos son arquitecturas vivas, preparadas para adaptarse, aprender y ajustarse a su entorno. Implementamos memoria contextual, analítica adaptativa y agentes de IA que evolucionan con el tiempo sin perder coherencia ni propósito."
+        title: "3. Optimización Basada en Aprendizaje Continuo"
+        description: "El onboarding no es un proceso estático: evoluciona con el producto. Implemento ciclos de medición, validación y ajuste constante para escalar activación, retención y satisfacción."
     card4:
-        title: "4. Inteligencia Artificial Orientada al Impacto"
-        description: "Aplicamos IA solo donde genera valor medible: reducción de costos, optimización de flujos y aceleración de decisiones. La tecnología se integra con propósito, siempre al servicio de los objetivos del negocio y de las personas."
+        title: "4. Inteligencia Artificial Aplicada al Onboarding"
+        description: "Uso IA para personalizar recorridos, detectar puntos de fricción y anticipar abandono. La tecnología se integra con propósito: mejorar la experiencia y maximizar el valor de cada usuario."
 
 en:
-    title: "What Sets Us Apart"
-    subtitle: "We don't just build software — we engineer how software understands, learns, and evolves. Our distinction lies in how we combine engineering, design, and artificial intelligence to create systems that think with purpose, adapt with context, and grow with use."
+    title: "What Makes Me Different"
+    subtitle: "I don’t just optimize steps — I design onboarding experiences that connect value, purpose, and data. My approach combines UX, product-led strategy, and artificial intelligence to create onboarding processes that learn from use, adapt to context, and evolve with the product."
     card1:
-        title: "1. Holistic & Contextual Vision from Day One"
-        description: "We connect UX, engineering, and AI as a unified system of intelligence. Every project begins with a deep contextual analysis — understanding the business ecosystem, users, operations, and data flows to design software that fits seamlessly into reality."
+        title: "1. Product-Led & Holistic Approach"
+        description: "I combine strategy, UX, and analytics to understand not just what users do, but why they do it. Every onboarding decision is driven by data, context, and clear business goals."
     card2:
-        title: "2. Human-Centered Intelligence"
-        description: "We design experiences where AI amplifies human judgment instead of replacing it. Our interfaces promote collaboration between people and intelligent systems, enabling trust, autonomy, and augmented decision-making."
+        title: "2. Human Experiences Guided by Data"
+        description: "I design onboarding journeys that guide users instead of pushing them. Every interaction reduces friction, builds trust, and delivers value from the very first use, supported by behavioral data."
     card3:
-        title: "3. Evolutionary & Contextual Architecture"
-        description: "The systems we design are living architectures — built to adapt, learn, and adjust to their environment. We integrate contextual memory, adaptive analytics, and AI agents that evolve over time while preserving coherence and intent."
+        title: "3. Continuous Learning & Optimization"
+        description: "Onboarding isn’t static — it evolves with the product. I apply cycles of measurement, validation, and iteration to continuously scale activation, retention, and user satisfaction."
     card4:
-        title: "4. Impact-Driven Artificial Intelligence"
-        description: "We apply AI only where it generates measurable value — optimizing flows, reducing costs, and accelerating decision cycles. Technology is integrated with purpose, always serving business objectives and human outcomes."
+        title: "4. AI-Powered Personalization"
+        description: "I leverage AI to personalize onboarding flows, detect friction points, and predict churn. Technology is used with purpose: to enhance the experience and maximize user value."
 </i18n>

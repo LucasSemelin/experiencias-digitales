@@ -96,7 +96,10 @@
                                         class="relative z-10 mb-6 group cursor-pointer"
                                     >
                                         <NuxtImg
-                                            :ref="(el: HTMLElement | null) => setImageRef(el, index + 5)"
+                                            :ref="
+                                                (el: HTMLElement | null) =>
+                                                    setImageRef(el, index + 5)
+                                            "
                                             :src="`/images/process/process${
                                                 index + 1
                                             }.jpg`"
@@ -178,11 +181,6 @@ const processSteps = computed((): ProcessStep[] => [
         subtitle: t("step4.subtitle"),
         description: t("step4.description"),
     },
-    {
-        title: t("step5.title"),
-        subtitle: t("step5.subtitle"),
-        description: t("step5.description"),
-    },
 ]);
 
 // Scroll animation logic
@@ -247,50 +245,42 @@ onUnmounted(() => {
 
 <i18n lang="yaml">
 es:
-    title: "Metodología Diseñada para la Evolución Continua"
-    subtitle: "Un proceso vivo que evoluciona en cada paso. Nuestra metodología integra estrategia, arquitectura, implementación y evolución en un ciclo continuo. Cada fase se retroalimenta con aprendizajes del uso real, asegurando que el software aprenda, se adapte y crezca junto a la organización."
+    title: "Metodología para un Onboarding sin Fricción"
+    subtitle: "Un proceso claro y medible que combina análisis, diseño, implementación y mejora continua. Cada fase transforma el onboarding en una experiencia más intuitiva, efectiva y alineada con los objetivos de tu producto SaaS."
     step1:
-        title: "Descubrimiento Estratégico y Contextual"
-        subtitle: "Entendemos tu organización, tus usuarios y tu ecosistema."
-        description: "Analizamos objetivos, flujos operativos e interacciones críticas para identificar oportunidades de evolución. Mediante Ingeniería Contextual, definimos cómo el sistema debe percibir, razonar y actuar dentro de su entorno."
+        title: "Auditoría y Diagnóstico"
+        subtitle: "Identifico puntos de fricción y oportunidades de mejora."
+        description: "Analizo tu flujo de onboarding actual, las métricas de activación y los patrones de abandono para entender dónde y por qué los usuarios se detienen."
     step2:
-        title: "Arquitectura Cognitiva y Diseño de Experiencia"
-        subtitle: "Diseñamos cómo el sistema piensa y cómo las personas interactúan con él."
-        description: "Combinamos estrategia UX y arquitectura para definir modelos contextuales, lógica adaptativa y colaboración entre humanos y agentes de IA. El resultado: una experiencia coherente que conecta propósito, inteligencia y usabilidad."
+        title: "Estrategia y Rediseño UX"
+        subtitle: "Redefino la experiencia para mostrar valor desde el primer uso."
+        description: "Diseño recorridos claros, mensajes contextuales y flujos guiados que ayudan al usuario a alcanzar su primer ‘aha moment’ rápidamente."
     step3:
-        title: "Prototipado, Validación y Aprendizaje"
-        subtitle: "Convertimos ideas en experiencias comprobables y basadas en evidencia."
-        description: "Creamos prototipos interactivos y simulaciones impulsadas por IA para validar valor, flujo y viabilidad antes del desarrollo. Esto reduce el riesgo, acelera el aprendizaje y asegura la alineación entre usuarios, negocio y tecnología."
+        title: "Implementación y Validación"
+        subtitle: "Transformo el diseño en mejoras reales y medibles."
+        description: "Trabajo junto a tu equipo para implementar los cambios y medir su impacto. Priorizo quick wins que reduzcan abandono y aceleren activación."
     step4:
-        title: "Desarrollo Adaptativo e Implementación Inteligente"
-        subtitle: "Construimos software preparado para aprender y escalar."
-        description: "Implementamos arquitecturas robustas — APIs, capas de datos, agentes de IA y memoria contextual — que permiten adaptabilidad desde el primer día. El sistema evoluciona naturalmente a medida que recibe nuevos datos y comportamientos."
-    step5:
-        title: "Evolución Continua y Mejora Contextual"
-        subtitle: "Aprendemos del uso real y evolucionamos con el tiempo."
-        description: "Tras el lanzamiento, iniciamos un ciclo de retroalimentación adaptativa: medimos el uso, analizamos el contexto y evolucionamos funciones, interfaces y comportamientos mediante Ingeniería Adaptativa. El software nunca se detiene: crece con tu negocio."
+        title: "Optimización y Evolución Continua"
+        subtitle: "Tu onboarding sigue mejorando con el tiempo."
+        description: "Monitoreo resultados, recojo aprendizajes del uso real y ajusto el flujo para escalar retención y crecimiento de forma sostenida."
 
 en:
-    title: "Methodology Designed for Continuous Evolution"
-    subtitle: "A living process that evolves with every step. Our methodology integrates strategy, architecture, implementation, and evolution in a continuous loop. Each phase overlaps, feeding insights from real usage to ensure the software learns, adapts, and grows with your organization."
+    title: "Methodology for Frictionless Onboarding"
+    subtitle: "A clear, measurable process that combines analysis, design, implementation, and continuous improvement. Each phase turns onboarding into a more intuitive, effective experience aligned with your SaaS product goals."
     step1:
-        title: "Strategic & Contextual Discovery"
-        subtitle: "Understanding your organization, your users, and your ecosystem."
-        description: "We start by analyzing goals, users, operations, and critical interactions to uncover opportunities for evolution. Through Context Engineering, we define how the system should perceive, reason, and act within its environment."
+        title: "Audit & Diagnosis"
+        subtitle: "Identifying friction points and opportunities for improvement."
+        description: "I analyze your current onboarding flow, activation metrics, and drop-off patterns to understand where and why users get stuck."
     step2:
-        title: "Cognitive Architecture & Experience Design"
-        subtitle: "Designing how the system thinks and how people interact with it."
-        description: "We combine UX strategy and system architecture to define contextual models, adaptive logic, and collaboration between humans and AI agents. The result: a coherent experience that connects business purpose, intelligence, and usability."
+        title: "UX Strategy & Redesign"
+        subtitle: "Redefining the experience to show value from the first use."
+        description: "I design clear journeys, contextual messages, and guided flows that help users reach their first ‘aha moment’ quickly."
     step3:
-        title: "Prototyping, Validation & Learning"
-        subtitle: "Turning ideas into testable, evidence-based experiences."
-        description: "We build interactive prototypes and AI-driven simulations to validate value, flow, and feasibility before development. This reduces risk, accelerates learning, and ensures alignment between users, business, and technology."
+        title: "Implementation & Validation"
+        subtitle: "Turning design into real, measurable improvements."
+        description: "I work closely with your team to implement and track changes, prioritizing quick wins that reduce churn and accelerate activation."
     step4:
-        title: "Adaptive Development & Intelligent Implementation"
-        subtitle: "Building future-ready software designed to learn and scale."
-        description: "We implement robust architectures — APIs, data layers, AI agents, and contextual memory — enabling adaptability from day one. The software evolves naturally through new data, behaviors, and insights."
-    step5:
-        title: "Continuous Evolution & Contextual Improvement"
-        subtitle: "Learning from real usage and evolving over time."
-        description: "After launch, we enter an adaptive feedback cycle — measuring usage, analyzing context, and evolving features, interfaces, and logic through Adaptive Engineering. Your software never stops improving — it grows with your business."
+        title: "Optimization & Continuous Evolution"
+        subtitle: "Your onboarding keeps getting better over time."
+        description: "I monitor results, gather insights from real usage, and adjust the flow to continuously scale retention and growth."
 </i18n>

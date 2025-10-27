@@ -91,8 +91,8 @@ img {
 
 <i18n lang="yaml">
 es:
-    title: "Trabajamos junto a empresas que innovan"
+    title: "Ayudo a empresas que crean productos innovadores"
 
 en:
-    title: "We work with innovative companies"
+    title: "I help companies create innovative products"
 </i18n>

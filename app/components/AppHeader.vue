@@ -20,9 +20,7 @@
                     </div>
                     <div class="flex items-center">
                         <h1 class="font-title text-xl text-gray-100">
-                            Myntropic Studio<span class="text-xs align-super"
-                                >™</span
-                            >
+                            Lucas Semelin
                         </h1>
                     </div>
                 </NuxtLink>

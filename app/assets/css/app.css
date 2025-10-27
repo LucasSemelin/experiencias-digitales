@@ -4,10 +4,10 @@
     --font-sans: "Open Sans", sans-serif;
     --font-title: "Electrolize", sans-serif;
 
-    --color-primary: #00dc81;
-    --color-gradient-to: #004537;
-    --color-gradient-via: #02856a;
-    --color-gradient-from: #00dc81;
+    --color-primary: #afcb80;
+    --color-gradient-to: #415335;
+    --color-gradient-via: #576541;
+    --color-gradient-from: #afcb80;
     --color-background: oklch(0.141 0.005 285.823);
     --color-text: #f0f1f4;
     --color-text-secondary: #999eb2;
