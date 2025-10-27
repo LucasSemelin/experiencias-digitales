@@ -411,10 +411,10 @@ useHead({
 <i18n lang="yaml">
 es:
     seo:
-        title: "Política de Privacidad — Myntropic Studio"
-    title: "Política de Privacidad — Myntropic Studio"
-    lastUpdated: "Última actualización: 16 de octubre de 2025"
-    introduction: "En Myntropic Studio respetamos y protegemos la privacidad de todas las personas que visitan nuestro sitio web o utilizan nuestros servicios. Esta Política de Privacidad explica qué información recopilamos, cómo la utilizamos y cuáles son tus derechos respecto a tus datos personales."
+        title: "Política de Privacidad"
+    title: "Política de Privacidad"
+    lastUpdated: "Última actualización: 26 de octubre de 2025"
+    introduction: "En este sitio respetamos y protegemos la privacidad de todas las personas que nos visitan o utilizan nuestros servicios. Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y cuáles son tus derechos en relación con tus datos personales."
 
     informationWeCollect:
         title: "1. Información que recopilamos"
@@ -435,7 +435,7 @@ es:
         intro: "Utilizamos los datos recopilados para:"
         items:
             respond: "Responder consultas, solicitudes o mensajes que nos envíes."
-            maintain: "Mantener la comunicación comercial con clientes y colaboradores."
+            maintain: "Mantener la comunicación comercial con clientes, aliados o colaboradores."
             analyze: "Analizar el uso del sitio web y mejorar su funcionalidad y experiencia de usuario."
             comply: "Cumplir con obligaciones legales o contractuales derivadas de nuestra actividad."
         advertisingNote: "No utilizamos tus datos con fines publicitarios sin tu consentimiento explícito."
@@ -449,32 +449,32 @@ es:
                 description: "cuando completás un formulario o aceptás cookies analíticas."
             contract:
                 title: "Ejecución de un contrato o relación comercial"
-                description: "en caso de clientes o colaboradores."
+                description: "en el caso de clientes, proveedores o colaboradores."
             legitimateInterest:
                 title: "Interés legítimo"
                 description: "para mantener la seguridad, mejorar los servicios o prevenir fraudes."
 
     cookies:
         title: "4. Uso de cookies y tecnologías similares"
-        description: "Este sitio utiliza cookies propias y de terceros para su funcionamiento, análisis de tráfico y mejora continua. Podés conocer más en detalle cómo las usamos en nuestra "
+        description: "Este sitio utiliza cookies propias y de terceros para su funcionamiento, análisis de tráfico y mejora continua. Podés conocer más detalles en nuestra "
         link: "Política de Cookies"
         suffix: "."
 
     dataRetention:
         title: "5. Conservación de los datos"
-        description: "Conservamos los datos personales solo durante el tiempo necesario para cumplir con las finalidades descritas o mientras exista una relación activa (por ejemplo, cliente o suscriptor). Una vez cumplido ese plazo, los datos se eliminan o se anonimizan de manera segura."
+        description: "Conservamos los datos personales solo durante el tiempo necesario para cumplir con las finalidades descritas o mientras exista una relación activa (por ejemplo, cliente o suscriptor). Una vez cumplido ese plazo, los datos se eliminan o anonimizan de forma segura."
 
     dataSharing:
         title: "6. Comunicación de datos a terceros"
         intro: "No vendemos, alquilamos ni compartimos tus datos personales con terceros, salvo en los siguientes casos:"
         items:
             services: "Cuando sea necesario para prestar un servicio (por ejemplo, hosting, analítica o mantenimiento)."
-            legal: "Cuando exista una obligación legal o requerimiento de autoridad competente."
-        providersNote: "Todos los proveedores que colaboran con Myntropic Studio están sujetos a acuerdos de confidencialidad y protección de datos."
+            legal: "Cuando exista una obligación legal o requerimiento de una autoridad competente."
+        providersNote: "Todos los proveedores que colaboran con nosotros están sujetos a acuerdos de confidencialidad y protección de datos."
 
     dataSecurity:
         title: "7. Seguridad de la información"
-        description: "Implementamos medidas técnicas y organizativas adecuadas para proteger tus datos frente a accesos no autorizados, pérdida, alteración o divulgación. Aun así, ningún sistema es completamente invulnerable; por eso, trabajamos constantemente para mantener los más altos estándares de seguridad."
+        description: "Implementamos medidas técnicas y organizativas adecuadas para proteger tus datos frente a accesos no autorizados, pérdida, alteración o divulgación. Aun así, ningún sistema es completamente invulnerable, por lo que trabajamos constantemente para mantener los más altos estándares de seguridad."
 
     userRights:
         title: "8. Derechos de los usuarios"
@@ -492,106 +492,106 @@ es:
 
     externalLinks:
         title: "9. Enlaces a otros sitios"
-        description: "Nuestro sitio puede contener enlaces a sitios externos. Myntropic Studio no se hace responsable de las prácticas de privacidad ni del contenido de dichos sitios de terceros."
+        description: "Este sitio puede contener enlaces a páginas externas. No somos responsables de las prácticas de privacidad ni del contenido de dichos sitios de terceros."
 
     policyChanges:
         title: "10. Cambios en esta política"
-        description: "Podemos actualizar esta Política de Privacidad en cualquier momento para adaptarla a cambios legales, técnicos o en nuestros servicios. La versión vigente será siempre la publicada en esta página, indicando la fecha de la última actualización."
+        description: "Podemos actualizar esta Política de Privacidad en cualquier momento para reflejar cambios legales, técnicos o en nuestros servicios. La versión vigente será siempre la publicada en esta página, indicando la fecha de la última actualización."
 
     contact:
         title: "11. Contacto"
-        description: "Si tenés preguntas sobre esta política o sobre el tratamiento de tus datos personales, podés contactarnos en:"
+        description: "Si tenés preguntas sobre esta política o sobre el tratamiento de tus datos personales, podés escribirnos a:"
 
 en:
     seo:
-        title: "Privacy Policy — Myntropic Studio"
-    title: "Privacy Policy — Myntropic Studio"
-    lastUpdated: "Last updated: October 16, 2025"
-    introduction: "At Myntropic Studio we respect and protect the privacy of all people who visit our website or use our services. This Privacy Policy explains what information we collect, how we use it and what your rights are regarding your personal data."
+        title: "Privacy Policy"
+    title: "Privacy Policy"
+    lastUpdated: "Last updated: October 26, 2025"
+    introduction: "We respect and protect the privacy of everyone who visits this site or uses our services. This Privacy Policy explains what information we collect, how we use it, and what your rights are regarding your personal data."
 
     informationWeCollect:
         title: "1. Information we collect"
         intro: "We may collect the following types of information:"
         contactData:
             title: "Contact data"
-            description: "name, email or any information you provide when completing contact or subscription forms."
+            description: "name, email, or any information you provide when filling out contact or subscription forms."
         navigationData:
             title: "Navigation data"
-            description: "IP address, device type, operating system, browser, pages visited and time spent, collected through cookies or analytical tools."
+            description: "IP address, device type, operating system, browser, pages visited, and time spent, collected through cookies or analytical tools."
         communicationData:
             title: "Communication data"
-            description: "messages, requests or comments you send by email or through the site."
-        sensitiveDataNote: "We do not request or store sensitive information (for example, financial, health or biometric data)."
+            description: "messages, requests, or comments you send via email or through the site."
+        sensitiveDataNote: "We do not request or store sensitive information (e.g., financial, health, or biometric data)."
 
     purposeOfProcessing:
         title: "2. Purpose of processing"
-        intro: "We use the collected data to:"
+        intro: "We use collected data to:"
         items:
-            respond: "Respond to inquiries, requests or messages you send us."
-            maintain: "Maintain commercial communication with clients and collaborators."
+            respond: "Respond to inquiries, requests, or messages you send us."
+            maintain: "Maintain communication with clients, partners, or collaborators."
             analyze: "Analyze website usage and improve its functionality and user experience."
-            comply: "Comply with legal or contractual obligations arising from our activity."
+            comply: "Comply with legal or contractual obligations related to our activity."
         advertisingNote: "We do not use your data for advertising purposes without your explicit consent."
 
     legalBasis:
         title: "3. Legal basis for processing"
-        intro: "We process personal information on the following legal bases:"
+        intro: "We process personal information based on the following legal grounds:"
         items:
             consent:
                 title: "Consent"
                 description: "when you complete a form or accept analytical cookies."
             contract:
                 title: "Contract execution or commercial relationship"
-                description: "in case of clients or collaborators."
+                description: "in the case of clients, providers, or collaborators."
             legitimateInterest:
                 title: "Legitimate interest"
-                description: "to maintain security, improve services or prevent fraud."
+                description: "to maintain security, improve services, or prevent fraud."
 
     cookies:
         title: "4. Use of cookies and similar technologies"
-        description: "This site uses own and third-party cookies for its operation, traffic analysis and continuous improvement. You can learn more about how we use them in our "
+        description: "This site uses first- and third-party cookies for operation, traffic analysis, and continuous improvement. Learn more about how we use them in our "
         link: "Cookie Policy"
         suffix: "."
 
     dataRetention:
         title: "5. Data retention"
-        description: "We retain personal data only for the time necessary to fulfill the described purposes or while an active relationship exists (for example, client or subscriber). Once that period is fulfilled, the data is deleted or anonymized securely."
+        description: "We retain personal data only for as long as necessary to fulfill the stated purposes or while an active relationship exists (e.g., client or subscriber). Once that period ends, data is securely deleted or anonymized."
 
     dataSharing:
         title: "6. Data sharing with third parties"
-        intro: "We do not sell, rent or share your personal data with third parties, except in the following cases:"
+        intro: "We do not sell, rent, or share your personal data with third parties, except in the following cases:"
         items:
-            services: "When necessary to provide a service (for example, hosting, analytics or maintenance)."
-            legal: "When there is a legal obligation or requirement from competent authority."
-        providersNote: "All providers that collaborate with Myntropic Studio are subject to confidentiality and data protection agreements."
+            services: "When necessary to provide a service (e.g., hosting, analytics, or maintenance)."
+            legal: "When there is a legal obligation or requirement from a competent authority."
+        providersNote: "All providers working with us are bound by confidentiality and data protection agreements."
 
     dataSecurity:
         title: "7. Information security"
-        description: "We implement adequate technical and organizational measures to protect your data against unauthorized access, loss, alteration or disclosure. Even so, no system is completely invulnerable; therefore, we work constantly to maintain the highest security standards."
+        description: "We implement appropriate technical and organizational measures to protect your data from unauthorized access, loss, alteration, or disclosure. However, no system is completely invulnerable; we continuously work to maintain the highest security standards."
 
     userRights:
         title: "8. User rights"
         intro: "You can exercise your rights at any time:"
         items:
-            access: "Access, rectification or updating of your data."
+            access: "Access, rectification, or update of your data."
             erasure: 'Erasure ("right to be forgotten").'
-            restriction: "Limitation or opposition to processing."
-            portability: "Portability of your data to another controller."
+            restriction: "Limitation or objection to processing."
+            portability: "Data portability to another controller."
         contact:
-            description: "To do so, write to us at "
+            description: "To do so, contact us at "
             email: "privacy{at}myntropic.studio"
-            descriptionContinue: ' with the subject "Exercise of privacy rights". We will respond to your request as soon as possible.'
+            descriptionContinue: ' with the subject "Exercise of privacy rights". We will respond as soon as possible.'
             subject: 'Subject: "Exercise of privacy rights"'
 
     externalLinks:
         title: "9. Links to other sites"
-        description: "Our site may contain links to external sites. Myntropic Studio is not responsible for the privacy practices or content of such third-party sites."
+        description: "This site may contain links to external pages. We are not responsible for the privacy practices or content of those third-party sites."
 
     policyChanges:
         title: "10. Changes to this policy"
-        description: "We may update this Privacy Policy at any time to adapt it to legal, technical or service changes. The current version will always be the one published on this page, indicating the date of the last update."
+        description: "We may update this Privacy Policy at any time to reflect legal, technical, or service-related changes. The current version will always be available on this page, with the last update date indicated."
 
     contact:
         title: "11. Contact"
-        description: "If you have questions about this policy or about the processing of your personal data, you can contact us at:"
+        description: "If you have questions about this policy or the processing of your personal data, you can write to us at:"
 </i18n>

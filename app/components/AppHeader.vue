@@ -13,15 +13,18 @@
                 <NuxtLink to="/" class="flex items-center gap-2">
                     <div class="w-12 h-12">
                         <NuxtImg
-                            src="/images/myntropic-logo.svg"
+                            src="/images/lucassemelin-logo.svg"
                             alt="Myntropic Logo"
                             class="w-full h-full"
                         />
                     </div>
-                    <div class="flex items-center">
+                    <div class="flex items-start flex-col">
                         <h1 class="font-title text-xl text-gray-100">
                             Lucas Semelin
                         </h1>
+                        <span class="text-gray-300 text-[12px]"
+                            >UX Onboarding Specialist for SaaS</span
+                        >
                     </div>
                 </NuxtLink>
 
@@ -31,40 +34,34 @@
                         class="flex items-center gap-12 text-sm text-white font-open-sans"
                     >
                         <NuxtLink
-                            href="/solutions"
+                            to="#Problems"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            {{ t("nav.solutions") }}
+                            {{ t("nav.problems") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="/services"
+                            to="#Services"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.services") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="/case-studies"
+                            to="#Process"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            {{ t("nav.portfolio") }}
+                            {{ t("nav.process") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="/blog"
+                            to="#AboutMe"
                             class="hover:text-emerald-400 transition-colors"
                         >
-                            {{ t("nav.blog") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            to="/about"
-                            class="hover:text-emerald-400 transition-colors"
-                        >
-                            {{ t("nav.about") }}
+                            {{ t("nav.aboutme") }}
                         </NuxtLink>
                     </div>
 
                     <!-- Contact Button -->
-                    <AppButton destination="/contact">{{
-                        t("nav.contact")
+                    <AppButton destination="#ContactMe">{{
+                        t("nav.contactme")
                     }}</AppButton>
                 </nav>
 
@@ -114,14 +111,14 @@
                 >
                     <nav class="flex flex-col space-y-4">
                         <NuxtLink
-                            href="/solutions"
+                            to="#Problems"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            {{ t("nav.solutions") }}
+                            {{ t("nav.problems") }}
                         </NuxtLink>
                         <NuxtLink
-                            href="/services"
+                            to="#Services"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
@@ -129,32 +126,26 @@
                         </NuxtLink>
 
                         <NuxtLink
-                            to="/case-studies"
+                            to="#Process"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            {{ t("nav.portfolio") }}
+                            {{ t("nav.process") }}
                         </NuxtLink>
                         <NuxtLink
-                            href="/blog"
+                            to="#AboutMe"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
-                            {{ t("nav.blog") }}
+                            {{ t("nav.aboutme") }}
                         </NuxtLink>
+
                         <NuxtLink
-                            href="/about"
-                            class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
-                            @click="closeMobileMenu"
-                        >
-                            {{ t("nav.about") }}
-                        </NuxtLink>
-                        <NuxtLink
-                            to="/contact"
+                            to="#ContactMe"
                             class="bg-primary w-full text-gray-900 px-6 py-3 rounded-lg text-sm font-semibold font-open-sans hover:bg-emerald-300 transition-colors text-center mt-4 self-start"
                             @click="closeMobileMenu"
                         >
-                            {{ t("nav.contact") }}
+                            {{ t("nav.contactme") }}
                         </NuxtLink>
                     </nav>
                 </div>
@@ -186,21 +177,18 @@ function closeMobileMenu() {
 <i18n lang="yaml">
 es:
     nav:
-        solutions: "Nuestras Soluciones"
-        services: "Nuestros Servicios"
-        blog: "Insights"
-        about: "Sobre Nosotros"
-        portfolio: "Portfolio"
-        contact: "Contactanos"
-
+        problems: "¿Por qué?"
+        services: "Servicios"
+        process: "Proceso"
+        aboutme: "Sobre Mí"
+        contactme: "Contactame"
 en:
     nav:
-        solutions: "Our Solutions"
-        services: "Our Services"
-        blog: "Insights"
-        about: "About Us"
-        portfolio: "Case Studies"
-        contact: "Contact Us"
+        problems: "Why?"
+        services: "Services"
+        process: "Process"
+        aboutme: "About Me"
+        contactme: "Let's Connect"
 </i18n>
 
 <style scoped>

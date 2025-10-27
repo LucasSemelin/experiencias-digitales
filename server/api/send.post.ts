@@ -31,10 +31,6 @@ export default defineEventHandler(async (event) => {
 
     for (const [key, value] of formData.entries()) {
         if (key.startsWith("file_") && value instanceof File) {
-            console.log(
-                `Processing file: ${value.name}, size: ${value.size}, type: ${value.type}`
-            );
-
             files.push({
                 name: value.name,
                 size: value.size,
@@ -52,11 +48,6 @@ export default defineEventHandler(async (event) => {
             });
         }
     }
-
-    console.log(
-        `Total files processed: ${files.length}, attachments: ${attachments.length}`
-    );
-
     // Helper function to safely display optional fields
     const displayField = (
         value: string | undefined | null,
@@ -183,10 +174,10 @@ Timestamp: ${new Date().toLocaleString()}
 
     try {
         const emailData: any = {
-            from: "Contact Form | Myntropic Studio <hi@mail.myntropic.studio>",
-            to: ["hi@myntropic.studio"],
+            from: "Contact Form | Lucas Semelin <hi@mail.lucassemelin.com>",
+            to: ["hi@lucassemelin.com"],
             replyTo: email,
-            subject: `Contact from Myntropic Studio: ${name}`,
+            subject: `Contact from Lucas Semelin: ${name}`,
             text: textContent,
         };
 

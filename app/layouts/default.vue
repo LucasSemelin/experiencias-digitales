@@ -4,10 +4,10 @@
         <main id="main">
             <slot />
         </main>
-        <div>
-            <!--SUBSCRIPTIONS SECTION -->
+        <!-- <div>
+        
             <AppSubscribe />
-        </div>
+        </div> -->
         <!-- Location & Time Zone -->
         <footer class="py-8 px-4 lg:px-8">
             <div class="max-w-2xl mx-auto text-center">

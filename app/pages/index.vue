@@ -3,34 +3,32 @@
         <HomeHero />
         <!-- Problems Section -->
         <AppTrustedBy />
-        <HomeProblems id="problems" />
+        <HomeProblems id="Problems" />
         <!-- <HomePhrase /> -->
-        <HomeSolutions id="solutions" />
-        <HomeProcess id="approach" />
+        <HomeSolutions id="Services" />
+        <HomeProcess id="Process" />
         <!-- <HomeWhoWeWorkFor /> -->
-        <HomeWhyUs />
+        <HomeWhyUs id="AboutMe" />
         <!-- <HomePortfolio id="portfolio" /> -->
+        <HomeAboutMe />
         <HomeTestimonials />
-        <!-- <AppContactForm id="contact" /> -->
+        <AppContactForm id="ContactMe" />
     </div>
 </template>
 
 <script setup>
 // Dynamic title based on locale
 useHead({
-    title: computed(
-        () =>
-            "Evolutionary & Contextual Engineering Consulting for Intelligent Systems"
-    ),
+    title: computed(() => "UX Onboarding Specialist for SaaS"),
 });
 </script>
 
 <i18n lang="yaml">
 es:
     seo:
-        title: "Evolutionary & Contextual Engineering Consulting for Intelligent Systems"
+        title: "UX Onboarding Specialist for SaaS"
 
 en:
     seo:
-        title: "Evolutionary & Contextual Engineering Consulting for Intelligent Systems"
+        title: "UX Onboarding Specialist for SaaS"
 </i18n>

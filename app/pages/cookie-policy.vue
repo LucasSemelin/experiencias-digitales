@@ -248,10 +248,10 @@
                         </p>
                         <div class="flex items-center">
                             <a
-                                href="mailto:privacy@myntropic.studio"
+                                href="mailto:hi@lucassemelin.com"
                                 class="text-primary hover:text-white transition-colors duration-200 text-lg"
                             >
-                                privacy@myntropic.studio
+                                hi@lucassemelin.com
                             </a>
                         </div>
                     </section>
@@ -279,47 +279,47 @@ es:
     seo:
         title: "Política de Cookies"
     title: "Política de Cookies"
-    lastUpdated: "Última actualización: 16 de octubre de 2025"
-    introduction: "En Myntropic Studio utilizamos cookies y tecnologías similares para mejorar la experiencia de navegación, analizar el tráfico del sitio y optimizar nuestros servicios. Esta Política explica qué son las cookies, qué tipos utilizamos, y cómo podés gestionarlas."
+    lastUpdated: "Última actualización: 26 de octubre de 2025"
+    introduction: "En este sitio utilizamos cookies y tecnologías similares para mejorar tu experiencia de navegación, analizar el tráfico y optimizar el rendimiento general del sitio. Esta Política explica qué son las cookies, qué tipos usamos y cómo podés gestionarlas."
 
     whatAreCookies:
         title: "1. ¿Qué son las cookies?"
-        content: "Las cookies son pequeños archivos de texto que se almacenan en tu navegador cuando visitás un sitio web. Sirven para recordar tus preferencias, registrar actividad de navegación o reconocer tu dispositivo en futuras visitas."
+        content: "Las cookies son pequeños archivos de texto que los sitios web almacenan en tu navegador o dispositivo. Sirven para recordar tus preferencias, reconocer tu visita y ayudar a que el sitio funcione de manera más eficiente."
 
     typesOfCookies:
         title: "2. Tipos de cookies que utilizamos"
         essential:
             title: "a. Cookies esenciales"
-            description: "Son necesarias para el funcionamiento básico del sitio y permiten navegar y utilizar sus funciones principales (por ejemplo, acceder a secciones seguras)."
+            description: "Son necesarias para el funcionamiento básico del sitio y te permiten navegar, iniciar sesión o acceder a secciones seguras."
             note: "Estas cookies no pueden desactivarse desde nuestros sistemas."
         performance:
             title: "b. Cookies de rendimiento o analíticas"
-            description: "Nos permiten recopilar información anónima sobre cómo los visitantes utilizan el sitio, para mejorar su funcionamiento y contenido."
-            example: "Por ejemplo, usamos herramientas como Google Analytics o Plausible Analytics para medir tráfico y patrones de uso."
+            description: "Nos permiten recopilar información anónima sobre cómo las personas usan el sitio para mejorar su contenido y funcionalidad."
+            example: "Por ejemplo, usamos herramientas como Plausible Analytics o Google Analytics para analizar tráfico y comportamiento de navegación."
         functionality:
             title: "c. Cookies de funcionalidad"
-            description: "Guardan tus preferencias (idioma, tema oscuro, configuración de región, etc.) y ofrecen una experiencia más personalizada."
+            description: "Almacenan tus preferencias (como idioma, tema oscuro o región) para ofrecerte una experiencia más personalizada."
         thirdParty:
             title: "d. Cookies de terceros"
-            description: "En ocasiones, servicios externos como YouTube, Vimeo, Figma o OpenAI pueden insertar cookies propias si integran contenido o componentes embebidos en el sitio."
+            description: "Algunos servicios externos como YouTube, Vimeo, Figma o OpenAI pueden utilizar sus propias cookies cuando se integran contenidos o componentes embebidos."
 
     purpose:
         title: "3. Finalidad del uso de cookies"
         intro: "Usamos cookies para:"
         items:
             preferences: "Recordar tus preferencias de idioma y configuración."
-            analytics: "Analizar el comportamiento de navegación y mejorar la experiencia del usuario."
+            analytics: "Analizar la navegación y mejorar la experiencia del usuario."
             functionality: "Asegurar el correcto funcionamiento técnico del sitio web."
 
     management:
-        title: "4. Gestión y desactivación de cookies"
+        title: "4. Cómo gestionar o desactivar las cookies"
         description: "Podés configurar tu navegador para aceptar, rechazar o eliminar cookies en cualquier momento."
-        note: "Tené en cuenta que, si desactivás ciertas cookies, algunas funciones del sitio podrían no estar disponibles o no funcionar correctamente."
-        browserGuides: "A continuación te dejamos enlaces a las guías de configuración de los navegadores más comunes:"
+        note: "Tené en cuenta que, si desactivás ciertas cookies, algunas funciones del sitio podrían verse afectadas o no funcionar correctamente."
+        browserGuides: "A continuación, podés acceder a las guías de configuración de los navegadores más utilizados:"
 
     changes:
-        title: "5. Cambios en esta política"
-        description: "Podemos actualizar esta Política de Cookies ocasionalmente para reflejar cambios en la normativa o en el uso de tecnologías en nuestro sitio. Las modificaciones entrarán en vigencia en el momento de su publicación."
+        title: "5. Actualizaciones de esta política"
+        description: "Podemos actualizar esta Política de Cookies para reflejar cambios legales o técnicos en nuestro sitio. Cualquier modificación se publicará en esta misma página con la fecha de actualización correspondiente."
 
     contact:
         title: "6. Contacto"
@@ -329,29 +329,29 @@ en:
     seo:
         title: "Cookie Policy"
     title: "Cookie Policy"
-    lastUpdated: "Last updated: October 16, 2025"
-    introduction: "At Myntropic Studio we use cookies and similar technologies to improve browsing experience, analyze site traffic and optimize our services. This Policy explains what cookies are, what types we use, and how you can manage them."
+    lastUpdated: "Last updated: October 26, 2025"
+    introduction: "We use cookies and similar technologies to improve your browsing experience, analyze traffic, and optimize overall site performance. This Policy explains what cookies are, which types we use, and how you can manage them."
 
     whatAreCookies:
         title: "1. What are cookies?"
-        content: "Cookies are small text files that are stored in your browser when you visit a website. They serve to remember your preferences, record browsing activity or recognize your device on future visits."
+        content: "Cookies are small text files stored by websites in your browser or device. They help remember your preferences, recognize your visit, and make the site work more efficiently."
 
     typesOfCookies:
         title: "2. Types of cookies we use"
         essential:
             title: "a. Essential cookies"
-            description: "They are necessary for the basic functioning of the site and allow you to navigate and use its main functions (for example, access secure sections)."
+            description: "These are necessary for the website’s basic operation and allow you to navigate, log in, or access secure sections."
             note: "These cookies cannot be disabled from our systems."
         performance:
             title: "b. Performance or analytics cookies"
-            description: "They allow us to collect anonymous information about how visitors use the site, to improve its operation and content."
-            example: "For example, we use tools like Google Analytics or Plausible Analytics to measure traffic and usage patterns."
+            description: "They help us collect anonymous data about how visitors use the site so we can improve its content and usability."
+            example: "For instance, we use tools like Plausible Analytics or Google Analytics to measure traffic and browsing patterns."
         functionality:
             title: "c. Functionality cookies"
-            description: "They save your preferences (language, dark theme, region settings, etc.) and offer a more personalized experience."
+            description: "They store your preferences (like language, dark theme, or region) to provide a more personalized experience."
         thirdParty:
             title: "d. Third-party cookies"
-            description: "Sometimes, external services like YouTube, Vimeo, Figma or OpenAI can insert their own cookies if they integrate embedded content or components on the site."
+            description: "Some external services such as YouTube, Vimeo, Figma, or OpenAI may use their own cookies when embedding content or components."
 
     purpose:
         title: "3. Purpose of using cookies"
@@ -359,19 +359,19 @@ en:
         items:
             preferences: "Remember your language and configuration preferences."
             analytics: "Analyze browsing behavior and improve user experience."
-            functionality: "Ensure proper technical functioning of the website."
+            functionality: "Ensure the technical functionality of the website."
 
     management:
-        title: "4. Cookie management and deactivation"
-        description: "You can configure your browser to accept, reject or delete cookies at any time."
-        note: "Keep in mind that if you disable certain cookies, some site functions may not be available or may not work properly."
-        browserGuides: "Below are links to configuration guides for the most common browsers:"
+        title: "4. How to manage or disable cookies"
+        description: "You can configure your browser to accept, reject, or delete cookies at any time."
+        note: "Please note that disabling certain cookies may affect some site functions or features."
+        browserGuides: "Here are links to cookie management guides for common browsers:"
 
     changes:
-        title: "5. Changes to this policy"
-        description: "We may update this Cookie Policy occasionally to reflect changes in regulations or in the use of technologies on our site. Modifications will take effect at the time of publication."
+        title: "5. Updates to this policy"
+        description: "We may update this Cookie Policy to reflect legal or technical changes on our site. Any modifications will be published here with the corresponding update date."
 
     contact:
         title: "6. Contact"
-        description: "If you have questions about the use of cookies or about this policy, you can write to us at:"
+        description: "If you have questions about our use of cookies or about this policy, you can contact us at:"
 </i18n>

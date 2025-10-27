@@ -284,7 +284,7 @@
                             class="flex flex-col sm:flex-row items-center justify-center gap-4"
                         >
                             <span class="text-xl text-white font-body">
-                                hi@myntropic.studio
+                                hi@lucassemelin.com
                             </span>
                             <button
                                 class="px-4 py-2 text-xs flex items-center gap-2 bg-zinc-800 rounded-xl hover:bg-zinc-700 transition-colors hover:cursor-pointer"
@@ -292,7 +292,7 @@
                             >
                                 <NuxtImg
                                     src="/images/icons/copy.svg"
-                                    alt="Copy email address hi@myntropic.studio"
+                                    alt="Copy email address hi@lucassemelin.com"
                                     class="inline size-4"
                                 />
                                 <span
@@ -310,7 +310,7 @@
                         <div class="flex justify-center gap-6">
                             <!-- LinkedIn -->
                             <NuxtLink
-                                to="https://www.linkedin.com/company/myntropic/"
+                                to="https://www.linkedin.com/in/lucassemelin/"
                                 target="_blank"
                                 class="flex items-center gap-3 px-4 py-3 bg-zinc-800 rounded-xl hover:bg-zinc-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
@@ -323,7 +323,7 @@
 
                             <!-- Twitter (X) -->
                             <NuxtLink
-                                to="https://x.com/myntropic"
+                                to="https://x.com/lucassemelin"
                                 target="_blank"
                                 class="flex items-center gap-3 px-4 py-3 bg-zinc-800 rounded-xl hover:bg-zinc-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
@@ -347,7 +347,7 @@ import AppButton from "./AppButton.vue";
 
 const { t } = useI18n({ useScope: "local" });
 
-const email = ref("hi@myntropic.studio");
+const email = ref("hi@lucassemelin.com");
 const { copy, copied } = useClipboard({ email });
 
 const form = ref({

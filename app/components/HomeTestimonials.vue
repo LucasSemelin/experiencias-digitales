@@ -58,17 +58,17 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Lo que dicen de nosotros"
+    title: "Lo que dicen de mi trabajo"
     testimonial:
-        quote: "Trabajar con Myntropic fue clave para transformar nuestra visión en una realidad. Supieron comprender la complejidad del cuidado familiar y traducirla en una experiencia digital clara y humana. La integración de inteligencia artificial permitió anticipar necesidades y dar verdadero apoyo a los cuidadores. Hoy Eunoia Care no solo es una app, es una herramienta que mejora la vida de las familias."
+        quote: "Trabajar con Lucas fue un punto de inflexión para nuestro producto. Nos ayudó a entender por qué los usuarios abandonaban durante el onboarding y rediseñó la experiencia para que encontraran valor desde el primer uso. Su enfoque combina claridad, estrategia y datos. Hoy, nuestras métricas de activación y retención mejoraron notablemente."
         author_name: "Andrés Carvalho"
         author_title: "CTO, Eunoia Care"
         author_initial: "A"
 
 en:
-    title: "What they say about us"
+    title: "What they say about my work"
     testimonial:
-        quote: "Working with Myntropic was key to transforming our vision into reality. They understood the complexity of family care and translated it into a clear and human digital experience. The integration of artificial intelligence allowed us to anticipate needs and provide real support to caregivers. Today, Eunoia Care is not just an app; it's a tool that improves the lives of families."
+        quote: "Working with Lucas was a turning point for our product. He helped us understand why users were dropping off during onboarding and redesigned the experience so they could find value from the very first use. His approach blends clarity, strategy, and data. Today, our activation and retention metrics have improved significantly."
         author_name: "Andrés Carvalho"
         author_title: "CTO, Eunoia Care"
         author_initial: "A"

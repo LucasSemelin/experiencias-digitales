@@ -40,16 +40,16 @@ export default defineNuxtConfig({
                 {
                     property: "og:title",
                     content:
-                        "Myntropic Studio | Evolutionary & Contextual Engineering Consulting for Intelligent Systems",
+                        "Lucas Semelin | UX Onboarding Specialist for SaaS",
                 },
                 {
                     property: "og:description",
                     content:
-                        "We help organizations design and evolve intelligent, adaptive, and sustainable software systems. Through Evolutionary & Contextual Engineering, we combine UX, AI, and software architecture to create systems that learn and grow with your business.",
+                        "I help SaaS startups and companies improve activation, retention, and growth through clear, data-driven, and frictionless onboarding experiences.",
                 },
                 {
                     property: "og:image",
-                    content: "/images/og-myntropic.jpg",
+                    content: "/images/og-lucassemelin.jpg",
                 },
                 {
                     property: "og:image:width",
@@ -61,11 +61,11 @@ export default defineNuxtConfig({
                 },
                 {
                     property: "og:url",
-                    content: "https://myntropic.studio",
+                    content: "https://lucassemelin.com",
                 },
                 {
                     property: "og:site_name",
-                    content: "Myntropic Studio",
+                    content: "UX Onboarding Specialist for SaaS",
                 },
                 // Twitter Card
                 {
@@ -75,31 +75,31 @@ export default defineNuxtConfig({
                 {
                     name: "twitter:title",
                     content:
-                        "Myntropic Studio | Evolutionary & Contextual Engineering Consulting for Intelligent Systems",
+                        "Lucas Semelin | UX Onboarding Specialist for SaaS",
                 },
                 {
                     name: "twitter:description",
                     content:
-                        "We help organizations design and evolve intelligent, adaptive, and sustainable software systems. Through Evolutionary & Contextual Engineering, we combine UX, AI, and software architecture to create systems that learn and grow with your business.",
+                        "I help SaaS startups and companies improve activation, retention, and growth through clear, data-driven, and frictionless onboarding experiences.",
                 },
                 {
                     name: "twitter:image",
-                    content: "/images/og-myntropic.jpg",
+                    content: "/images/og-lucassemelin.jpg",
                 },
                 // General SEO
                 {
                     name: "description",
                     content:
-                        "We help organizations design and evolve intelligent, adaptive, and sustainable software systems. Through Evolutionary & Contextual Engineering, we combine UX, AI, and software architecture to create systems that learn and grow with your business.",
+                        "I help SaaS startups and companies improve activation, retention, and growth through clear, data-driven, and frictionless onboarding experiences.",
                 },
                 {
                     name: "keywords",
                     content:
-                        "inteligencia artificial, IA, experiencias digitales, desarrollo de software, UX, UI, agentes IA, RAG, automatización",
+                        "onboarding, SaaS, B2B, B2C, inteligencia artificial, IA, experiencias digitales, desarrollo de software, UX, UI, agentes IA, RAG, automatización",
                 },
                 {
                     name: "author",
-                    content: "Myntropic Studio",
+                    content: "Lucas Semelin",
                 },
             ],
         },
@@ -110,7 +110,7 @@ export default defineNuxtConfig({
         },
     },
     i18n: {
-        baseUrl: "https://myntropic.studio",
+        baseUrl: "https://lucassemelin.com",
         defaultLocale: "es",
         locales: [
             { code: "es", name: "Español" },
@@ -139,12 +139,12 @@ export default defineNuxtConfig({
     },
     css: ["~/assets/css/app.css"],
     gtag: {
+        id: "GTM-WPK759W3",
         enabled: process.env.NODE_ENV === "production",
-        id: "G-YE8VMK86WG",
     },
     site: {
-        url: "https://myntropic.studio",
-        name: "Myntropic Studio",
+        url: "https://lucassemelin.com",
+        name: "Lucas Semelin",
         trailingSlash: false,
     },
 });
