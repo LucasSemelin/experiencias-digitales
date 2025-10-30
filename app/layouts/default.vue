@@ -72,20 +72,20 @@ useHead({
 
 <i18n lang="yaml">
 es:
-    basedin: "Desde "
-    workingwith: creando experiencias inteligentes para empresas globales.
+    basedin: "Con base en "
+    workingwith: "diseñando experiencias product-led para empresas SaaS en todo el mundo."
     footer:
         cookiePolicy: "Política de Cookies"
         privacyPolicy: "Política de Privacidad"
-        copyright: "© 2025 Myntropic Studio. Todos los derechos reservados."
+        copyright: "© 2025 Experiencias Digitales. Todos los derechos reservados."
 
 en:
     basedin: "Based in "
-    workingwith: We deliver digital solutions for global clients
+    workingwith: "designing product-led experiences for SaaS companies worldwide."
     footer:
         cookiePolicy: "Cookie Policy"
         privacyPolicy: "Privacy Policy"
-        copyright: "© 2025 Myntropic Studio. All rights reserved."
+        copyright: "© 2025 Experiencias Digitales. All rights reserved."
 </i18n>
 
 <style>

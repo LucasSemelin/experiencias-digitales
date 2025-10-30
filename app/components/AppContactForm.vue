@@ -1,5 +1,7 @@
 <template>
     <section id="contact" class="bg-dark py-16 px-4 lg:px-8">
+        <AppH2>{{ t("title") }}</AppH2>
+        <AppSectionSubtitle></AppSectionSubtitle>
         <div class="max-w-6xl mx-auto">
             <!-- Contact Form -->
             <div class="max-w-2xl mx-auto">
@@ -284,7 +286,7 @@
                             class="flex flex-col sm:flex-row items-center justify-center gap-4"
                         >
                             <span class="text-xl text-white font-body">
-                                hi@lucassemelin.com
+                                hi@experienciasdigitales.studio
                             </span>
                             <button
                                 class="px-4 py-2 text-xs flex items-center gap-2 bg-zinc-800 rounded-xl hover:bg-zinc-700 transition-colors hover:cursor-pointer"
@@ -292,7 +294,7 @@
                             >
                                 <NuxtImg
                                     src="/images/icons/copy.svg"
-                                    alt="Copy email address hi@lucassemelin.com"
+                                    alt="Copy email address hi@experienciasdigitales.studio"
                                     class="inline size-4"
                                 />
                                 <span
@@ -310,7 +312,7 @@
                         <div class="flex justify-center gap-6">
                             <!-- LinkedIn -->
                             <NuxtLink
-                                to="https://www.linkedin.com/in/lucassemelin/"
+                                to="https://www.linkedin.com/company/experiencias-digitales"
                                 target="_blank"
                                 class="flex items-center gap-3 px-4 py-3 bg-zinc-800 rounded-xl hover:bg-zinc-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
@@ -323,7 +325,7 @@
 
                             <!-- Twitter (X) -->
                             <NuxtLink
-                                to="https://x.com/lucassemelin"
+                                to="https://x.com/ExpDigitales"
                                 target="_blank"
                                 class="flex items-center gap-3 px-4 py-3 bg-zinc-800 rounded-xl hover:bg-zinc-700/50 text-primary hover:text-primary transition-all duration-300 group"
                             >
@@ -347,7 +349,7 @@ import AppButton from "./AppButton.vue";
 
 const { t } = useI18n({ useScope: "local" });
 
-const email = ref("hi@lucassemelin.com");
+const email = ref("hi@experienciasdigitales.studio");
 const { copy, copied } = useClipboard({ email });
 
 const form = ref({
@@ -418,6 +420,8 @@ const removeFile = (index) => {
 
 <i18n lang="yaml">
 es:
+    title: "Empecemos con una conversación estratégica"
+    subtitle: "Contanos sobre tu producto y descubramos juntos cómo mejorar su experiencia, retención y crecimiento."
     fullNameLabel: "Nombre completo *"
     fullNamePlaceholder: "Tu nombre completo"
     emailLabel: "Correo electrónico *"
@@ -425,10 +429,12 @@ es:
     companyPlaceholder: "Tu empresa u organización"
     projectTypeLabel: "Tipo de proyecto"
     projectTypeDefault: "Seleccioná las áreas que necesitás"
-    projectTypeUx: "Diseño UX"
-    projectTypeEngineering: "Ingeniería de software"
-    projectTypeAi: "Integración y automatización con IA"
-    projectTypeCombined: "Combinación de varias"
+    projectTypeUx: "Diseño UX / UI"
+    projectTypeStrategy: "Estrategia Product-Led"
+    projectTypeOnboarding: "Optimización de Onboarding"
+    projectTypeRetention: "Diseño para Retención y Crecimiento"
+    projectTypeAi: "Integración con IA"
+    projectTypeCombined: "Combinación de varias áreas"
     projectTypeOther: "Otro / No estoy seguro"
     budgetLabel: "Rango de presupuesto"
     budgetDefault: "Seleccioná el rango de presupuesto"
@@ -443,15 +449,17 @@ es:
     fileUploadClick: "Hacé clic para subir"
     fileUploadDrag: "o arrastrá y soltá"
     fileUploadFormats: "PDF, DOC, DOCX, JPG, PNG, GIF (MAX. 10MB)"
-    fileUploadDescription: "Subí briefs, RFPs, capturas de pantalla u otros archivos relevantes"
+    fileUploadDescription: "Podés subir briefs, RFPs, capturas de pantalla u otros archivos relevantes"
     submitButton: "Enviar mensaje"
     submitSending: "Enviando..."
-    submitSuccess: "¡Mensaje enviado!"
+    submitSuccess: "¡Mensaje enviado correctamente!"
     alternativeTitle: "¿Preferís otra forma de contacto?"
     emailCopy: "Copiar email"
-    emailCopied: "¡Copiado!"
+    emailCopied: "¡Copiado al portapapeles!"
 
 en:
+    title: "Let’s start with a strategic conversation"
+    subtitle: "Tell us about your product and let’s discover together how to improve its experience, retention, and growth."
     fullNameLabel: "Full Name *"
     fullNamePlaceholder: "Your full name"
     emailLabel: "Email *"
@@ -459,9 +467,11 @@ en:
     companyPlaceholder: "Your company or organization"
     projectTypeLabel: "Project Type"
     projectTypeDefault: "Select the areas you need"
-    projectTypeUx: "UX Design"
-    projectTypeEngineering: "Software Engineering"
-    projectTypeAi: "AI Integration & Automation"
+    projectTypeUx: "UX / UI Design"
+    projectTypeStrategy: "Product-Led Strategy"
+    projectTypeOnboarding: "Onboarding Optimization"
+    projectTypeRetention: "Retention & Growth Design"
+    projectTypeAi: "AI Integration"
     projectTypeCombined: "Combination of Services"
     projectTypeOther: "Other / Not Sure Yet"
     budgetLabel: "Budget Range"
@@ -480,8 +490,8 @@ en:
     fileUploadDescription: "Upload briefs, RFPs, screenshots, or other relevant files"
     submitButton: "Send Message"
     submitSending: "Sending..."
-    submitSuccess: "Message Sent!"
+    submitSuccess: "Message sent successfully!"
     alternativeTitle: "Prefer a different way to connect?"
     emailCopy: "Copy email"
-    emailCopied: "Copied!"
+    emailCopied: "Copied to clipboard!"
 </i18n>

@@ -8,10 +8,10 @@
         <HomeSolutions id="Services" />
         <HomeProcess id="Process" />
         <!-- <HomeWhoWeWorkFor /> -->
-        <HomeWhyUs id="AboutMe" />
+        <!-- <HomeWhyUs id="AboutMe" /> -->
         <!-- <HomePortfolio id="portfolio" /> -->
         <HomeAboutMe />
-        <HomeTestimonials />
+        <!-- <HomeTestimonials /> -->
         <AppContactForm id="ContactMe" />
     </div>
 </template>
@@ -19,16 +19,16 @@
 <script setup>
 // Dynamic title based on locale
 useHead({
-    title: computed(() => "UX Onboarding Specialist for SaaS"),
+    title: computed(() => "UX Strategy & Product-Led Design for SaaS Growth"),
 });
 </script>
 
 <i18n lang="yaml">
 es:
     seo:
-        title: "UX Onboarding Specialist for SaaS"
+        title: "UX Strategy & Product-Led Design for SaaS Growth"
 
 en:
     seo:
-        title: "UX Onboarding Specialist for SaaS"
+        title: "UX Strategy & Product-Led Design for SaaS Growth"
 </i18n>

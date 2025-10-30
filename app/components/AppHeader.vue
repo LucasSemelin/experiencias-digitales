@@ -20,10 +20,13 @@
                     </div>
                     <div class="flex items-start flex-col">
                         <h1 class="font-title text-xl text-gray-100">
-                            Lucas Semelin
+                            Experiencias Digitales<sup class="text-[10px]"
+                                >TM</sup
+                            >
                         </h1>
                         <span class="text-gray-300 text-[12px]"
-                            >UX Onboarding Specialist for SaaS</span
+                            >UX Strategy & Product-Led Design for SaaS
+                            Growth</span
                         >
                     </div>
                 </NuxtLink>
@@ -192,9 +195,6 @@ en:
 </i18n>
 
 <style scoped>
-/* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Electrolize:wght@400&family=Open+Sans:wght@400;600&display=swap");
-
 /* Custom font classes */
 .font-electrolize {
     font-family: "Electrolize", sans-serif;

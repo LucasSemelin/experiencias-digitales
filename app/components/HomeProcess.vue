@@ -245,42 +245,42 @@ onUnmounted(() => {
 
 <i18n lang="yaml">
 es:
-    title: "Metodología para un Onboarding sin Fricción"
-    subtitle: "Un proceso claro y medible que combina análisis, diseño, implementación y mejora continua. Cada fase transforma el onboarding en una experiencia más intuitiva, efectiva y alineada con los objetivos de tu producto SaaS."
+    title: "De la estrategia a la evolución continua"
+    subtitle: "Un proceso estructurado y medible que combina investigación, diseño, validación y evolución continua. Cada fase está diseñada para optimizar la activación, la retención y el crecimiento desde la experiencia de usuario."
     step1:
-        title: "Auditoría y Diagnóstico"
-        subtitle: "Identifico puntos de fricción y oportunidades de mejora."
-        description: "Analizo tu flujo de onboarding actual, las métricas de activación y los patrones de abandono para entender dónde y por qué los usuarios se detienen."
+        title: "Descubrimiento y Diagnóstico"
+        subtitle: "Analizamos el contexto, los usuarios y los puntos de fricción."
+        description: "Evaluamos el recorrido actual, las métricas de adopción y las interacciones clave para detectar qué bloquea la activación y dónde se pierde el valor percibido."
     step2:
-        title: "Estrategia y Rediseño UX"
-        subtitle: "Redefino la experiencia para mostrar valor desde el primer uso."
-        description: "Diseño recorridos claros, mensajes contextuales y flujos guiados que ayudan al usuario a alcanzar su primer ‘aha moment’ rápidamente."
+        title: "Estrategia y Arquitectura UX"
+        subtitle: "Definimos cómo la experiencia puede impulsar el crecimiento."
+        description: "Convertimos los hallazgos en decisiones estratégicas: flujos optimizados, mensajes claros y una arquitectura UX alineada con los objetivos del negocio."
     step3:
-        title: "Implementación y Validación"
-        subtitle: "Transformo el diseño en mejoras reales y medibles."
-        description: "Trabajo junto a tu equipo para implementar los cambios y medir su impacto. Priorizo quick wins que reduzcan abandono y aceleren activación."
+        title: "Diseño, Implementación y Validación"
+        subtitle: "Transformamos estrategia en resultados medibles."
+        description: "Diseñamos e iteramos junto a tu equipo, implementando mejoras validadas con datos reales. Priorizamos acciones de alto impacto que reduzcan fricción y aumenten adopción."
     step4:
-        title: "Optimización y Evolución Continua"
-        subtitle: "Tu onboarding sigue mejorando con el tiempo."
-        description: "Monitoreo resultados, recojo aprendizajes del uso real y ajusto el flujo para escalar retención y crecimiento de forma sostenida."
+        title: "Evolución y Mejora Continua"
+        subtitle: "La experiencia evoluciona junto a tu producto."
+        description: "Monitoreamos resultados, analizamos el comportamiento y aplicamos aprendizajes para mantener la experiencia alineada con las necesidades del usuario y la evolución del negocio."
 
 en:
-    title: "Methodology for Frictionless Onboarding"
-    subtitle: "A clear, measurable process that combines analysis, design, implementation, and continuous improvement. Each phase turns onboarding into a more intuitive, effective experience aligned with your SaaS product goals."
+    title: "From Strategy to Continuous Evolution"
+    subtitle: "A structured, measurable process that combines research, design, validation, and continuous evolution. Each phase is designed to optimize activation, retention, and growth through user experience."
     step1:
-        title: "Audit & Diagnosis"
-        subtitle: "Identifying friction points and opportunities for improvement."
-        description: "I analyze your current onboarding flow, activation metrics, and drop-off patterns to understand where and why users get stuck."
+        title: "Discovery & Diagnosis"
+        subtitle: "We analyze context, users, and friction points."
+        description: "We evaluate the current journey, adoption metrics, and key interactions to identify what blocks activation and where perceived value is being lost."
     step2:
-        title: "UX Strategy & Redesign"
-        subtitle: "Redefining the experience to show value from the first use."
-        description: "I design clear journeys, contextual messages, and guided flows that help users reach their first ‘aha moment’ quickly."
+        title: "UX Strategy & Architecture"
+        subtitle: "We define how experience can drive growth."
+        description: "We turn insights into strategic decisions: optimized flows, clear messaging, and a UX architecture aligned with business objectives."
     step3:
-        title: "Implementation & Validation"
-        subtitle: "Turning design into real, measurable improvements."
-        description: "I work closely with your team to implement and track changes, prioritizing quick wins that reduce churn and accelerate activation."
+        title: "Design, Implementation & Validation"
+        subtitle: "We turn strategy into measurable results."
+        description: "We design and iterate alongside your team, implementing data-validated improvements. We prioritize high-impact actions that reduce friction and increase adoption."
     step4:
-        title: "Optimization & Continuous Evolution"
-        subtitle: "Your onboarding keeps getting better over time."
-        description: "I monitor results, gather insights from real usage, and adjust the flow to continuously scale retention and growth."
+        title: "Evolution & Continuous Improvement"
+        subtitle: "The experience evolves with your product."
+        description: "We monitor results, analyze behavior, and apply learnings to keep the experience aligned with user needs and business growth."
 </i18n>

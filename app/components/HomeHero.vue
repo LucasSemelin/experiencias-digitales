@@ -113,17 +113,15 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 es:
-    tagline: UX Onboarding para SaaS B2B & B2C
-    title: Menos fricción. Más activación.
-    title2: Construyamos inteligente
-    description: Ayudo a equipos de producto SaaS B2B y B2C a optimizar el onboarding con un enfoque UX y product-led que impulsa activación y crecimiento.
-    mainCTA: Comencemos ahora
-    secondaryCTA: o descubrí el proceso
+    tagline: Para founders y equipos de producto SaaS B2B & B2C
+    title: Diseño UX y estrategia product-led para SaaS B2B que buscan escalar.
+    description: Acompañamos a equipos de producto y founders en la optimización del onboarding, la retención y la experiencia de usuario para impulsar un crecimiento sostenible.
+    mainCTA: Agendemos una reunión
+    secondaryCTA: o descubrí cómo trabajamos
 en:
-    tagline: UX Onboarding for B2B & B2C SaaS
-    title: Less Friction. More Activation.
-    title2: Let's Build Smart.
-    description: I help B2B and B2C SaaS product teams optimize onboarding with a UX and product-led approach that drives activation and growth.
-    mainCTA: Get Started Now
-    secondaryCTA: or discover the process
+    tagline: For B2B & B2C SaaS Founders and Product Teams
+    title: UX Design & Product-Led Strategy for Scaling B2B SaaS.
+    description: We help B2B and B2C SaaS product teams optimize onboarding, retention, and user experience to drive sustainable growth.
+    mainCTA: Get in Touch
+    secondaryCTA: or discover how we work
 </i18n>

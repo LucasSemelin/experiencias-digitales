@@ -174,10 +174,10 @@ Timestamp: ${new Date().toLocaleString()}
 
     try {
         const emailData: any = {
-            from: "Contact Form | Lucas Semelin <hi@mail.lucassemelin.com>",
-            to: ["hi@lucassemelin.com"],
+            from: "Contact Form | Experiencias Digitales <hi@mail.experienciasdigitales.studio>",
+            to: ["hi@experienciasdigitales.studio"],
             replyTo: email,
-            subject: `Contact from Lucas Semelin: ${name}`,
+            subject: `Contact from Experiencias Digitales: ${name}`,
             text: textContent,
         };
 

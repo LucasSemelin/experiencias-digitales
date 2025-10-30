@@ -40,7 +40,7 @@ export default defineNuxtConfig({
                 {
                     property: "og:title",
                     content:
-                        "Lucas Semelin | UX Onboarding Specialist for SaaS",
+                        "Experiencias Digitales | UX Strategy & Product-Led Design for SaaS Growth",
                 },
                 {
                     property: "og:description",
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
                 },
                 {
                     property: "og:site_name",
-                    content: "UX Onboarding Specialist for SaaS",
+                    content: "UX Strategy & Product-Led Design for SaaS Growth",
                 },
                 // Twitter Card
                 {
@@ -75,7 +75,7 @@ export default defineNuxtConfig({
                 {
                     name: "twitter:title",
                     content:
-                        "Lucas Semelin | UX Onboarding Specialist for SaaS",
+                        "Experiencias Digitales | UX Strategy & Product-Led Design for SaaS Growth",
                 },
                 {
                     name: "twitter:description",
@@ -99,7 +99,7 @@ export default defineNuxtConfig({
                 },
                 {
                     name: "author",
-                    content: "Lucas Semelin",
+                    content: "Experiencias Digitales",
                 },
             ],
         },
@@ -144,7 +144,7 @@ export default defineNuxtConfig({
     },
     site: {
         url: "https://lucassemelin.com",
-        name: "Lucas Semelin",
+        name: "Experiencias Digitales",
         trailingSlash: false,
     },
 });

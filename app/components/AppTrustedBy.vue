@@ -13,8 +13,44 @@ const { t } = useI18n({ useScope: "local" });
 
                 <!-- Company Logos -->
                 <div
-                    class="flex flex-wrap items-center justify-around lg:justify-center gap-8 lg:gap-12 xl:gap-12 w-full"
+                    class="flex flex-wrap items-center justify-between lg:justify-center gap-8 lg:gap-12 xl:gap-12 w-full"
                 >
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-luro.svg"
+                        alt-text="Luro"
+                        class="h-8 lg:h-9"
+                    />
+
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-pylon.svg"
+                        alt-text=""
+                        class="h-8 lg:h-9"
+                    />
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-hoxhunt.svg"
+                        alt-text=""
+                        class="h-8 lg:h-9"
+                    />
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-lemlist.svg"
+                        alt-text=""
+                        class="h-8 lg:h-10"
+                    />
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-delend.svg"
+                        alt-text=""
+                        class="h-7 lg:h-8"
+                    />
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-frontegg.svg"
+                        alt-text=""
+                        class="h-7 lg:h-9"
+                    />
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-klue.svg"
+                        alt-text=""
+                        class="h-7 lg:h-7"
+                    />
                     <TrustedIcon
                         logo-path="/images/trusted/logo-eunoia.svg"
                         alt-text="Eunoia Care"
@@ -26,17 +62,28 @@ const { t } = useI18n({ useScope: "local" });
                         alt-text="Carbon Watcher"
                         class="h-10 lg:h-10"
                     />
+
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-aiven.svg"
+                        alt-text=""
+                        class="h-8 lg:h-10"
+                    />
+                    <TrustedIcon
+                        logo-path="/images/trusted/logo-kenjo.svg"
+                        alt-text=""
+                        class="h-8 lg:h-10"
+                    />
                     <TrustedIcon
                         logo-path="/images/trusted/logo-archetify.svg"
                         alt-text="Archetify"
-                        class="h-8 lg:h-10"
+                        class="h-10"
                     />
                     <!-- <TrustedIcon
                         logoPath="/trusted/logo-hsbc.svg"
                         altText="HSBC"  
                     /> -->
 
-                    <TrustedIcon
+                    <!-- <TrustedIcon
                         logo-path="/images/trusted/logo-cenital.svg"
                         alt-text="Cenital"
                         class="h-7 lg:h-8"
@@ -50,7 +97,7 @@ const { t } = useI18n({ useScope: "local" });
                         logo-path="/images/trusted/logo-quilmes.svg"
                         alt-text="Quilmes"
                         class="h-10 lg:h-10"
-                    />
+                    /> -->
                 </div>
             </div>
         </div>
@@ -91,8 +138,8 @@ img {
 
 <i18n lang="yaml">
 es:
-    title: "Ayudo a empresas que crean productos innovadores"
+    title: "Más de 20 empresas SaaS confían en nosotros"
 
 en:
-    title: "I help companies create innovative products"
+    title: "Trusted by 20+ SaaS Companies Worldwide"
 </i18n>

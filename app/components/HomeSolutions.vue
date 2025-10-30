@@ -1,7 +1,9 @@
 <template>
     <section class="py-16">
         <div class="container mx-auto px-6">
-            <AppH2 class="text-center mb-16">{{ t("title") }}</AppH2>
+            <AppH2 class="text-center mb-8 max-w-4xl mx-auto">{{
+                t("title")
+            }}</AppH2>
             <AppSectionSubtitle>{{ t("subtitle") }}</AppSectionSubtitle>
             <!-- Solution 1 -->
             <div
@@ -157,50 +159,50 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Diseño experiencias de onboarding que activan, retienen y escalan."
-    subtitle: "Combino UX, estrategia product-led y analítica para eliminar fricciones, acelerar la activación y aumentar la retención de tus usuarios SaaS. Mi objetivo es simple: que cada nuevo usuario entienda el valor de tu producto desde el primer uso y quiera volver."
+    title: "Convertimos la fricción en crecimiento con estrategia UX y diseño product-led."
+    subtitle: "Ayudamos a equipos SaaS B2B y B2C a transformar productos complejos en experiencias claras, escalables y centradas en el usuario. Aplicamos estrategia UX, diseño product-led y analítica para impulsar activación, retención y expansión sostenibles."
     solution1:
-        title: Diseño para activar antes
-        subtitle: "Cada interacción cuenta."
-        description: "Simplifico los primeros pasos del usuario para que alcance el valor del producto lo antes posible. Identifico fricciones, defino el “aha moment” y optimizo el recorrido inicial para aumentar la tasa de activación y reducir abandono."
-        outcome: "Un plan estratégico para la evolución del sistema."
+        title: "Estrategia UX orientada al crecimiento"
+        subtitle: "Primero entendemos, después diseñamos."
+        description: "Analizamos el contexto del negocio, los flujos actuales y las métricas de adopción para descubrir dónde se pierde el valor. Alineamos objetivos de producto y experiencia para priorizar mejoras con impacto real en retención y expansión."
+        outcome: "Un diagnóstico claro y una hoja de ruta estratégica para evolucionar el producto."
     solution2:
-        title: "Experiencias que retienen"
-        subtitle: "El onboarding no termina con el registro."
-        description: "Diseño recorridos guiados, mensajes contextuales y flujos que mantienen al usuario comprometido. El resultado: una experiencia más clara, más predecible y una retención que empieza desde el día uno."
-        outcome: "Una arquitectura coherente que integra UX, inteligencia y adaptabilidad."
+        title: "Onboarding optimizado"
+        subtitle: "Cada paso inicial define la relación con el usuario."
+        description: "Diseñamos experiencias que comunican valor desde el primer uso. Simplificamos flujos, reducimos fricción y conectamos a los usuarios con el 'aha moment' lo antes posible para acelerar la activación y reducir el abandono."
+        outcome: "Un recorrido inicial que convierte curiosidad en adopción real."
     solution3:
-        title: "Onboarding que impulsa expansión"
-        subtitle: "La adopción interna es clave para crecer."
-        description: "Diseño experiencias que facilitan la comprensión, el uso compartido y la recomendación del producto dentro de las organizaciones B2B. Cuando los usuarios entienden y confían, se convierten en promotores naturales."
-        outcome: "Un sistema vivo e inteligente, listo para crecer continuamente."
+        title: "Diseño para retención y expansión"
+        subtitle: "El crecimiento empieza cuando los usuarios permanecen."
+        description: "Creamos experiencias continuas y coherentes que fortalecen el hábito de uso y facilitan la recomendación interna en entornos B2B. La retención y la expansión se vuelven consecuencias naturales de una UX bien diseñada."
+        outcome: "Una arquitectura de experiencia escalable, centrada en el valor continuo."
     solution4:
-        title: "Crecimiento medible y sostenible"
-        subtitle: "Diseñar sin medir es adivinar."
-        description: "Integro analítica, comportamiento y métricas de activación para que tu onboarding sea una inversión con retorno, no un gasto operativo. Cada mejora tiene impacto directo en retención, expansión y valor del cliente."
-        outcome: "Un sistema autoevolutivo alineado con la evolución del negocio."
+        title: "Evolución continua basada en datos"
+        subtitle: "Diseñar es aprender, medir y mejorar."
+        description: "Integramos analítica y comportamiento para detectar oportunidades de optimización y validar resultados en tiempo real. Cada iteración refuerza la conexión entre negocio, usuario y producto."
+        outcome: "Un sistema de mejora constante alineado con la evolución del negocio."
 
 en:
-    title: "I design onboarding experiences that activate, retain, and scale."
-    subtitle: "I combine UX, product-led strategy, and analytics to eliminate friction, accelerate activation, and boost retention for your SaaS users. My goal is simple: to ensure every new user understands your product's value from the first use and wants to return."
+    title: "We turn friction into growth through UX strategy and product-led design."
+    subtitle: "We help B2B and B2C SaaS teams transform complex products into clear, scalable, and user-centered experiences. Through UX strategy, product-led design, and analytics, we drive sustainable activation, retention, and expansion."
     solution1:
-        title: "Design to Activate Faster"
-        subtitle: "Every interaction counts."
-        description: "I streamline the user's initial steps to reach product value as quickly as possible. I identify frictions, define the 'aha moment,' and optimize the initial journey to increase activation rates and reduce abandonment."
-        outcome: A strategic blueprint for system evolution.
+        title: "Growth-Driven UX Strategy"
+        subtitle: "Understand first, design later."
+        description: "We analyze the business context, current flows, and adoption metrics to uncover where value is being lost. We align product and experience goals to prioritize improvements with measurable impact on retention and expansion."
+        outcome: "A clear diagnosis and a strategic roadmap for product evolution."
     solution2:
-        title: "Experiences that Retain"
-        subtitle: "Onboarding doesn't end at sign-up."
-        description: "I design guided journeys, contextual messaging, and flows that keep users engaged. The result: a clearer, more predictable experience and retention that starts from day one."
-        outcome: A cohesive architecture that blends UX, intelligence, and adaptability.
+        title: "Optimized Onboarding"
+        subtitle: "Every first step shapes the user relationship."
+        description: "We design experiences that communicate value from the first use. We simplify flows, reduce friction, and connect users with the 'aha moment' as early as possible to accelerate activation and reduce churn."
+        outcome: "An initial journey that turns curiosity into real adoption."
     solution3:
-        title: "Onboarding that Drives Expansion"
-        subtitle: "Internal adoption is key to growth."
-        description: "I design experiences that facilitate understanding, sharing, and recommending the product within B2B organizations. When users understand and trust, they become natural promoters."
-        outcome: A living, intelligent system ready for continuous growth.
+        title: "Design for Retention and Expansion"
+        subtitle: "Growth starts when users stay."
+        description: "We create continuous, coherent experiences that build usage habits and enable internal advocacy in B2B environments. Retention and expansion become natural outcomes of thoughtful UX."
+        outcome: "A scalable experience architecture focused on sustained value."
     solution4:
-        title: "Measurable and Sustainable Growth"
-        subtitle: "Designing without measuring is guessing."
-        description: "I integrate analytics, behavior, and activation metrics so your onboarding is an investment with returns, not an operational expense. Every improvement has a direct impact on retention, expansion, and customer value."
-        outcome: A self-improving system aligned with your business evolution.
+        title: "Data-Driven Continuous Evolution"
+        subtitle: "Design means learning, measuring, and improving."
+        description: "We integrate analytics and behavioral insights to identify optimization opportunities and validate results in real time. Each iteration strengthens the connection between business, user, and product."
+        outcome: "A continuous improvement system aligned with business evolution."
 </i18n>

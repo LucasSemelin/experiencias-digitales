@@ -12,7 +12,7 @@
             >
                 <!-- Card 1: Procesos autónomos -->
                 <div
-                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-3xl p-6 lg:p-8 hover:border-grey-700/70 transition-all duration-300 group"
+                    class="bg-grey-900/60 backdrop-blur-sm rounded-3xl p-6 lg:p-8 hover:bg-grey-900/50 transition-all duration-300 group"
                 >
                     <h3
                         class="font-title text-xl lg:text-2xl font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4 max-w-sm"
@@ -29,7 +29,7 @@
 
                 <!-- Card 2: Asistentes que amplifican -->
                 <div
-                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-3xl p-6 lg:p-8 hover:border-grey-700/70 transition-all duration-300 group"
+                    class="bg-grey-900/60 backdrop-blur-sm rounded-3xl p-6 lg:p-8 hover:bg-grey-900/50 transition-all duration-300 group"
                 >
                     <h3
                         class="font-title text-xl lg:text-2xl font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4 max-w-sm"
@@ -46,7 +46,7 @@
 
                 <!-- Card 3: Productos que evolucionan -->
                 <div
-                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-3xl p-6 lg:p-8 hover:border-grey-700/70 transition-all duration-300 group"
+                    class="bg-grey-900/60 backdrop-blur-sm rounded-3xl p-6 lg:p-8 hover:bg-grey-900/50 transition-all duration-300 group"
                 >
                     <h3
                         class="font-title text-xl lg:text-2xl font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4 max-w-sm"
@@ -63,7 +63,7 @@
 
                 <!-- Card 4: Decisiones claras -->
                 <div
-                    class="bg-grey-900/30 backdrop-blur-sm border border-grey-800/50 rounded-3xl p-6 lg:p-8 hover:border-grey-700/70 transition-all duration-300 group"
+                    class="bg-grey-900/60 backdrop-blur-sm rounded-3xl p-6 lg:p-8 hover:bg-grey-900/50 transition-all duration-300 group"
                 >
                     <h3
                         class="font-title text-xl lg:text-2xl font-semibold bg-gradient-to-r from-gradient-from via-gradient-via to-gradient-to to-150% bg-clip-text text-transparent leading-tight mb-4 max-w-sm"
@@ -91,42 +91,42 @@ const { t } = useI18n({ useScope: "local" });
 
 <i18n lang="yaml">
 es:
-    title: "Un mal onboarding puede arruinar incluso el mejor producto"
-    subtitle: "Cuando los usuarios no entienden el valor desde el primer uso, el crecimiento se detiene. Cada punto de fricción en el onboarding se convierte en abandono, pérdida de ingresos y oportunidades que no vuelven."
+    title: "Tu producto crece, pero la experiencia no evoluciona al mismo ritmo"
+    subtitle: "A medida que el producto escala, los flujos, mensajes y decisiones que funcionaban al inicio comienzan a mostrar sus límites. La complejidad aumenta, la claridad se pierde y la experiencia deja de acompañar al crecimiento."
     card1:
-        title: "Retención que nunca empieza"
-        subtitle: "La retención no se diseña al final: empieza en las primeras interacciones"
-        description: "Sin una experiencia que muestre valor rápido, la retención ni siquiera comienza. Los usuarios que completan un buen onboarding son 3× más propensos a seguir activos a los 90 días."
+        title: "Cuando el crecimiento se vuelve fricción"
+        subtitle: "Las tácticas que te llevaron hasta acá no escalan solas."
+        description: "Los flujos se vuelven confusos, las interacciones pierden coherencia y la experiencia deja de reflejar el valor real del producto. Lo que antes era ágil ahora genera fricción."
     card2:
-        title: "Abandono evitable"
-        subtitle: "La mayoría se va antes de descubrir el valor real del producto."
-        description: "El 75 % de los nuevos usuarios se va en la primera semana si no obtiene orientación o resultados rápidos. Fricción, pasos innecesarios o mensajes confusos destruyen activación."
+        title: "Más esfuerzos, menos claridad"
+        subtitle: "Agregar más no siempre soluciona la raíz del problema."
+        description: "Cada nuevo feature, proceso o mensaje suma complejidad si no hay una visión UX que los conecte. Los usuarios se pierden, los equipos se saturan y el crecimiento se desacelera."
     card3:
-        title: "Sin adopción interna ni expansión"
-        subtitle: "Cuando los usuarios no entienden cómo usarlo, tampoco lo recomiendan."
-        description: "Un onboarding deficiente frena activación y bloquea crecimiento. El 80 % de los clientes B2B afirma que su experiencia inicial influye en si recomendarán o ampliarán el uso del producto."
+        title: "Decisiones reactivas, sin contexto"
+        subtitle: "Lo urgente reemplaza a lo importante."
+        description: "Sin un marco claro para entender el recorrido del usuario, las mejoras se basan en intuición, pedidos aislados o métricas incompletas. Los verdaderos cuellos de botella permanecen ocultos."
     card4:
-        title: "Crecimiento en riesgo"
-        subtitle: "El onboarding no es un costo: es la base del crecimiento."
-        description: "Las empresas que invierten en un buen onboarding aumentan en promedio un 34 % el LTV. Sin activación ni adopción efectiva, el crecimiento se estanca y la inversión en adquisición no se recupera."
+        title: "Experiencias que no escalan"
+        subtitle: "El crecimiento sostenido requiere claridad, no solo velocidad."
+        description: "El desafío no es agregar más, sino diseñar una experiencia que anticipe, guíe y evolucione con tus usuarios. Esa es la base de un SaaS product-led que crece de forma sostenible."
 
 en:
-    title: "Poor onboarding can ruin even the best product"
-    subtitle: "When users don’t understand the value from their first interaction, growth stops. Every point of friction in onboarding turns into abandonment, lost revenue, and missed opportunities."
+    title: "Your product grows, but the experience doesn’t evolve with it"
+    subtitle: "As your product scales, the flows, messages, and decisions that once worked start breaking down. Complexity increases, clarity fades, and the experience no longer supports growth."
     card1:
-        title: "Retention that never starts"
-        subtitle: "Retention isn’t designed at the end — it begins in the first interactions."
-        description: "Without an experience that delivers quick value, retention never starts. Users who complete a good onboarding are 3× more likely to remain active after 90 days."
+        title: "When growth becomes friction"
+        subtitle: "The tactics that got you here won’t scale by themselves."
+        description: "Flows become confusing, interactions lose coherence, and the experience stops reflecting the product’s real value. What used to feel agile now creates friction."
     card2:
-        title: "Avoidable churn"
-        subtitle: "Most users leave before discovering the real value of the product."
-        description: "75% of new users churn within the first week if they don’t get guidance or quick results. Friction, unnecessary steps, or unclear messaging destroy activation."
+        title: "More effort, less clarity"
+        subtitle: "Adding more rarely fixes the root problem."
+        description: "Every new feature, process, or message adds complexity if there’s no UX vision connecting them. Users get lost, teams get overwhelmed, and growth slows down."
     card3:
-        title: "No internal adoption or expansion"
-        subtitle: "When users don’t understand how to use it, they don’t recommend it either."
-        description: "Poor onboarding slows activation and blocks growth. 80% of B2B customers say their initial experience influences whether they’ll recommend or expand product usage."
+        title: "Reactive decisions, no context"
+        subtitle: "Urgency replaces what truly matters."
+        description: "Without a clear framework to understand the user journey, improvements are based on intuition, isolated feedback, or incomplete metrics. The real bottlenecks stay hidden."
     card4:
-        title: "Growth at risk"
-        subtitle: "Onboarding isn’t a cost — it’s the foundation of growth."
-        description: "Companies that invest in proper onboarding increase LTV by an average of 34%. Without activation or effective adoption, growth stalls and acquisition investments are never recovered."
+        title: "Experiences that don’t scale"
+        subtitle: "Sustainable growth requires clarity, not just speed."
+        description: "The challenge isn’t adding more — it’s designing an experience that anticipates, guides, and evolves with your users. That’s the foundation of a product-led SaaS that scales sustainably."
 </i18n>

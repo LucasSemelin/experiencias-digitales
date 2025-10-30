@@ -67,28 +67,28 @@ const { t } = useI18n({
 
 <i18n lang="yaml">
 es:
-    title: "Cómo empecé"
-    subtitle: "La historia detrás de mi enfoque en el onboarding"
+    title: "La historia detrás de Experiencias Digitales"
+    subtitle: "Por qué decidí enfocar mi trabajo en la experiencia y el crecimiento product-led"
     story:
-        paragraph1: "Después de más de 20 años diseñando y desarrollando productos digitales, descubrí un patrón que se repetía una y otra vez: productos bien construidos que fallaban no por su tecnología, sino porque los usuarios no entendían cómo empezar a usarlos."
-        paragraph2: "Ahí comprendí que el verdadero problema no era técnico, sino experiencial. Las empresas invertían grandes recursos en adquirir usuarios, pero no en ayudarlos a alcanzar valor desde el primer uso. Y sin activación, no hay retención ni crecimiento."
-        paragraph3: "Desde entonces, enfoqué mi trabajo en resolver ese primer gran momento: el onboarding. Combino UX, estrategia product-led y analítica para diseñar experiencias de incorporación que eliminan fricción, comunican valor y fortalecen la relación entre producto y usuario."
-        paragraph4: "Hoy ayudo a startups y empresas SaaS B2B y B2C a mejorar su activación, retención y expansión mediante procesos de onboarding más claros, medibles y humanos."
+        paragraph1: "Durante más de dos décadas diseñé y desarrollé productos digitales para startups, empresas tecnológicas y organizaciones. Con el tiempo fui descubriendo que la experiencia de usuario no era un complemento del producto: era su núcleo. Sin una buena experiencia, incluso las mejores ideas se estancaban."
+        paragraph2: "Después de colaborar en el diseño de varios SaaS, noté un patrón constante: los founders tenían visión y producto, pero no un rumbo claro para hacerlo crecer. Fue entonces cuando comencé a profundizar en estrategia product-led y a entender cómo el diseño puede ser una palanca real de crecimiento."
+        paragraph3: "Combinar UX design con estrategia product-led me permitió ver el impacto de una experiencia bien diseñada no solo en la satisfacción del usuario, sino también en las métricas del negocio. Esa conexión entre diseño, estrategia y crecimiento fue el origen de Experiencias Digitales."
+        paragraph4: "Hoy, desde el estudio, ayudamos a empresas SaaS B2B y B2C a mejorar activación, retención y expansión, diseñando experiencias que no solo eliminan fricción, sino que convierten cada interacción en una oportunidad de crecimiento sostenible."
     founder:
         name: "Lucas Semelin"
-        title: "Especialista en UX Onboarding para SaaS"
-        imageAlt: "Lucas Semelin, Especialista en UX Onboarding para SaaS"
+        title: "Fundador y Director de Experiencias Digitales"
+        imageAlt: "Lucas Semelin, Fundador y Director de Experiencias Digitales"
 
 en:
-    title: "How I Started"
-    subtitle: "The story behind my approach to onboarding"
+    title: "The Story Behind Experiencias Digitales"
+    subtitle: "Why I chose to focus my work on experience and product-led growth"
     story:
-        paragraph1: "After more than 20 years designing and developing digital products, I noticed a recurring pattern: great products that failed not because of their technology, but because users didn’t understand how to start using them."
-        paragraph2: "That’s when I realized the real problem wasn’t technical, it was experiential. Companies were investing heavily in acquisition, but not in helping users reach value fast. And without activation, there’s no retention or growth."
-        paragraph3: "Since then, I’ve focused my work on improving that crucial first moment, onboarding. I combine UX, product-led strategy, and analytics to design onboarding experiences that remove friction, communicate value, and strengthen the connection between product and user."
-        paragraph4: "Today, I help B2B and B2C SaaS companies improve activation, retention, and expansion through clearer, data-driven, and more human onboarding processes."
+        paragraph1: "For over two decades, I’ve been designing and developing digital products for startups, tech companies, and organizations. Over time, I realized that user experience wasn’t just a layer of the product—it was its core. Without a strong experience, even great ideas fail to grow."
+        paragraph2: "After working on several SaaS products, I noticed a recurring challenge: founders had vision and product, but lacked a clear direction to scale. That’s when I started studying product-led strategy and saw how design could drive growth, not just usability."
+        paragraph3: "Combining UX design with product-led strategy revealed how experience can directly influence both user satisfaction and business metrics. That connection between design, strategy, and growth inspired the creation of Experiencias Digitales."
+        paragraph4: "Today, through the studio, we help B2B and B2C SaaS companies improve activation, retention, and expansion—designing experiences that remove friction and turn every interaction into an opportunity for sustainable growth."
     founder:
         name: "Lucas Semelin"
-        title: "UX Onboarding Specialist for SaaS"
-        imageAlt: "Lucas Semelin, UX Onboarding Specialist for SaaS"
+        title: "Founder & Director at Experiencias Digitales"
+        imageAlt: "Lucas Semelin, Founder & Director at Experiencias Digitales"
 </i18n>
