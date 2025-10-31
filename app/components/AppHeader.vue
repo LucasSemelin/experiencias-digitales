@@ -55,7 +55,7 @@
                             {{ t("nav.process") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="#AboutMe"
+                            to="#AboutUs"
                             class="hover:text-emerald-400 transition-colors"
                         >
                             {{ t("nav.aboutme") }}
@@ -63,7 +63,7 @@
                     </div>
 
                     <!-- Contact Button -->
-                    <AppButton destination="#ContactMe">{{
+                    <AppButton destination="#ContactUs">{{
                         t("nav.contactme")
                     }}</AppButton>
                 </nav>
@@ -136,7 +136,7 @@
                             {{ t("nav.process") }}
                         </NuxtLink>
                         <NuxtLink
-                            to="#AboutMe"
+                            to="#AboutUs"
                             class="text-white text-base hover:text-emerald-400 transition-colors py-2 font-open-sans"
                             @click="closeMobileMenu"
                         >
@@ -144,7 +144,7 @@
                         </NuxtLink>
 
                         <NuxtLink
-                            to="#ContactMe"
+                            to="#ContactUs"
                             class="bg-primary w-full text-gray-900 px-6 py-3 rounded-lg text-sm font-semibold font-open-sans hover:bg-emerald-300 transition-colors text-center mt-4 self-start"
                             @click="closeMobileMenu"
                         >
@@ -180,17 +180,17 @@ function closeMobileMenu() {
 <i18n lang="yaml">
 es:
     nav:
-        problems: "¿Por qué?"
-        services: "Servicios"
-        process: "Proceso"
-        aboutme: "Sobre Mí"
+        problems: "¿Por qué nosotros?"
+        services: "Nuestros Servicios"
+        process: "Nuestro Proceso"
+        aboutme: "Sobre Nosotros"
         contactme: "Contactame"
 en:
     nav:
-        problems: "Why?"
-        services: "Services"
-        process: "Process"
-        aboutme: "About Me"
+        problems: "Why Us?"
+        services: "Our Services"
+        process: "Our Process"
+        aboutme: "About Us"
         contactme: "Let's Connect"
 </i18n>
 

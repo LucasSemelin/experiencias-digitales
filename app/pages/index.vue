@@ -10,9 +10,9 @@
         <!-- <HomeWhoWeWorkFor /> -->
         <!-- <HomeWhyUs id="AboutMe" /> -->
         <!-- <HomePortfolio id="portfolio" /> -->
-        <HomeAboutMe />
+        <HomeAboutMe id="AboutUs" />
         <!-- <HomeTestimonials /> -->
-        <AppContactForm id="ContactMe" />
+        <AppContactForm id="ContactUs" />
     </div>
 </template>
 
